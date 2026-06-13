@@ -1,6 +1,16 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.23
+Latest: v0.3.24
+
+## v0.3.24
+
+- Linux: `releases/v0.3.24/sharkord-desktop-0.3.24-linux-amd64.tar.gz`
+- Windows: `releases/v0.3.24/sharkord-desktop-0.3.24-windows-amd64.exe`
+- macOS arm64: `releases/v0.3.24/sharkord-desktop-0.3.24-darwin-arm64.zip`
+- Checksums: `releases/v0.3.24/SHA256SUMS.txt`
+
+Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.24
+GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.24
 
 ## v0.3.23
 

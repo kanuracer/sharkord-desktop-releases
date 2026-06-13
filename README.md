@@ -1,5 +1,13 @@
 # Sharkord Desktop Releases
 
+## v0.3.26
+
+- Fix: Serverliste wird zusätzlich nativ unter `state.json` gespeichert und beim Start wieder geladen. Dadurch verschwinden Server nicht mehr, wenn WebView LocalStorage/Bundles/Profiles wechseln.
+- Migration: vorhandener LocalStorage-State wird nach erstem Start in die native State-Datei gespiegelt.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets: `releases/v0.3.26/`
+
 ## v0.3.25
 
 - Fix: Remote Kamera-/Bildschirmstream wird nicht mehr als aktiver, aber leerer Tile angezeigt. Producer-Events werden nur im aktuell beigetretenen Voice-Channel konsumiert, eigene Producer ignoriert, frühe Producer bis zum fertigen Consumer-Transport gequeued.

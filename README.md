@@ -1,4 +1,11 @@
 # Sharkord Desktop Releases
+## v0.3.28
+
+- Fix macOS updater compatibility: darwin ZIP now contains `.app/Contents/MacOS/sharkord-desktop`, matching existing updater validation.
+- Keeps stable macOS bundle identifier `eu.kanuracer.sharkord-desktop`.
+- Assets: Linux amd64, Windows amd64, macOS arm64.
+
+
 ## v0.3.27
 
 - Remote media refresh when webcam/screen flags arrive without a producer event.

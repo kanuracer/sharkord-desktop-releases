@@ -1,5 +1,13 @@
 # Sharkord Desktop Releases
 
+## v0.3.25
+
+- Fix: Remote Kamera-/Bildschirmstream wird nicht mehr als aktiver, aber leerer Tile angezeigt. Producer-Events werden nur im aktuell beigetretenen Voice-Channel konsumiert, eigene Producer ignoriert, frühe Producer bis zum fertigen Consumer-Transport gequeued.
+- Fix: Video-Tiles starten Playback explizit und zeigen Playback-Fehler sichtbar an.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets: `releases/v0.3.25/`
+
 Latest: v0.3.24
 
 ## v0.3.24

@@ -9,5 +9,6 @@ Latest: v0.3.22
 - macOS arm64: `releases/v0.3.22/sharkord-desktop-0.3.22-darwin-arm64.zip`
 - Checksums: `releases/v0.3.22/SHA256SUMS.txt`
 
-Source repo/tag: https://github.com/kanuracer/sharkord-desktop/releases/tag/v0.3.22
+Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.22
+GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.22
 

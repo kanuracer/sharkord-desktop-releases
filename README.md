@@ -1,4 +1,10 @@
 # Sharkord Desktop Releases
+## v0.3.27
+
+- Remote media refresh when webcam/screen flags arrive without a producer event.
+- Server deletion removes the server from UI/native state before credential cleanup.
+- Assets: Linux amd64, Windows amd64, macOS arm64.
+
 
 ## v0.3.26
 

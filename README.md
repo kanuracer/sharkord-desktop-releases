@@ -2,6 +2,18 @@
 
 Latest: v0.3.72
 
+
+## v0.3.73
+
+Visual-Fix Release for Discord-like settings parity panels.
+
+Assets:
+
+- `releases/v0.3.73/sharkord-desktop-0.3.73-linux-amd64.tar.gz`
+- `releases/v0.3.73/sharkord-desktop-0.3.73-windows-amd64.exe`
+- `releases/v0.3.73/sharkord-desktop-0.3.73-darwin-arm64.zip`
+- `releases/v0.3.73/SHA256SUMS.txt`
+
 ## v0.3.72
 
 - Desktop parity sprint: Server-Logo Upload, i18n-Grundsystem, Profil/Avatar/Banner, Passwort ändern und Notifications.

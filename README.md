@@ -1,4 +1,24 @@
 # Sharkord Desktop Releases
+
+Latest: v0.3.72
+
+## v0.3.72
+
+- Desktop parity sprint: Server-Logo Upload, i18n-Grundsystem, Profil/Avatar/Banner, Passwort ändern und Notifications.
+- Chat parity: Pins-Popover mit Jump-to-message, Recent/Custom-fähige Reactions, Readstate/Unread-Badges.
+- Plugin/Voice parity: Plugin Commands, Actions, Logs, Settings, External Streams, Consumer Quality und Popout-Status.
+- Assets: Linux amd64, Windows amd64, macOS arm64.
+
+Downloads:
+
+- Linux: `releases/v0.3.72/sharkord-desktop-0.3.72-linux-amd64.tar.gz`
+- Windows: `releases/v0.3.72/sharkord-desktop-0.3.72-windows-amd64.exe`
+- macOS arm64: `releases/v0.3.72/sharkord-desktop-0.3.72-darwin-arm64.zip`
+- Checksums: `releases/v0.3.72/SHA256SUMS.txt`
+
+Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.72  
+GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.72
+
 ## v0.3.28
 
 - Fix macOS updater compatibility: darwin ZIP now contains `.app/Contents/MacOS/sharkord-desktop`, matching existing updater validation.
@@ -28,8 +48,6 @@ Assets: `releases/v0.3.26/`
 - Builds: Linux amd64, Windows amd64, macOS arm64.
 
 Assets: `releases/v0.3.25/`
-
-Latest: v0.3.24
 
 ## v0.3.24
 

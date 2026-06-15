@@ -1,8 +1,22 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.72
+Latest: v0.3.80
 
+## v0.3.80
 
+Admin/UI regression release.
+
+- Fix: Server-Einstellungen > Users löscht Benutzer mit webclient-kompatiblem `wipe` Flag.
+- Fix: Server-Einstellungen Modal und Users-Liste bleiben viewport-safe mit themed Scrollbars.
+- Fix: Member-Kontextmenü wird am Viewport geklemmt und schneidet rechts nicht mehr ab.
+- Fix: Kategorie Drag & Drop trägt Drag-Daten, zeigt Drop-Ziel und hat klaren Drag-Handle.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.80/sharkord-desktop-0.3.80-linux-amd64.tar.gz`
+- `releases/v0.3.80/sharkord-desktop-0.3.80-windows-amd64.exe`
+- `releases/v0.3.80/sharkord-desktop-0.3.80-darwin-arm64.zip`
+- `releases/v0.3.80/SHA256SUMS.txt`
 
 ## v0.3.74
 

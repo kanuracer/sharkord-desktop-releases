@@ -3,6 +3,21 @@
 Latest: v0.3.72
 
 
+
+## v0.3.74
+
+Server-scoped settings placement and visual polish fix.
+
+- Moved Profile and Parity out of global Settings into Server Settings.
+- Kept global Settings app-wide only.
+- Polished Profile/Parity tabs for dark Discord-like UI: no native white controls, no number spinners, no clipped cards.
+
+Assets:
+- `releases/v0.3.74/sharkord-desktop-0.3.74-linux-amd64.tar.gz`
+- `releases/v0.3.74/sharkord-desktop-0.3.74-windows-amd64.exe`
+- `releases/v0.3.74/sharkord-desktop-0.3.74-darwin-arm64.zip`
+- `releases/v0.3.74/SHA256SUMS.txt`
+
 ## v0.3.73
 
 Visual-Fix Release for Discord-like settings parity panels.

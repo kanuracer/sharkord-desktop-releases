@@ -1,6 +1,22 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.80
+Latest: v0.3.81
+
+## v0.3.81
+
+Updater version hotfix.
+
+- Fix: AppInfo/UI-Version wird nicht mehr aus einem alten hard-coded `0.3.78` Const geliefert.
+- App-Version ist jetzt per `var appVersion` build-time injizierbar (`-X main.appVersion=<version>`) und muss zur Frontend-Version passen.
+- Linux/Windows/macOS Release-Builds injizieren Version in die Go-Binary; Windows Manifest/Resources werden mitgebumped.
+- Regression-Test verhindert erneuten Mismatch zwischen Paketversion, Backend-AppInfo und Release-Builds.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.81/sharkord-desktop-0.3.81-linux-amd64.tar.gz`
+- `releases/v0.3.81/sharkord-desktop-0.3.81-windows-amd64.exe`
+- `releases/v0.3.81/sharkord-desktop-0.3.81-darwin-arm64.zip`
+- `releases/v0.3.81/SHA256SUMS.txt`
 
 ## v0.3.80
 

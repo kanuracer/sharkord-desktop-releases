@@ -1,26 +1,27 @@
-# Sharkord Desktop v0.3.85
+# Sharkord Desktop v0.3.86
 
-English locale cleanup release.
+Hotfix release for desktop interaction, startup auto-connect, and update safety.
 
 ## Fixed
-- Removed remaining German UI chrome when English is selected.
-- Language selector now shows `German` instead of `Deutsch` while in English mode.
-- Add-server modal labels/placeholders/auto-connect text are translated.
-- Audio & Video dynamic status and screen-sharing/simulcast messages are translated.
-- Import/Export explanatory copy is translated as one complete phrase to avoid mixed German/English text.
+- Settings/Add-server UI remains clickable/responsive after switching to English.
+- Auto-connect now guards in-flight login per saved server, preventing duplicate startup login attempts.
+- Audio & Video dynamic device status text is translated after automatic detection and manual refresh.
+- Vite high-severity audit advisory is resolved by updating Vite.
+- Production frontend output is split into focused vendor chunks; chunk-size warning is gone.
 
 ## Verification
-- Frontend tests: 180/180 pass.
-- Production frontend build: pass.
+- Frontend tests: 181/181 pass.
+- Production frontend build: pass, no chunk-size warning.
+- npm audit: 0 vulnerabilities.
 - Go tests: pass on Linux and macOS build host.
-- Production preview visual/DOM QA: English Settings tabs and Add-server modal show no German fragments.
-- Linux packaged app startup: pass under Xvfb from final tarball.
+- Production preview click QA: Settings, Audio & Video, Refresh devices, Add server reachable; no blocking overlay.
+- Production preview English locale QA: visible Audio & Video page has no German fragments after device refresh.
 - macOS arm64 app bundle: built on MacBook, codesigned ad-hoc, `codesign --verify --deep --strict` pass.
 - Artifacts: Linux amd64, Windows amd64, macOS arm64.
 - Checksums: see `SHA256SUMS.txt`.
 
 ## Artifacts
-- `sharkord-desktop-0.3.85-darwin-arm64.zip`
-- `sharkord-desktop-0.3.85-linux-amd64.tar.gz`
-- `sharkord-desktop-0.3.85-windows-amd64.exe`
+- `sharkord-desktop-0.3.86-darwin-arm64.zip`
+- `sharkord-desktop-0.3.86-linux-amd64.tar.gz`
+- `sharkord-desktop-0.3.86-windows-amd64.exe`
 - `SHA256SUMS.txt`

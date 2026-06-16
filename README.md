@@ -1,6 +1,24 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.85
+Latest: v0.3.86
+
+## v0.3.86
+
+Hotfix release for desktop interaction, startup auto-connect, and update safety.
+
+- Fix: Settings/Add-server UI remains clickable/responsive by batching English visible-phrase translation work.
+- Fix: Auto-connect cannot double-login the same saved server during startup.
+- Fix: English Audio & Video dynamic device status stays fully translated after refresh.
+- Fix: Vite high-severity audit advisory resolved by updating Vite.
+- Build: production chunks split into focused vendor bundles so the Vite chunk warning is gone.
+- QA: frontend tests 181/181, production build, npm audit, Go tests on Linux/macOS, production preview clickability + English locale visual scan, macOS codesign verification, checksums.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.86/sharkord-desktop-0.3.86-linux-amd64.tar.gz`
+- `releases/v0.3.86/sharkord-desktop-0.3.86-windows-amd64.exe`
+- `releases/v0.3.86/sharkord-desktop-0.3.86-darwin-arm64.zip`
+- `releases/v0.3.86/SHA256SUMS.txt`
 
 ## v0.3.85
 

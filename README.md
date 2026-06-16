@@ -1,6 +1,22 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.88
+Latest: v0.3.89
+
+## v0.3.89
+
+Admin UI polish hotfix.
+
+- Fix: English server admin settings no longer leak German fallback strings in storage, users, parity, and update surfaces.
+- Fix: Users admin panel uses a dedicated responsive grid layout so role/status chips stay readable and moderation buttons align cleanly.
+- Fix: signed URL TTL presets and GB/unlimited helper copy are translated as whole phrases.
+- QA: frontend tests 183/183, production build, Go tests, Chromium screenshot/vision smoke, macOS native build/tests/codesign, checksums.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.89/sharkord-desktop-0.3.89-linux-amd64.tar.gz`
+- `releases/v0.3.89/sharkord-desktop-0.3.89-windows-amd64.exe`
+- `releases/v0.3.89/sharkord-desktop-0.3.89-darwin-arm64.zip`
+- `releases/v0.3.89/SHA256SUMS.txt`
 
 ## v0.3.88
 

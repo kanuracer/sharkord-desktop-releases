@@ -1,22 +1,23 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.91
+Latest: v0.3.92
 
-This repository intentionally keeps only the newest public Sharkord Desktop release in the current tree. Older versions may exist in git history, but current downloads and the GitHub latest release point to v0.3.91.
+This repository intentionally keeps only the newest public Sharkord Desktop release in the current tree. Older versions may exist in git history, but current downloads and the GitHub latest release point to v0.3.92.
 
-## v0.3.91
+## v0.3.92
 
-Users admin layout hotfix.
+Server Settings > Users card layout hotfix.
 
 ### Fixed
-- Server Settings > Users now uses a dedicated single-column user-card layout.
-- Role chips (`Owner`, `Guest`, `Member`, `CoAdmin`) wrap inside their own roles row instead of being squeezed under the moderation buttons.
-- Moderation actions stay right-aligned inside each user card without clipping role pills.
+- Role chips now use a full-width role section inside each user card.
+- `Owner`, `Guest`, `Member`, and `CoAdmin` chips no longer clip at the card edge.
+- `Kick`, `Ban`, and `Delete` buttons stay inside each card on their own full-width action row.
+- Regression coverage now blocks returning to the capped/right-aligned action layout that squeezed the roles.
 
 ### Downloads
-- `sharkord-desktop-0.3.91-darwin-arm64.zip`
-- `sharkord-desktop-0.3.91-linux-amd64.tar.gz`
-- `sharkord-desktop-0.3.91-windows-amd64.exe`
+- `sharkord-desktop-0.3.92-darwin-arm64.zip`
+- `sharkord-desktop-0.3.92-linux-amd64.tar.gz`
+- `sharkord-desktop-0.3.92-windows-amd64.exe`
 - `SHA256SUMS.txt`
 
 ### Verification
@@ -24,9 +25,9 @@ Users admin layout hotfix.
 - Production frontend build: pass.
 - npm audit high: 0 vulnerabilities.
 - Go tests: pass on Linux and macOS build host.
-- Visual/geometry smoke: admin Users role chips/actions have no measured overflow or clipping.
+- Visual/geometry smoke: role chips and action buttons measured fully inside every user card.
 - macOS arm64 app bundle: native build, ad-hoc signed, `codesign --verify --deep --strict` pass.
 - Checksums: `sha256sum -c SHA256SUMS.txt` pass.
 
-Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.91
-GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.91
+Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.92
+GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.92

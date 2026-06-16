@@ -1,33 +1,33 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.92
+Latest: v0.3.93
 
-This repository intentionally keeps only the newest public Sharkord Desktop release in the current tree. Older versions may exist in git history, but current downloads and the GitHub latest release point to v0.3.92.
+This repository intentionally keeps only the newest public Sharkord Desktop release in the current tree. Older versions may exist in git history, but current downloads and the GitHub latest release point to v0.3.93.
 
-## v0.3.92
+## v0.3.93
 
-Server Settings > Users card layout hotfix.
+Server Settings > Users height-clipping hotfix.
 
 ### Fixed
-- Role chips now use a full-width role section inside each user card.
-- `Owner`, `Guest`, `Member`, and `CoAdmin` chips no longer clip at the card edge.
-- `Kick`, `Ban`, and `Delete` buttons stay inside each card on their own full-width action row.
-- Regression coverage now blocks returning to the capped/right-aligned action layout that squeezed the roles.
+- User cards in Server Settings > Users now auto-size vertically so wrapped role chips and moderation buttons are not cut off.
+- Restored the accepted v0.3.91/v0.3.92 width behavior: `Rollen:` label stays beside role chips and the `Kick`, `Ban`, `Delete` button group remains compact/right-aligned.
+- Regression coverage now blocks fixed-height admin user rows that clip role chips or action buttons.
 
 ### Downloads
-- `sharkord-desktop-0.3.92-darwin-arm64.zip`
-- `sharkord-desktop-0.3.92-linux-amd64.tar.gz`
-- `sharkord-desktop-0.3.92-windows-amd64.exe`
+- `sharkord-desktop-0.3.93-darwin-arm64.zip`
+- `sharkord-desktop-0.3.93-linux-amd64.tar.gz`
+- `sharkord-desktop-0.3.93-windows-amd64.exe`
 - `SHA256SUMS.txt`
 
 ### Verification
-- Frontend tests: 184/184 pass on Linux and macOS build host.
+- Frontend tests: 185/185 pass on Linux and macOS build host.
 - Production frontend build: pass.
 - npm audit high: 0 vulnerabilities.
 - Go tests: pass on Linux and macOS build host.
-- Visual/geometry smoke: role chips and action buttons measured fully inside every user card.
+- Browser geometry smoke: all user rows are `max-content` height; role chips and action buttons stay inside each card.
+- Visual smoke: all three user cards show full height with no bottom clipping.
 - macOS arm64 app bundle: native build, ad-hoc signed, `codesign --verify --deep --strict` pass.
 - Checksums: `sha256sum -c SHA256SUMS.txt` pass.
 
-Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.92
-GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.92
+Source repo/tag: https://github.com/kanuracer/sharkord-desktop/tree/v0.3.93
+GitHub Release: https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.93

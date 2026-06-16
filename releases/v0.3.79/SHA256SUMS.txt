@@ -1,3 +1,0 @@
-8d6821e64a8f227cce3a3843ab26f4701916a55622a5e1b6e140e0af68a4be8c  sharkord-desktop-0.3.79-darwin-arm64.zip
-fbabf0e070fb213209123ce9337404bbb11b13160b01bf88f71310f3bf12eca5  sharkord-desktop-0.3.79-linux-amd64.tar.gz
-ffe21776208310c0fa608664f9d240059ae796147aa5702bbd494257897628c2  sharkord-desktop-0.3.79-windows-amd64.exe

@@ -1,21 +1,26 @@
-# Sharkord Desktop v0.3.82
+# Sharkord Desktop v0.3.85
 
-Hotfix release for the Server Settings → Users panel.
+English locale cleanup release.
 
 ## Fixed
-- Prevented Sharkord's deleted-user placeholder from appearing in desktop member/admin user lists.
-- Guarded user context menus, moderation actions, role toggles, and voice user rendering against the deleted-user placeholder.
-- Fixed the Users admin list layout so role chips no longer clip or overlap rows.
+- Removed remaining German UI chrome when English is selected.
+- Language selector now shows `German` instead of `Deutsch` while in English mode.
+- Add-server modal labels/placeholders/auto-connect text are translated.
+- Audio & Video dynamic status and screen-sharing/simulcast messages are translated.
+- Import/Export explanatory copy is translated as one complete phrase to avoid mixed German/English text.
 
 ## Verification
-- Frontend tests: 177/177 pass.
+- Frontend tests: 180/180 pass.
 - Production frontend build: pass.
-- Go tests: pass.
-- Windows/Linux/macOS local artifacts built from this release.
-- Users CSS visual smoke: pass; dark themed rows, no raw white controls, unclipped role chips, right-aligned actions, no horizontal scrollbar.
+- Go tests: pass on Linux and macOS build host.
+- Production preview visual/DOM QA: English Settings tabs and Add-server modal show no German fragments.
+- Linux packaged app startup: pass under Xvfb from final tarball.
+- macOS arm64 app bundle: built on MacBook, codesigned ad-hoc, `codesign --verify --deep --strict` pass.
+- Artifacts: Linux amd64, Windows amd64, macOS arm64.
+- Checksums: see `SHA256SUMS.txt`.
 
 ## Artifacts
-- `sharkord-desktop-0.3.82-darwin-arm64.zip`
-- `sharkord-desktop-0.3.82-linux-amd64.tar.gz`
-- `sharkord-desktop-0.3.82-windows-amd64.exe`
+- `sharkord-desktop-0.3.85-darwin-arm64.zip`
+- `sharkord-desktop-0.3.85-linux-amd64.tar.gz`
+- `sharkord-desktop-0.3.85-windows-amd64.exe`
 - `SHA256SUMS.txt`

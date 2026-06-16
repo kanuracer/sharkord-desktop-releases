@@ -1,6 +1,22 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.81
+Latest: v0.3.85
+
+## v0.3.85
+
+English locale cleanup release.
+
+- Fix: English locale no longer leaks German UI chrome in Settings/Add-server surfaces.
+- Fix: Language selector displays `German` in English mode instead of `Deutsch`.
+- Fix: Audio/Video dynamic status, screen-sharing/simulcast messages, and Import/Export copy are fully translated.
+- QA: frontend tests 180/180, production build, Go tests, production preview DOM/visual scan, Linux packaged startup, macOS codesign verification, checksums.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.85/sharkord-desktop-0.3.85-linux-amd64.tar.gz`
+- `releases/v0.3.85/sharkord-desktop-0.3.85-windows-amd64.exe`
+- `releases/v0.3.85/sharkord-desktop-0.3.85-darwin-arm64.zip`
+- `releases/v0.3.85/SHA256SUMS.txt`
 
 ## v0.3.81
 

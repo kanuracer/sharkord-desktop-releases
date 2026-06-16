@@ -1,27 +1,26 @@
-# Sharkord Desktop v0.3.86
+# Sharkord Desktop v0.3.88
 
-Hotfix release for desktop interaction, startup auto-connect, and update safety.
+English UI hardening release.
 
 ## Fixed
-- Settings/Add-server UI remains clickable/responsive after switching to English.
-- Auto-connect now guards in-flight login per saved server, preventing duplicate startup login attempts.
-- Audio & Video dynamic device status text is translated after automatic detection and manual refresh.
-- Vite high-severity audit advisory is resolved by updating Vite.
-- Production frontend output is split into focused vendor chunks; chunk-size warning is gone.
+- Fresh/reset desktop installs default to English instead of restoring the old German fallback.
+- Remaining German UI/status phrases are covered by i18n entries or dynamic fallback translations.
+- Voice, admin, storage, update, and native dialog status text now stays English in English locale.
+- macOS microphone/camera/screen-recording permission prompts are English in the app bundle.
 
 ## Verification
-- Frontend tests: 181/181 pass.
+- Frontend tests: 182/182 pass on Linux and macOS build host.
 - Production frontend build: pass, no chunk-size warning.
-- npm audit: 0 vulnerabilities.
+- npm audit: 0 high vulnerabilities / 0 vulnerabilities.
 - Go tests: pass on Linux and macOS build host.
-- Production preview click QA: Settings, Audio & Video, Refresh devices, Add server reachable; no blocking overlay.
-- Production preview English locale QA: visible Audio & Video page has no German fragments after device refresh.
-- macOS arm64 app bundle: built on MacBook, codesigned ad-hoc, `codesign --verify --deep --strict` pass.
+- Production preview click QA: Settings and Audio & Video tab respond; Add-server path reachable; no blocking overlay observed.
+- Production preview English locale QA: visible Settings/Audio & Video text scan found no German fragments.
+- macOS arm64 app bundle: built on native macOS arm64 host, ad-hoc signed, `codesign --verify --deep --strict` pass.
 - Artifacts: Linux amd64, Windows amd64, macOS arm64.
 - Checksums: see `SHA256SUMS.txt`.
 
 ## Artifacts
-- `sharkord-desktop-0.3.86-darwin-arm64.zip`
-- `sharkord-desktop-0.3.86-linux-amd64.tar.gz`
-- `sharkord-desktop-0.3.86-windows-amd64.exe`
+- `sharkord-desktop-0.3.88-darwin-arm64.zip`
+- `sharkord-desktop-0.3.88-linux-amd64.tar.gz`
+- `sharkord-desktop-0.3.88-windows-amd64.exe`
 - `SHA256SUMS.txt`

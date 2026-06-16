@@ -1,6 +1,22 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.86
+Latest: v0.3.88
+
+## v0.3.88
+
+English UI hardening release.
+
+- Fix: English is now the default locale for fresh and reset desktop installs.
+- Fix: remaining German UI/status strings are routed through the i18n safety net, including dynamic admin, voice, storage, and native dialog copy.
+- Fix: macOS permission prompts are English in the release bundle.
+- QA: frontend tests 182/182, production build, npm audit, Go tests, production preview click/locale smoke, macOS codesign verification, checksums.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.88/sharkord-desktop-0.3.88-linux-amd64.tar.gz`
+- `releases/v0.3.88/sharkord-desktop-0.3.88-windows-amd64.exe`
+- `releases/v0.3.88/sharkord-desktop-0.3.88-darwin-arm64.zip`
+- `releases/v0.3.88/SHA256SUMS.txt`
 
 ## v0.3.86
 

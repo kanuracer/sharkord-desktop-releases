@@ -1,6 +1,22 @@
 # Sharkord Desktop Releases
 
-Latest: v0.3.89
+Latest: v0.3.90
+
+## v0.3.90
+
+Admin text and settings layout hotfix.
+
+- Fix: English server settings translate the first-join password label as a whole phrase, removing the mixed-language `Nur beim ersten Beitritt nach Password fragen` leak.
+- Fix: Server settings checkbox rows stay inline with their labels.
+- Fix: Users admin role chips and moderation actions keep stable spacing and avoid clipping.
+- QA: frontend tests 184/184, production build, npm audit high, Go tests, Chromium fixture/vision smoke, macOS native build/tests/codesign, checksums.
+- Builds: Linux amd64, Windows amd64, macOS arm64.
+
+Assets:
+- `releases/v0.3.90/sharkord-desktop-0.3.90-linux-amd64.tar.gz`
+- `releases/v0.3.90/sharkord-desktop-0.3.90-windows-amd64.exe`
+- `releases/v0.3.90/sharkord-desktop-0.3.90-darwin-arm64.zip`
+- `releases/v0.3.90/SHA256SUMS.txt`
 
 ## v0.3.89
 

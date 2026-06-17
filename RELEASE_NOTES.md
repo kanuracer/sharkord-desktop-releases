@@ -1,25 +1,19 @@
-# Sharkord Desktop v0.3.96
+# Sharkord Desktop v0.3.97
 
-Hotfix release for profile/settings placement and own-profile modal polish.
+## Changes
 
-## Fixed / Polished
-- Profile editing now lives only in the account footer popup, not in Server Settings.
-- Server Settings tabs no longer expose a Profile tab; server logo management remains in General.
-- Own-profile popup uses dedicated modal CSS instead of inheriting welcome-dialog geometry.
-- Profile modal close button, banner/avatar preview, three-card layout, sticky footer, and disabled password action styling are polished and viewport-safe.
+- Added a Discord-like left-click profile popover for other users.
+- Profile popover appears from member lists, voice sidebar users, voice call user cards, and message author avatar/name clicks.
+- Popover displays avatar, banner or banner color, name, identity, status, role count, and bio.
+- Right-click user context menus remain separate and unchanged for admin/moderation actions.
+- Deleted-user placeholders are guarded and do not open profile popovers.
+- Popover positioning clamps to the viewport to avoid offscreen menus.
 
 ## Verification
-- Frontend tests: 193/193 pass on Linux; 193/193 pass on macOS build host.
-- Production frontend build: pass on Linux and macOS build host.
-- npm audit high: 0 vulnerabilities.
-- Go tests: pass on Linux and macOS build host.
-- Browser/visual smoke: own-profile modal close button, banner/avatar preview, balanced cards, readable disabled password button, and footer passed.
-- macOS arm64 app bundle: native build, ad-hoc signed, `codesign --verify --deep --strict` pass.
-- Artifacts: Linux amd64, Windows amd64, macOS arm64.
-- Checksums: see `SHA256SUMS.txt`.
 
-## Artifacts
-- `sharkord-desktop-0.3.96-darwin-arm64.zip`
-- `sharkord-desktop-0.3.96-linux-amd64.tar.gz`
-- `sharkord-desktop-0.3.96-windows-amd64.exe`
-- `SHA256SUMS.txt`
+- Frontend tests: 195/195 passed.
+- Frontend production build passed.
+- npm audit high: 0 vulnerabilities.
+- Go tests passed.
+- Linux, Windows, and macOS artifacts built.
+- SHA256 checks generated and verified locally.

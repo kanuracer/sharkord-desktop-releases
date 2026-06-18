@@ -1,35 +1,35 @@
 {
-  "version": "0.4.1",
-  "tagName": "v0.4.1",
+  "version": "0.4.2",
+  "tagName": "v0.4.2",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.1",
-  "changelog": "# Sharkord Desktop v0.4.1 Beta\n\n## Changes\n\n- Cleans the public/in-app changelog so internal verification details are not shown to users.\n- Polishes the Updates settings layout with clearer release info, controls, and changelog styling.\n- Keeps Stable untouched; this build is published to the Beta update channel.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.2",
+  "changelog": "# Sharkord Desktop v0.4.2 Beta\n\n## Changes\n\n- Replies opened from mentions or notifications now send back to the original message channel.\n- Voice participants can be moved between voice channels via drag and drop more reliably.\n- Unread badges no longer double-count new channel messages.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.1-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.1/sharkord-desktop-0.4.1-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.1/sharkord-desktop-0.4.1-darwin-arm64.zip",
-      "size": 4357871,
-      "sha256": "795c51fa21e67febb04f121974ae9ce3730e3dff5fc94b221d20203a1e3e119b",
-      "version": "0.4.1",
+      "name": "sharkord-desktop-0.4.2-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.2/sharkord-desktop-0.4.2-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.2/sharkord-desktop-0.4.2-darwin-arm64.zip",
+      "size": 4357985,
+      "sha256": "8e12dd7f7c6cd7a4a82e9939c60b052bd2cf97b98af73622b20078a8e831ca7e",
+      "version": "0.4.2",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.1-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.1/sharkord-desktop-0.4.1-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.1/sharkord-desktop-0.4.1-linux-amd64.tar.gz",
-      "size": 4681869,
-      "sha256": "40d5a54e568ae0f1537d8d97b0a6878dfc60bfbf6c169ff0a8ffc6431eaa9ba3",
-      "version": "0.4.1",
+      "name": "sharkord-desktop-0.4.2-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.2/sharkord-desktop-0.4.2-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.2/sharkord-desktop-0.4.2-linux-amd64.tar.gz",
+      "size": 4682211,
+      "sha256": "c9af9d70dc952cdd15dd2ec4e2f0609d3907c01e16c39c65dcd73d23cc3a374e",
+      "version": "0.4.2",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.1-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.1/sharkord-desktop-0.4.1-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.1/sharkord-desktop-0.4.1-windows-amd64.exe",
-      "size": 11616256,
-      "sha256": "c5bd17994de6c629de03432a58042e46958e11bb7b85253ed63afc574af225b6",
-      "version": "0.4.1",
+      "name": "sharkord-desktop-0.4.2-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.2/sharkord-desktop-0.4.2-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.2/sharkord-desktop-0.4.2-windows-amd64.exe",
+      "size": 11616768,
+      "sha256": "eb16bb5c7b8bc7d0aecaece1089ef4d8b0ee56b508e085197cb38b4b8a5bdf38",
+      "version": "0.4.2",
       "channel": "beta"
     }
   ]

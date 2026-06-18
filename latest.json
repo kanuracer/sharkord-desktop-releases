@@ -1,7 +1,7 @@
 {
   "version": "0.3.100",
   "tagName": "v0.3.100",
-  "channel": "stable",
+  "channel": "beta",
   "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.100",
   "changelog": "# Sharkord Desktop v0.3.100\n\n## Changes\n\n- Fixed the Channel Settings permissions loader so missing `channels.getPermissions` on older Sharkord servers falls back to an empty override list instead of showing `No \"query\"-procedure on path \"channels.getPermissions\"`.\n- Added localized unsupported-server handling for channel permission save/delete endpoints when those tRPC procedures are missing.\n- Polished the Channel Settings permissions UI with a constrained modal body, stable scroll gutters, safer long status/error wrapping, and clearer active `Inherit` / `Allow` / `Deny` button states.\n- Improved the profile edit popup preview: existing banner color is used, banner images render in the preview, selected banner files preview immediately, and multiline bio text wraps/clamps cleanly without horizontal clipping.\n\n## Verification\n\n- Frontend tests: 204/204 passed.\n- Frontend production build passed.\n- npm audit high: 0 vulnerabilities.\n- Go tests passed.\n- Browser visual smoke confirmed Channel Settings permissions layout and profile banner/bio preview are clean.\n- Linux startup smoke under `xvfb-run`: timeout after launch, app stayed up.\n- Linux, Windows, and macOS artifacts built from source commit `4701dad70dfa2a55d54673dfdccf4f1ca7cae501`.\n- SHA256 checks generated and verified locally.\n",
   "assets": [
@@ -12,7 +12,7 @@
       "size": 4354253,
       "sha256": "0140ce241eacdc9cf5f134018d6c7604a07f7b40b3bd7871d0c78c8fc35a73c7",
       "version": "0.3.100",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "name": "sharkord-desktop-0.3.100-linux-amd64.tar.gz",
@@ -21,7 +21,7 @@
       "size": 4679852,
       "sha256": "3ef3fc16afbf5dd9a3df1b4eee5364978b27167340d42e6ff489c8cf32b4477e",
       "version": "0.3.100",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "name": "sharkord-desktop-0.3.100-windows-amd64.exe",
@@ -30,7 +30,7 @@
       "size": 11607040,
       "sha256": "d7fb6ac07782c0b752b81661913fbbebd18519a09a25f4bd3310bb38f7f0b695",
       "version": "0.3.100",
-      "channel": "stable"
+      "channel": "beta"
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "version": "0.4.6",
+  "tagName": "v0.4.6",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.6",
+  "changelog": "# Sharkord Desktop v0.4.6 Beta\n\n## Changes\n\n- Message delete actions now update the desktop UI immediately without relying on browser confirm dialogs.\n- Delete buttons are shown only for your own messages or when your account can manage messages.\n- Messages deleted from another client now disappear from active chats, direct messages, cached views, and thread panels.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.4.6-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.6/sharkord-desktop-0.4.6-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.6/sharkord-desktop-0.4.6-darwin-arm64.zip",
+      "size": 4362301,
+      "sha256": "bb176568595584e08f0575c98f845d3589d06f1050f1fa607660f16ae6b501f8",
+      "version": "0.4.6",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.6-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.6/sharkord-desktop-0.4.6-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.6/sharkord-desktop-0.4.6-linux-amd64.tar.gz",
+      "size": 4687015,
+      "sha256": "241054fba4be30d7bb6824c665e0c8d26915217a42e56ab1789d11240efa98ba",
+      "version": "0.4.6",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.6-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.6/sharkord-desktop-0.4.6-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.6/sharkord-desktop-0.4.6-windows-amd64.exe",
+      "size": 11636224,
+      "sha256": "e8c940d19f6ea6243afed02af883972e3cc2e291ee29978e2ae52fec4ffe3a73",
+      "version": "0.4.6",
+      "channel": "beta"
+    }
+  ]
+}

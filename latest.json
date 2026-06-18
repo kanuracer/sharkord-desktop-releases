@@ -1,35 +1,35 @@
 {
-  "version": "0.4.4",
-  "tagName": "v0.4.4",
+  "version": "0.4.5",
+  "tagName": "v0.4.5",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.4",
-  "changelog": "# Sharkord Desktop v0.4.4 Beta\n\n## Changes\n\n- Chat messages now preserve line breaks and paragraph spacing when displayed.\n- Escaped HTML in messages stays visible as safe text instead of being interpreted as markup.\n- Attachment-only messages no longer show an empty text row above the file chip.\n- Long author names, reply previews, and file names are constrained to avoid horizontal chat overflow.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.5",
+  "changelog": "# Sharkord Desktop v0.4.5 Beta\n\n## Changes\n\n- The Direct Messages center now includes the own account panel again.\n- Profile, avatar, and banner editing stay available while using the central DM view.\n- Opening the own profile from a DM now targets the correct connected server account.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.4-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.4/sharkord-desktop-0.4.4-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.4/sharkord-desktop-0.4.4-darwin-arm64.zip",
-      "size": 4361913,
-      "sha256": "6500f2c563fad7d7f8b9fa7b6772c98341dc0367a0dba62cdd41de5d4f8f9823",
-      "version": "0.4.4",
+      "name": "sharkord-desktop-0.4.5-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.5/sharkord-desktop-0.4.5-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.5/sharkord-desktop-0.4.5-darwin-arm64.zip",
+      "size": 4362115,
+      "sha256": "9b34a8e47cac13f68cbf2edae874f1243804219bf8f36ec3e2d6a6c62ef17fa6",
+      "version": "0.4.5",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.4-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.4/sharkord-desktop-0.4.4-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.4/sharkord-desktop-0.4.4-linux-amd64.tar.gz",
-      "size": 4685610,
-      "sha256": "7c9e3df31d1984b6e29ab847213e4dcec94204d73b612976882c4dc0c0f7ecb2",
-      "version": "0.4.4",
+      "name": "sharkord-desktop-0.4.5-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.5/sharkord-desktop-0.4.5-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.5/sharkord-desktop-0.4.5-linux-amd64.tar.gz",
+      "size": 4687108,
+      "sha256": "29b14e98b9a8041ecd35402eb725ee000349f29933ed10ae5b27356e7eaec843",
+      "version": "0.4.5",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.4-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.4/sharkord-desktop-0.4.4-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.4/sharkord-desktop-0.4.4-windows-amd64.exe",
-      "size": 11634688,
-      "sha256": "9c7ed0acfc41eac47212dafe046b5af1f478d55932d60426b7640d9b0e11f3a0",
-      "version": "0.4.4",
+      "name": "sharkord-desktop-0.4.5-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.5/sharkord-desktop-0.4.5-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.5/sharkord-desktop-0.4.5-windows-amd64.exe",
+      "size": 11635712,
+      "sha256": "a2a45d9f1c5ee5e3641a532828790913259be1532fe32855d6c712a6f93a1a9d",
+      "version": "0.4.5",
       "channel": "beta"
     }
   ]

@@ -2,18 +2,17 @@
 
 Latest public beta release.
 
-## v0.4.4 Beta
+## v0.4.5 Beta
 
-- Preserves multiline chat messages and paragraph breaks.
-- Keeps escaped HTML safe and visible as text.
-- Removes blank rows for attachment-only messages.
-- Improves chat wrapping for long names, replies, and filenames.
+- Restores the own account panel in the central Direct Messages view.
+- Keeps profile, avatar, and banner editing reachable from the DM center.
+- Uses the correct connected server account when editing your profile from DMs.
 - Stable channel stays on the approved stable version.
 
 ## Downloads
 
-- macOS Apple Silicon: `sharkord-desktop-0.4.4-darwin-arm64.zip`
-- Linux x64: `sharkord-desktop-0.4.4-linux-amd64.tar.gz`
-- Windows x64: `sharkord-desktop-0.4.4-windows-amd64.exe`
+- macOS Apple Silicon: `sharkord-desktop-0.4.5-darwin-arm64.zip`
+- Linux x64: `sharkord-desktop-0.4.5-linux-amd64.tar.gz`
+- Windows x64: `sharkord-desktop-0.4.5-windows-amd64.exe`
 
 Verify with `SHA256SUMS.txt`.

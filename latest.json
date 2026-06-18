@@ -1,35 +1,35 @@
 {
-  "version": "0.4.8",
-  "tagName": "v0.4.8",
+  "version": "0.4.9",
+  "tagName": "v0.4.9",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.8",
-  "changelog": "# Sharkord Desktop v0.4.8 Beta\n\n## Changes\n\n- DM conversation delete controls are hidden again until official Sharkord server support is available.\n- The desktop no longer calls the unsupported DM deletion endpoint, avoiding compatibility errors on current Sharkord servers.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.9",
+  "changelog": "# Sharkord Desktop v0.4.9 Beta\n\n## Changes\n\n- Adds richer chat composition and rendering for mentions, links, embeds, media cards, and plugin slash-command suggestions.\n- Adds invite-aware login and server-add flows, including invite links and closed-registration guidance.\n- Adds DM Home user search so connected users can be found and opened or started as direct messages.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.8-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.8/sharkord-desktop-0.4.8-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.8/sharkord-desktop-0.4.8-darwin-arm64.zip",
-      "size": 4362311,
-      "sha256": "1b04941ab57bf39a5b087c50ac6f8bc54361d7d8fe3764d329adbd9ad4bbdf16",
-      "version": "0.4.8",
+      "name": "sharkord-desktop-0.4.9-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
+      "size": 4369546,
+      "sha256": "e33628180080047278b96424c18c139c194fee9db54f870549dfa530abc3674e",
+      "version": "0.4.9",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.8-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.8/sharkord-desktop-0.4.8-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.8/sharkord-desktop-0.4.8-linux-amd64.tar.gz",
-      "size": 4687099,
-      "sha256": "0c6a34d710e5c27933c04ef3ded300e3c9fbaa866271fdde82a90b1dca2fc4c4",
-      "version": "0.4.8",
+      "name": "sharkord-desktop-0.4.9-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
+      "size": 4695283,
+      "sha256": "81893ee7337da4b6e8f2c5ed16c13a2c9bfedc9704340259a5058bfa3f27a528",
+      "version": "0.4.9",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.8-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.8/sharkord-desktop-0.4.8-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.8/sharkord-desktop-0.4.8-windows-amd64.exe",
-      "size": 11636224,
-      "sha256": "bb0005c8b4775f00fbec4496f4a74ff59e2b1184718af1208488c8e0195d4ec8",
-      "version": "0.4.8",
+      "name": "sharkord-desktop-0.4.9-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-windows-amd64.exe",
+      "size": 11662336,
+      "sha256": "3a3590bab8d5ff69a95a6282aad420f0bb0fde1d60f7409d978d3a54f63c2c2f",
+      "version": "0.4.9",
       "channel": "beta"
     }
   ]

@@ -1,0 +1,36 @@
+{
+  "version": "0.4.9",
+  "tagName": "v0.4.9",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.9",
+  "changelog": "# Sharkord Desktop v0.4.9 Beta\n\n## Changes\n\n- Adds richer chat composition and rendering for mentions, links, embeds, media cards, and plugin slash-command suggestions.\n- Adds invite-aware login and server-add flows, including invite links and closed-registration guidance.\n- Adds DM Home user search so connected users can be found and opened or started as direct messages.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.4.9-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
+      "size": 4369546,
+      "sha256": "e33628180080047278b96424c18c139c194fee9db54f870549dfa530abc3674e",
+      "version": "0.4.9",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.9-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
+      "size": 4695283,
+      "sha256": "81893ee7337da4b6e8f2c5ed16c13a2c9bfedc9704340259a5058bfa3f27a528",
+      "version": "0.4.9",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.9-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-windows-amd64.exe",
+      "size": 11662336,
+      "sha256": "3a3590bab8d5ff69a95a6282aad420f0bb0fde1d60f7409d978d3a54f63c2c2f",
+      "version": "0.4.9",
+      "channel": "beta"
+    }
+  ]
+}

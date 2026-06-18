@@ -1,19 +1,18 @@
-# Sharkord Desktop v0.3.97
+# Sharkord Desktop v0.3.98
 
 ## Changes
 
-- Added a Discord-like left-click profile popover for other users.
-- Profile popover appears from member lists, voice sidebar users, voice call user cards, and message author avatar/name clicks.
-- Popover displays avatar, banner or banner color, name, identity, status, role count, and bio.
-- Right-click user context menus remain separate and unchanged for admin/moderation actions.
-- Deleted-user placeholders are guarded and do not open profile popovers.
-- Popover positioning clamps to the viewport to avoid offscreen menus.
+- Added thread/reply parity: reply controls, parent-message previews, thread sidebar/panel, thread compose, and reply-aware typing notifications.
+- Added rich composer parity with native content-editable compose, formatting actions, plugin command affordances, dynamic height behavior, and Arrow-Up edit support.
+- Added channel permission override management in channel settings, including role/user override targets, update/delete wrappers, and public-channel safety warning.
+- Added native plugin UI slots for topbar, chat actions, connect, and content-wrapper surfaces, plus plugin admin slot visibility.
+- Preserved native rendering only for plugin slots; no iframe/webview embedding.
 
 ## Verification
 
-- Frontend tests: 195/195 passed.
+- Frontend tests: 202/202 passed.
 - Frontend production build passed.
 - npm audit high: 0 vulnerabilities.
 - Go tests passed.
-- Linux, Windows, and macOS artifacts built.
+- Linux, Windows, and macOS artifacts built from the final v0.3.98 commit.
 - SHA256 checks generated and verified locally.

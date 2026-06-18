@@ -2,19 +2,18 @@
 
 Latest public beta release.
 
-## v0.4.3 Beta
+## v0.4.4 Beta
 
-- Central Direct Messages hub from the Sharkord home/logo entry.
-- Server-scoped DM sending, unread/read state, and file upload rules.
-- Profile popover parity for DM, member-since, and manage-user actions.
-- Admin user activity/files/storage detail view.
-- Opus audio negotiation guard for Desktop/Web voice.
+- Preserves multiline chat messages and paragraph breaks.
+- Keeps escaped HTML safe and visible as text.
+- Removes blank rows for attachment-only messages.
+- Improves chat wrapping for long names, replies, and filenames.
 - Stable channel stays on the approved stable version.
 
 ## Downloads
 
-- macOS Apple Silicon: `sharkord-desktop-0.4.3-darwin-arm64.zip`
-- Linux x64: `sharkord-desktop-0.4.3-linux-amd64.tar.gz`
-- Windows x64: `sharkord-desktop-0.4.3-windows-amd64.exe`
+- macOS Apple Silicon: `sharkord-desktop-0.4.4-darwin-arm64.zip`
+- Linux x64: `sharkord-desktop-0.4.4-linux-amd64.tar.gz`
+- Windows x64: `sharkord-desktop-0.4.4-windows-amd64.exe`
 
 Verify with `SHA256SUMS.txt`.

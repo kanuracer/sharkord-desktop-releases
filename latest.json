@@ -1,35 +1,35 @@
 {
-  "version": "0.4.10",
-  "tagName": "v0.4.10",
+  "version": "0.4.11",
+  "tagName": "v0.4.11",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.10",
-  "changelog": "# Sharkord Desktop v0.4.10 Beta\n\n## Changes\n\n- Fixes English locale leaks in profile, direct-message, and global-search UI chrome.\n- Sends rich-composer messages with Enter while preserving Shift+Enter for new lines.\n- Keeps profile, DM, and search labels consistent across German and English locales.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.11",
+  "changelog": "# Sharkord Desktop v0.4.11 Beta\n\n## Changes\n\n- Replaces the server header context menu with an anchored dropdown under the server name.\n- Keeps channel, category, and user right-click context menus separate from server actions.\n- Adds regression coverage for dropdown anchoring, grouping, and opaque menu styling.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.10-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-darwin-arm64.zip",
-      "size": 4370032,
-      "sha256": "ade9a4ee7bd0187938c07a8a951f499430d8bec6f5536bf00ec8d1b034a34500",
-      "version": "0.4.10",
+      "name": "sharkord-desktop-0.4.11-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-darwin-arm64.zip",
+      "size": 4370897,
+      "sha256": "f77957c86fe6f7218ce65c166e89d9b2a2bbc09e81b4d899ba0d65d39fdc7097",
+      "version": "0.4.11",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.10-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-linux-amd64.tar.gz",
-      "size": 4695601,
-      "sha256": "1edf2ccfd3bbf2d7f7d2ec9fec17995cf30faf62d40df104ad0499da8be05a0b",
-      "version": "0.4.10",
+      "name": "sharkord-desktop-0.4.11-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-linux-amd64.tar.gz",
+      "size": 4695940,
+      "sha256": "89a08c8e31948ecbd2b42b87dd4fcb260260e09ca352ccb5e9d0563fa7a715ad",
+      "version": "0.4.11",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.10-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-windows-amd64.exe",
-      "size": 11663872,
-      "sha256": "cebdc69cc7a4c7a9914d560d3e50f421bd87cdd632690c0c857ef04ec020707f",
-      "version": "0.4.10",
+      "name": "sharkord-desktop-0.4.11-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-windows-amd64.exe",
+      "size": 11665920,
+      "sha256": "d5faa1c03a1b3bd20c3776251fdcc26281b3822ee836cda34619073727ba6561",
+      "version": "0.4.11",
       "channel": "beta"
     }
   ]

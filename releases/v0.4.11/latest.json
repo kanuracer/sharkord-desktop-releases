@@ -1,0 +1,36 @@
+{
+  "version": "0.4.11",
+  "tagName": "v0.4.11",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.11",
+  "changelog": "# Sharkord Desktop v0.4.11 Beta\n\n## Changes\n\n- Replaces the server header context menu with an anchored dropdown under the server name.\n- Keeps channel, category, and user right-click context menus separate from server actions.\n- Adds regression coverage for dropdown anchoring, grouping, and opaque menu styling.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.4.11-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-darwin-arm64.zip",
+      "size": 4370897,
+      "sha256": "f77957c86fe6f7218ce65c166e89d9b2a2bbc09e81b4d899ba0d65d39fdc7097",
+      "version": "0.4.11",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.11-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-linux-amd64.tar.gz",
+      "size": 4695940,
+      "sha256": "89a08c8e31948ecbd2b42b87dd4fcb260260e09ca352ccb5e9d0563fa7a715ad",
+      "version": "0.4.11",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.11-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-windows-amd64.exe",
+      "size": 11665920,
+      "sha256": "d5faa1c03a1b3bd20c3776251fdcc26281b3822ee836cda34619073727ba6561",
+      "version": "0.4.11",
+      "channel": "beta"
+    }
+  ]
+}

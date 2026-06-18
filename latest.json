@@ -1,35 +1,35 @@
 {
-  "version": "0.4.9",
-  "tagName": "v0.4.9",
+  "version": "0.4.10",
+  "tagName": "v0.4.10",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.9",
-  "changelog": "# Sharkord Desktop v0.4.9 Beta\n\n## Changes\n\n- Adds richer chat composition and rendering for mentions, links, embeds, media cards, and plugin slash-command suggestions.\n- Adds invite-aware login and server-add flows, including invite links and closed-registration guidance.\n- Adds DM Home user search so connected users can be found and opened or started as direct messages.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.10",
+  "changelog": "# Sharkord Desktop v0.4.10 Beta\n\n## Changes\n\n- Fixes English locale leaks in profile, direct-message, and global-search UI chrome.\n- Sends rich-composer messages with Enter while preserving Shift+Enter for new lines.\n- Keeps profile, DM, and search labels consistent across German and English locales.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.9-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
-      "size": 4369546,
-      "sha256": "d3587adc401fe5da09fe252b13b9c94aa3533548f90785c1722fc0cf84445d42",
-      "version": "0.4.9",
+      "name": "sharkord-desktop-0.4.10-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-darwin-arm64.zip",
+      "size": 4370032,
+      "sha256": "ade9a4ee7bd0187938c07a8a951f499430d8bec6f5536bf00ec8d1b034a34500",
+      "version": "0.4.10",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.9-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
-      "size": 4695274,
-      "sha256": "d6af4048c2f4e8df475bdd72c03aa469d7b2e94c2708b88d854129ab3cf78165",
-      "version": "0.4.9",
+      "name": "sharkord-desktop-0.4.10-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-linux-amd64.tar.gz",
+      "size": 4695601,
+      "sha256": "1edf2ccfd3bbf2d7f7d2ec9fec17995cf30faf62d40df104ad0499da8be05a0b",
+      "version": "0.4.10",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.9-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-windows-amd64.exe",
-      "size": 11662336,
-      "sha256": "3a3590bab8d5ff69a95a6282aad420f0bb0fde1d60f7409d978d3a54f63c2c2f",
-      "version": "0.4.9",
+      "name": "sharkord-desktop-0.4.10-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.10/sharkord-desktop-0.4.10-windows-amd64.exe",
+      "size": 11663872,
+      "sha256": "cebdc69cc7a4c7a9914d560d3e50f421bd87cdd632690c0c857ef04ec020707f",
+      "version": "0.4.10",
       "channel": "beta"
     }
   ]

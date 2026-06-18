@@ -1,35 +1,35 @@
 {
-  "version": "0.3.100",
-  "tagName": "v0.3.100",
+  "version": "0.4.0",
+  "tagName": "v0.4.0",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.3.100",
-  "changelog": "# Sharkord Desktop v0.3.100\n\n## Changes\n\n- Fixed the Channel Settings permissions loader so missing `channels.getPermissions` on older Sharkord servers falls back to an empty override list instead of showing `No \"query\"-procedure on path \"channels.getPermissions\"`.\n- Added localized unsupported-server handling for channel permission save/delete endpoints when those tRPC procedures are missing.\n- Polished the Channel Settings permissions UI with a constrained modal body, stable scroll gutters, safer long status/error wrapping, and clearer active `Inherit` / `Allow` / `Deny` button states.\n- Improved the profile edit popup preview: existing banner color is used, banner images render in the preview, selected banner files preview immediately, and multiline bio text wraps/clamps cleanly without horizontal clipping.\n\n## Verification\n\n- Frontend tests: 204/204 passed.\n- Frontend production build passed.\n- npm audit high: 0 vulnerabilities.\n- Go tests passed.\n- Browser visual smoke confirmed Channel Settings permissions layout and profile banner/bio preview are clean.\n- Linux startup smoke under `xvfb-run`: timeout after launch, app stayed up.\n- Linux, Windows, and macOS artifacts built from source commit `4701dad70dfa2a55d54673dfdccf4f1ca7cae501`.\n- SHA256 checks generated and verified locally.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.0",
+  "changelog": "# Sharkord Desktop v0.4.0\n\n## Changes\n\n- Adds release channels: Stable uses `main/latest.json`, Beta uses `beta/latest.json`.\n- Adds startup update checks with a visible update call-to-action when a matching release is available.\n- Adds an Update settings view with selected channel, current/available versions, release asset details, changelog, and release link.\n- Persists the selected release channel across restarts.\n- Localizes channel permission state labels in German: `Vererben`, `Erlauben`, `Verweigern`.\n- Cleans public-facing Sharkord Desktop wording to avoid visible Discord-branded copy where neutral Sharkord wording is expected.\n- Fixes the Linux-hosted Windows cross-build task so release builds no longer require PowerShell.\n\n## Verification\n\n- Frontend tests: 211/211 passed.\n- Frontend production build passed.\n- npm audit high: 0 vulnerabilities.\n- Go tests passed.\n- Linux and Windows artifacts built from source commit `24fb176`.\n- macOS Apple Silicon artifact built on the macOS build host from the exact source archive for commit `24fb176`; codesign verification passed.\n- SHA256 checks generated and verified locally.\n- Stable and Beta update feeds both point to v0.4.0.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.3.100-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.3.100/sharkord-desktop-0.3.100-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.3.100/sharkord-desktop-0.3.100-darwin-arm64.zip",
-      "size": 4354253,
-      "sha256": "0140ce241eacdc9cf5f134018d6c7604a07f7b40b3bd7871d0c78c8fc35a73c7",
-      "version": "0.3.100",
+      "name": "sharkord-desktop-0.4.0-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.0/sharkord-desktop-0.4.0-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.0/sharkord-desktop-0.4.0-darwin-arm64.zip",
+      "size": 4357465,
+      "sha256": "54b106e745159b552f126fdac39150342f8b2c1e56adf9c43734efe2930b531e",
+      "version": "0.4.0",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.3.100-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.3.100/sharkord-desktop-0.3.100-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.3.100/sharkord-desktop-0.3.100-linux-amd64.tar.gz",
-      "size": 4679852,
-      "sha256": "3ef3fc16afbf5dd9a3df1b4eee5364978b27167340d42e6ff489c8cf32b4477e",
-      "version": "0.3.100",
+      "name": "sharkord-desktop-0.4.0-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.0/sharkord-desktop-0.4.0-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.0/sharkord-desktop-0.4.0-linux-amd64.tar.gz",
+      "size": 4681268,
+      "sha256": "8fdd80c57c8c2684d1eece05be9f78d816794244de7066981fa5bc58546ac1bc",
+      "version": "0.4.0",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.3.100-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.3.100/sharkord-desktop-0.3.100-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.3.100/sharkord-desktop-0.3.100-windows-amd64.exe",
-      "size": 11607040,
-      "sha256": "d7fb6ac07782c0b752b81661913fbbebd18519a09a25f4bd3310bb38f7f0b695",
-      "version": "0.3.100",
+      "name": "sharkord-desktop-0.4.0-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.0/sharkord-desktop-0.4.0-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.0/sharkord-desktop-0.4.0-windows-amd64.exe",
+      "size": 11614208,
+      "sha256": "eba84e5c3022297497a4581f0c0b142825cf75dcf67c4e7b3e35f9f3ebe1fe9e",
+      "version": "0.4.0",
       "channel": "beta"
     }
   ]

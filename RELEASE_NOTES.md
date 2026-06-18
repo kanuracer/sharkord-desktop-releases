@@ -1,8 +1,7 @@
-# Sharkord Desktop v0.4.7 Beta
+# Sharkord Desktop v0.4.8 Beta
 
 ## Changes
 
-- Direct message conversations can now be removed from the desktop DM list.
-- Deleted DM conversations disappear immediately from the sidebar and active DM view.
-- Older servers that do not yet support DM deletion now show a clear compatibility error instead of failing silently.
+- DM conversation delete controls are hidden again until official Sharkord server support is available.
+- The desktop no longer calls the unsupported DM deletion endpoint, avoiding compatibility errors on current Sharkord servers.
 - Stable channel stays unchanged; this build is published to the Beta update channel.

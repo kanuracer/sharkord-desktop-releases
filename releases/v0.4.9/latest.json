@@ -10,7 +10,7 @@
       "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
       "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-darwin-arm64.zip",
       "size": 4369546,
-      "sha256": "e33628180080047278b96424c18c139c194fee9db54f870549dfa530abc3674e",
+      "sha256": "d3587adc401fe5da09fe252b13b9c94aa3533548f90785c1722fc0cf84445d42",
       "version": "0.4.9",
       "channel": "beta"
     },
@@ -18,8 +18,8 @@
       "name": "sharkord-desktop-0.4.9-linux-amd64.tar.gz",
       "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
       "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.9/sharkord-desktop-0.4.9-linux-amd64.tar.gz",
-      "size": 4695283,
-      "sha256": "81893ee7337da4b6e8f2c5ed16c13a2c9bfedc9704340259a5058bfa3f27a528",
+      "size": 4695274,
+      "sha256": "d6af4048c2f4e8df475bdd72c03aa469d7b2e94c2708b88d854129ab3cf78165",
       "version": "0.4.9",
       "channel": "beta"
     },

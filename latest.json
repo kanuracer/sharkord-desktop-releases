@@ -1,35 +1,35 @@
 {
-  "version": "0.4.19",
-  "tagName": "v0.4.19",
+  "version": "0.4.20",
+  "tagName": "v0.4.20",
   "channel": "stable",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.19",
-  "changelog": "# Sharkord Desktop v0.4.19\n\n## Changes\n\n- Promotes the current Desktop build to the Stable update channel.\n- Completes Desktop parity for the current Sharkord Webclient route surface.\n- Keeps the native settings import/export flow, including native file dialogs and import confirmation.\n- Includes channel permissions, threads/replies, DM deletion, pinned messages, read-state, and plugin command/component parity improvements.\n- Improves voice/video/screen-share controls, device settings, stream quality, and popout behavior.\n- Polishes server settings, update controls, admin panels, i18n, and general Desktop UI consistency.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.20",
+  "changelog": "# Sharkord Desktop v0.4.20\n\n## Changes\n\n- Promotes the v0.4.20 build to the Stable update channel.\n- Refreshes the Sharkord auth token before WebSocket reconnects after idle time so realtime subscriptions keep working instead of failing with `You must be auth`.\n- Uses fresh auth for uploads after long-running sessions.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.19-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-darwin-arm64.zip",
-      "size": 4373887,
-      "sha256": "7d76a1b95621fa6f6b4ffaf03dbb6072cf98201757e298e68bf8b0429e6641ff",
-      "version": "0.4.19",
+      "name": "sharkord-desktop-0.4.20-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-darwin-arm64.zip",
+      "size": 4373976,
+      "sha256": "9250065d1066b591b4111eafbf4ccbbc92cb512835b30ca6319225071b91f58d",
+      "version": "0.4.20",
       "channel": "stable"
     },
     {
-      "name": "sharkord-desktop-0.4.19-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-linux-amd64.tar.gz",
-      "size": 4699134,
-      "sha256": "37da9cefcd030ad956cb967d3259ad1f1a98bf44df809ec61824a72b6077cf82",
-      "version": "0.4.19",
+      "name": "sharkord-desktop-0.4.20-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-linux-amd64.tar.gz",
+      "size": 4699264,
+      "sha256": "bedcfe78d1035648023ba8c33857b0ad2fbc654c1e67ba288664aed4a9ebd401",
+      "version": "0.4.20",
       "channel": "stable"
     },
     {
-      "name": "sharkord-desktop-0.4.19-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-windows-amd64.exe",
+      "name": "sharkord-desktop-0.4.20-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-windows-amd64.exe",
       "size": 11681792,
-      "sha256": "d26b08c3b2b10ef167f2efbe83fb763991bd69a13a650c3932fd27bee813e639",
-      "version": "0.4.19",
+      "sha256": "288d97737d19a6d6a9cebf9d71720cbe56dbef97e99ceec92123b499e42f6809",
+      "version": "0.4.20",
       "channel": "stable"
     }
   ]

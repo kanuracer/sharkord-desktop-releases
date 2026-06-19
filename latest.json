@@ -1,35 +1,35 @@
 {
-  "version": "0.4.11",
-  "tagName": "v0.4.11",
+  "version": "0.4.12",
+  "tagName": "v0.4.12",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.11",
-  "changelog": "# Sharkord Desktop v0.4.11 Beta\n\n## Changes\n\n- Replaces the server header context menu with an anchored dropdown under the server name.\n- Keeps channel, category, and user right-click context menus separate from server actions.\n- Adds regression coverage for dropdown anchoring, grouping, and opaque menu styling.\n- Stable channel stays unchanged; this build is published to the Beta update channel.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.12",
+  "changelog": "# Sharkord Desktop v0.4.12 Beta\n\n## Changes\n\n- Localizes remaining mixed English/German desktop UI labels and fills missing English phrase translations.\n- Adds regression coverage for admin channel lists, invite creation, server dropdown, storage labels, and English locale UI chrome.\n- Updates the Go toolchain requirement to 1.25.11 for current stdlib security fixes.\n- Refreshes Windows version metadata and release defaults for 0.4.12.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.11-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-darwin-arm64.zip",
-      "size": 4370897,
-      "sha256": "f77957c86fe6f7218ce65c166e89d9b2a2bbc09e81b4d899ba0d65d39fdc7097",
-      "version": "0.4.11",
+      "name": "sharkord-desktop-0.4.12-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.12/sharkord-desktop-0.4.12-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.12/sharkord-desktop-0.4.12-darwin-arm64.zip",
+      "size": 4371395,
+      "sha256": "3ea171d0b2d3743f771bb1e6cc2b5142800dc29e0b8927a61e2ec8aad2b6d962",
+      "version": "0.4.12",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.11-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-linux-amd64.tar.gz",
-      "size": 4695940,
-      "sha256": "89a08c8e31948ecbd2b42b87dd4fcb260260e09ca352ccb5e9d0563fa7a715ad",
-      "version": "0.4.11",
+      "name": "sharkord-desktop-0.4.12-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.12/sharkord-desktop-0.4.12-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.12/sharkord-desktop-0.4.12-linux-amd64.tar.gz",
+      "size": 4696654,
+      "sha256": "551de6873719879b93be0ba80eaf924f2fa6836fecc5a126f6ff3fa0af6d8577",
+      "version": "0.4.12",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.11-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.11/sharkord-desktop-0.4.11-windows-amd64.exe",
-      "size": 11665920,
-      "sha256": "d5faa1c03a1b3bd20c3776251fdcc26281b3822ee836cda34619073727ba6561",
-      "version": "0.4.11",
+      "name": "sharkord-desktop-0.4.12-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.12/sharkord-desktop-0.4.12-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.12/sharkord-desktop-0.4.12-windows-amd64.exe",
+      "size": 11668992,
+      "sha256": "6373e695ea4cc344065720466663ee2f7b09ef9ca1a23ca8a4e559b19073ac90",
+      "version": "0.4.12",
       "channel": "beta"
     }
   ]

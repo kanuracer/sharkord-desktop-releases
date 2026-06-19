@@ -1,7 +1,9 @@
-# Sharkord Desktop v0.4.20 Beta
+# Sharkord Desktop v0.5.0 Beta
 
 ## Changes
 
-- Refreshes the Sharkord auth token before WebSocket reconnects after idle time so realtime subscriptions keep working instead of failing with `You must be auth`.
-- Uses fresh auth for uploads after long-running sessions.
+- Detects original Sharkord vs Kanuracer server capabilities after login.
+- Hides unsupported fork-only Desktop actions on original servers.
+- Enables DM deletion, owner-token, and server self-update controls only when supported by the connected server.
+- Adds Kanuracer server capability endpoint support for Desktop compatibility.
 - Keeps stable channel unchanged.

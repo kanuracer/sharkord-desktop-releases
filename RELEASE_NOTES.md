@@ -1,8 +1,7 @@
-# Sharkord Desktop v0.4.19 Beta
+# Sharkord Desktop v0.4.20 Beta
 
 ## Changes
 
-- Polishes the Server-Update controls in server settings so the owner-token field and action button align cleanly.
-- Groups server update actions into a compact Discord-like card and keeps the password/footer area visible in the settings panel.
-- Adds regression coverage for the server update layout.
+- Refreshes the Sharkord auth token before WebSocket reconnects after idle time so realtime subscriptions keep working instead of failing with `You must be auth`.
+- Uses fresh auth for uploads after long-running sessions.
 - Keeps stable channel unchanged.

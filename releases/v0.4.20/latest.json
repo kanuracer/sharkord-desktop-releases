@@ -1,0 +1,36 @@
+{
+  "version": "0.4.20",
+  "tagName": "v0.4.20",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.20",
+  "changelog": "# Sharkord Desktop v0.4.20 Beta\n\n## Changes\n\n- Refreshes the Sharkord auth token before WebSocket reconnects after idle time so realtime subscriptions keep working instead of failing with `You must be auth`.\n- Uses fresh auth for uploads after long-running sessions.\n- Keeps stable channel unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.4.20-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-darwin-arm64.zip",
+      "size": 4373976,
+      "sha256": "9250065d1066b591b4111eafbf4ccbbc92cb512835b30ca6319225071b91f58d",
+      "version": "0.4.20",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.20-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-linux-amd64.tar.gz",
+      "size": 4699264,
+      "sha256": "bedcfe78d1035648023ba8c33857b0ad2fbc654c1e67ba288664aed4a9ebd401",
+      "version": "0.4.20",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.20-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-windows-amd64.exe",
+      "size": 11681792,
+      "sha256": "288d97737d19a6d6a9cebf9d71720cbe56dbef97e99ceec92123b499e42f6809",
+      "version": "0.4.20",
+      "channel": "beta"
+    }
+  ]
+}

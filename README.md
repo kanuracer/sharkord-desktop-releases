@@ -2,16 +2,16 @@
 
 Latest public beta release only.
 
-## v0.4.14
+## v0.4.15
 
-- Restores settings import on macOS by using the native file picker.
-- Validates settings import files before applying them.
+- Fixes settings import continuing after selecting a file by using native confirmation dialogs.
+- Shows a separate status when no import file was selected.
 - Keeps stable channel unchanged.
 
 ## Downloads
 
-- macOS Apple Silicon: `sharkord-desktop-0.4.14-darwin-arm64.zip`
-- Linux x64: `sharkord-desktop-0.4.14-linux-amd64.tar.gz`
-- Windows x64: `sharkord-desktop-0.4.14-windows-amd64.exe`
+- macOS Apple Silicon: `sharkord-desktop-0.4.15-darwin-arm64.zip`
+- Linux x64: `sharkord-desktop-0.4.15-linux-amd64.tar.gz`
+- Windows x64: `sharkord-desktop-0.4.15-windows-amd64.exe`
 
 Verify with `SHA256SUMS.txt`.

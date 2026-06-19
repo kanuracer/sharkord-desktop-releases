@@ -1,7 +1,7 @@
-# Sharkord Desktop v0.4.14 Beta
+# Sharkord Desktop v0.4.15 Beta
 
 ## Changes
 
-- Restores settings import on macOS by using the native file picker.
-- Validates settings import files before applying them.
+- Fixes settings import continuing after selecting a file by using native confirmation dialogs.
+- Shows a separate status when no import file was selected.
 - Keeps stable channel unchanged.

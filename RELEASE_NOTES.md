@@ -1,8 +1,7 @@
-# Sharkord Desktop v0.4.13 Beta
+# Sharkord Desktop v0.4.14 Beta
 
 ## Changes
 
-- Adds structured plugin slash-command argument controls before command execution.
-- Supports text, number, and boolean plugin command arguments in the Desktop composer.
-- Validates required plugin command fields before sending commands to the server.
-- Keeps the Desktop plugin command flow closer to the upstream Sharkord WebUI composer behavior.
+- Restores settings import on macOS by using the native file picker.
+- Validates settings import files before applying them.
+- Keeps stable channel unchanged.

@@ -1,0 +1,36 @@
+{
+  "version": "0.4.14",
+  "tagName": "v0.4.14",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.14",
+  "changelog": "# Sharkord Desktop v0.4.14 Beta\n\n## Changes\n\n- Restores settings import on macOS by using the native file picker.\n- Validates settings import files before applying them.\n- Keeps stable channel unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.4.14-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.14/sharkord-desktop-0.4.14-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.14/sharkord-desktop-0.4.14-darwin-arm64.zip",
+      "size": 4372913,
+      "sha256": "47cd03a9d569adc35615df8e58b48e0f0bc4906bebbce53f0f3b612c3e864daf",
+      "version": "0.4.14",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.14-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.14/sharkord-desktop-0.4.14-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.14/sharkord-desktop-0.4.14-linux-amd64.tar.gz",
+      "size": 4703646,
+      "sha256": "5fcc3763c7bea577f31e50d5b72e9a3f49e5d0500f3f6bb57f740602731424a0",
+      "version": "0.4.14",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.14-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.14/sharkord-desktop-0.4.14-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.14/sharkord-desktop-0.4.14-windows-amd64.exe",
+      "size": 11675648,
+      "sha256": "9a303b5a426b196d376a8caa983596cdd54e4fba9c0959e507898b816fd89e8d",
+      "version": "0.4.14",
+      "channel": "beta"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": "0.4.16",
+  "tagName": "v0.4.16",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.16",
+  "changelog": "# Sharkord Desktop v0.4.16 Beta\n\n## Changes\n\n- Completes desktop route coverage for current Sharkord WebUI/server parity.\n- Adds official DM conversation deletion in the native sidebar.\n- Adds server owner update and secret-token parity controls.\n- Includes the native settings import confirmation fix from v0.4.15.\n- Keeps stable channel unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.4.16-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.16/sharkord-desktop-0.4.16-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.16/sharkord-desktop-0.4.16-darwin-arm64.zip",
+      "size": 4373882,
+      "sha256": "71a4d3f58ad116bab5827417d997f16c539c9ebc810e6dba82e6f914546fea43",
+      "version": "0.4.16",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.16-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.16/sharkord-desktop-0.4.16-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.16/sharkord-desktop-0.4.16-linux-amd64.tar.gz",
+      "size": 4704633,
+      "sha256": "50d6beb11c38a4e487186e73f8368b28c3ae4d14c455945aa838a35589e265e6",
+      "version": "0.4.16",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.4.16-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.16/sharkord-desktop-0.4.16-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.16/sharkord-desktop-0.4.16-windows-amd64.exe",
+      "size": 11680768,
+      "sha256": "62aa3365fabc8452771519eac2f23bcb3cfb0472ac15ce483769c91355313fcd",
+      "version": "0.4.16",
+      "channel": "beta"
+    }
+  ]
+}

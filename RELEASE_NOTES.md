@@ -1,8 +1,8 @@
-# Sharkord Desktop v0.4.18 Beta
+# Sharkord Desktop v0.4.19 Beta
 
 ## Changes
 
-- Moves the Server-Owner-Token and server self-update controls into per-server settings.
-- Keeps the global Updates tab focused on desktop app updates only.
-- Adds regression coverage so the owner-token controls cannot drift back into global settings.
+- Polishes the Server-Update controls in server settings so the owner-token field and action button align cleanly.
+- Groups server update actions into a compact Discord-like card and keeps the password/footer area visible in the settings panel.
+- Adds regression coverage for the server update layout.
 - Keeps stable channel unchanged.

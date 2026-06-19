@@ -1,35 +1,35 @@
 {
-  "version": "0.4.18",
-  "tagName": "v0.4.18",
+  "version": "0.4.19",
+  "tagName": "v0.4.19",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.18",
-  "changelog": "# Sharkord Desktop v0.4.18 Beta\n\n## Changes\n\n- Moves the Server-Owner-Token and server self-update controls into per-server settings.\n- Keeps the global Updates tab focused on desktop app updates only.\n- Adds regression coverage so the owner-token controls cannot drift back into global settings.\n- Keeps stable channel unchanged.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.19",
+  "changelog": "# Sharkord Desktop v0.4.19 Beta\n\n## Changes\n\n- Polishes the Server-Update controls in server settings so the owner-token field and action button align cleanly.\n- Groups server update actions into a compact Discord-like card and keeps the password/footer area visible in the settings panel.\n- Adds regression coverage for the server update layout.\n- Keeps stable channel unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.18-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.18/sharkord-desktop-0.4.18-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.18/sharkord-desktop-0.4.18-darwin-arm64.zip",
-      "size": 4373765,
-      "sha256": "0325464452841cd1390f1f47b2233e55b96c7b8965b5b24434ba1ef92c92bd8c",
-      "version": "0.4.18",
+      "name": "sharkord-desktop-0.4.19-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-darwin-arm64.zip",
+      "size": 4373887,
+      "sha256": "7d76a1b95621fa6f6b4ffaf03dbb6072cf98201757e298e68bf8b0429e6641ff",
+      "version": "0.4.19",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.18-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.18/sharkord-desktop-0.4.18-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.18/sharkord-desktop-0.4.18-linux-amd64.tar.gz",
-      "size": 4699077,
-      "sha256": "11b2f9ed2571087fb8a275eab8cd00d771de71b6bc6503d3fd2da4b38ba2e642",
-      "version": "0.4.18",
+      "name": "sharkord-desktop-0.4.19-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-linux-amd64.tar.gz",
+      "size": 4699134,
+      "sha256": "37da9cefcd030ad956cb967d3259ad1f1a98bf44df809ec61824a72b6077cf82",
+      "version": "0.4.19",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.4.18-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.18/sharkord-desktop-0.4.18-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.18/sharkord-desktop-0.4.18-windows-amd64.exe",
-      "size": 11680768,
-      "sha256": "65caa501bf1da2b215ea098d38121aa9974dc2e572183b95e37ac2a9a577d7df",
-      "version": "0.4.18",
+      "name": "sharkord-desktop-0.4.19-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.19/sharkord-desktop-0.4.19-windows-amd64.exe",
+      "size": 11681792,
+      "sha256": "d26b08c3b2b10ef167f2efbe83fb763991bd69a13a650c3932fd27bee813e639",
+      "version": "0.4.19",
       "channel": "beta"
     }
   ]

@@ -1,35 +1,35 @@
 {
-  "version": "0.5.6",
-  "tagName": "v0.5.6",
+  "version": "0.5.7",
+  "tagName": "v0.5.7",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.6",
-  "changelog": "# Sharkord Desktop v0.5.6 Beta\n\n## Fixes\n\n- Replaces the unsupported DM-delete sidebar text with a compact icon-only disabled affordance, so it no longer wraps into ugly fragments.\n- Keeps the full tooltip/aria label for servers that do not support DM deletion.\n- Bumps beta app/build metadata to 0.5.6; stable channel remains unchanged.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.7",
+  "changelog": "# Sharkord Desktop v0.5.7 Beta\n\n## Added\n\n- Adds a command palette with Ctrl/Cmd+K for quick app actions and navigation.\n- Adds an attachment lightbox for image/media previews from messages and storage.\n- Adds a notification center and appearance controls for compact mode, reduced motion, high contrast, and font size.\n\n## Fixed\n\n- Localizes the new appearance and command-palette UI in English.\n- Keeps beta update verification copy focused on checksum/feed status and safe rollback/manual install guidance.\n- Stable channel remains unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.6-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.6/sharkord-desktop-0.5.6-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.6/sharkord-desktop-0.5.6-darwin-arm64.zip",
-      "size": 4376170,
-      "sha256": "db00223646d704a0db0edb7023811a577afe26799751e823f08902fa1c771a36",
-      "version": "0.5.6",
+      "name": "sharkord-desktop-0.5.7-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.7/sharkord-desktop-0.5.7-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.7/sharkord-desktop-0.5.7-darwin-arm64.zip",
+      "size": 4382158,
+      "sha256": "ff7c082e5e02836dea4d752c3f2e7206fec87195e354e7e96472c3d4a1c114cd",
+      "version": "0.5.7",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.6-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.6/sharkord-desktop-0.5.6-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.6/sharkord-desktop-0.5.6-linux-amd64.tar.gz",
-      "size": 4701992,
-      "sha256": "0cfb5ede288ef9603723a4e8ebbce46e292e3147785b8fd146164cb9e2e5a30c",
-      "version": "0.5.6",
+      "name": "sharkord-desktop-0.5.7-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.7/sharkord-desktop-0.5.7-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.7/sharkord-desktop-0.5.7-linux-amd64.tar.gz",
+      "size": 4707916,
+      "sha256": "9c77d4fb07b334105b29cf4f36ad72c352c49c69254d323214b278c48efbeff4",
+      "version": "0.5.7",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.6-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.6/sharkord-desktop-0.5.6-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.6/sharkord-desktop-0.5.6-windows-amd64.exe",
-      "size": 11690496,
-      "sha256": "6b7fc8df3c76a331935759799186e6c9917a8942ca65aaf57953a12447081ace",
-      "version": "0.5.6",
+      "name": "sharkord-desktop-0.5.7-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.7/sharkord-desktop-0.5.7-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.7/sharkord-desktop-0.5.7-windows-amd64.exe",
+      "size": 11715584,
+      "sha256": "dc18321d415d183ff550d745fc4f2d90c884052da639dc531e245d31a07ca456",
+      "version": "0.5.7",
       "channel": "beta"
     }
   ]

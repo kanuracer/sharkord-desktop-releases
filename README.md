@@ -1,5 +1,3 @@
-# Sharkord Desktop Beta Releases
+# Sharkord Desktop beta releases
 
-Latest beta: v0.5.6
-
-See `latest.json` for updater metadata and `SHA256SUMS.txt` for checksums.
+Current beta: v0.5.7

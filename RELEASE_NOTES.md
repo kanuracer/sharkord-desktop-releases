@@ -1,8 +1,7 @@
-# Sharkord Desktop v0.5.3 Beta
+# Sharkord Desktop v0.5.4 Beta
 
 ## Fixes
 
-- Fixes removing saved servers from the Desktop app.
-- Uses an in-app confirmation dialog instead of the fragile native browser confirm.
-- Removes the server from the local list before credential cleanup, so cleanup errors no longer block removal.
-- Stable channel unchanged.
+- Gates voice participant move controls behind the server capability contract, so original Sharkord servers stay safe when the Kanuracer move API is unavailable.
+- Adds a visible in-app confirmation flow for direct-message conversation deletion instead of relying on fragile native browser confirmation.
+- Keeps beta channel current while stable remains unchanged.

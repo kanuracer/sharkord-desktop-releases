@@ -1,0 +1,36 @@
+{
+  "version": "0.5.4",
+  "tagName": "v0.5.4",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.4",
+  "changelog": "# Sharkord Desktop v0.5.4 Beta\n\n## Fixes\n\n- Gates voice participant move controls behind the server capability contract, so original Sharkord servers stay safe when the Kanuracer move API is unavailable.\n- Adds a visible in-app confirmation flow for direct-message conversation deletion instead of relying on fragile native browser confirmation.\n- Keeps beta channel current while stable remains unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.4-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.4/sharkord-desktop-0.5.4-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.4/sharkord-desktop-0.5.4-darwin-arm64.zip",
+      "size": 4376250,
+      "sha256": "ac55790234bf4376091fb9b20dd6f759bf36a5679d962e46acf3e97072a7900a",
+      "version": "0.5.4",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.4-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.4/sharkord-desktop-0.5.4-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.4/sharkord-desktop-0.5.4-linux-amd64.tar.gz",
+      "size": 4702761,
+      "sha256": "444a6ee530a4370ba18a39f0a322ecae988b8f47bd6917ce1ccc4183f76c5082",
+      "version": "0.5.4",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.4-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.4/sharkord-desktop-0.5.4-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.4/sharkord-desktop-0.5.4-windows-amd64.exe",
+      "size": 11689984,
+      "sha256": "d656151b1ebc7af1f15b052ea60155e52f2d94150d7368526b019688cd330e2d",
+      "version": "0.5.4",
+      "channel": "beta"
+    }
+  ]
+}

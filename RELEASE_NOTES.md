@@ -1,8 +1,8 @@
-# Sharkord Desktop v0.5.1 Beta
+# Sharkord Desktop v0.5.2 Beta
 
 ## Fixes
 
-- Reconnects the full Sharkord session when protected realtime subscriptions report authentication failure.
-- Resubscribes after reconnect so `categories.onDelete` and similar idle subscription errors recover automatically.
-- Keeps the active channel selected after the reconnect.
-- Keeps stable channel unchanged.
+- Keeps WebSocket reconnects on the server-joined token so protected realtime subscriptions stay authenticated after idle reconnects.
+- Fixes `categories.onDelete: You must be authenticated to perform this action.` after reconnects where the server had not marked a freshly refreshed token as joined.
+- Leaves upload/auth refresh behavior intact for non-WebSocket calls.
+- Stable channel unchanged.

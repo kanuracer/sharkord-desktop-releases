@@ -1,0 +1,36 @@
+{
+  "version": "0.5.2",
+  "tagName": "v0.5.2",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.2",
+  "changelog": "# Sharkord Desktop v0.5.2 Beta\n\n## Fixes\n\n- Keeps WebSocket reconnects on the server-joined token so protected realtime subscriptions stay authenticated after idle reconnects.\n- Fixes `categories.onDelete: You must be authenticated to perform this action.` after reconnects where the server had not marked a freshly refreshed token as joined.\n- Leaves upload/auth refresh behavior intact for non-WebSocket calls.\n- Stable channel unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.2-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.2/sharkord-desktop-0.5.2-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.2/sharkord-desktop-0.5.2-darwin-arm64.zip",
+      "size": 4375055,
+      "sha256": "1023be853dec5ad67251328ba5e8f3cb6b8119c2ebe1e2f26e061514237faf7b",
+      "version": "0.5.2",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.2-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.2/sharkord-desktop-0.5.2-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.2/sharkord-desktop-0.5.2-linux-amd64.tar.gz",
+      "size": 4707402,
+      "sha256": "c236729ffb982d47b4e4d0670a68d416ab01eee14a0adf31215426567d059f61",
+      "version": "0.5.2",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.2-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.2/sharkord-desktop-0.5.2-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.2/sharkord-desktop-0.5.2-windows-amd64.exe",
+      "size": 11685376,
+      "sha256": "102d92f7542b8db4989194528c3128e32df7b8cbc96237d4ab135b0484f332ab",
+      "version": "0.5.2",
+      "channel": "beta"
+    }
+  ]
+}

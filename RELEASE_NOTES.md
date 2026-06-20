@@ -1,7 +1,7 @@
-# Sharkord Desktop v0.5.5 Beta
+# Sharkord Desktop v0.5.6 Beta
 
 ## Fixes
 
-- Adds the visible in-app confirmation flow for direct-message conversation deletion and uses the real capability-gated delete route.
-- Keeps the beta app version, package metadata, and build script defaults aligned at 0.5.5.
-- Stable channel remains unchanged.
+- Replaces the unsupported DM-delete sidebar text with a compact icon-only disabled affordance, so it no longer wraps into ugly fragments.
+- Keeps the full tooltip/aria label for servers that do not support DM deletion.
+- Bumps beta app/build metadata to 0.5.6; stable channel remains unchanged.

@@ -1,8 +1,8 @@
-# Sharkord Desktop v0.5.2 Beta
+# Sharkord Desktop v0.5.3 Beta
 
 ## Fixes
 
-- Keeps WebSocket reconnects on the server-joined token so protected realtime subscriptions stay authenticated after idle reconnects.
-- Fixes `categories.onDelete: You must be authenticated to perform this action.` after reconnects where the server had not marked a freshly refreshed token as joined.
-- Leaves upload/auth refresh behavior intact for non-WebSocket calls.
+- Fixes removing saved servers from the Desktop app.
+- Uses an in-app confirmation dialog instead of the fragile native browser confirm.
+- Removes the server from the local list before credential cleanup, so cleanup errors no longer block removal.
 - Stable channel unchanged.

@@ -1,0 +1,36 @@
+{
+  "version": "0.5.3",
+  "tagName": "v0.5.3",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.3",
+  "changelog": "# Sharkord Desktop v0.5.3 Beta\n\n## Fixes\n\n- Fixes removing saved servers from the Desktop app.\n- Uses an in-app confirmation dialog instead of the fragile native browser confirm.\n- Removes the server from the local list before credential cleanup, so cleanup errors no longer block removal.\n- Stable channel unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.3-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.3/sharkord-desktop-0.5.3-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.3/sharkord-desktop-0.5.3-darwin-arm64.zip",
+      "size": 4375307,
+      "sha256": "1d4f094bb53b95ef5ca18d4ce0a3a19971ad79d79edff34245fdf8ce17b58b3e",
+      "version": "0.5.3",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.3-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.3/sharkord-desktop-0.5.3-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.3/sharkord-desktop-0.5.3-linux-amd64.tar.gz",
+      "size": 4701764,
+      "sha256": "aedfec56add8e0301734719070e7f35f5ecd3f8f5b11620f27ad11a919cc73ba",
+      "version": "0.5.3",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.3-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.3/sharkord-desktop-0.5.3-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.3/sharkord-desktop-0.5.3-windows-amd64.exe",
+      "size": 11686912,
+      "sha256": "52d8c13863892408693a3a13665690d9ed0867ba8954ee0cdd0393ff534585ff",
+      "version": "0.5.3",
+      "channel": "beta"
+    }
+  ]
+}

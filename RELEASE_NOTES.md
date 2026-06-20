@@ -1,7 +1,7 @@
-# Sharkord Desktop v0.4.20
+# Sharkord Desktop v0.5.5 Stable
 
-## Changes
+## Fixes
 
-- Promotes the v0.4.20 build to the Stable update channel.
-- Refreshes the Sharkord auth token before WebSocket reconnects after idle time so realtime subscriptions keep working instead of failing with `You must be auth`.
-- Uses fresh auth for uploads after long-running sessions.
+- Adds the visible in-app confirmation flow for direct-message conversation deletion and uses the real capability-gated delete route.
+- Includes the original-safe voice participant move capability gate from the beta channel.
+- Promotes the verified 0.5.5 build to stable.

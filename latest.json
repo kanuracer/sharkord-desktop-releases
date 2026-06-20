@@ -1,35 +1,35 @@
 {
-  "version": "0.4.20",
-  "tagName": "v0.4.20",
+  "version": "0.5.5",
+  "tagName": "v0.5.5",
   "channel": "stable",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.4.20",
-  "changelog": "# Sharkord Desktop v0.4.20\n\n## Changes\n\n- Promotes the v0.4.20 build to the Stable update channel.\n- Refreshes the Sharkord auth token before WebSocket reconnects after idle time so realtime subscriptions keep working instead of failing with `You must be auth`.\n- Uses fresh auth for uploads after long-running sessions.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.5",
+  "changelog": "# Sharkord Desktop v0.5.5 Stable\n\n## Fixes\n\n- Adds the visible in-app confirmation flow for direct-message conversation deletion and uses the real capability-gated delete route.\n- Includes the original-safe voice participant move capability gate from the beta channel.\n- Promotes the verified 0.5.5 build to stable.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.4.20-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-darwin-arm64.zip",
-      "size": 4373976,
-      "sha256": "9250065d1066b591b4111eafbf4ccbbc92cb512835b30ca6319225071b91f58d",
-      "version": "0.4.20",
+      "name": "sharkord-desktop-0.5.5-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.5/sharkord-desktop-0.5.5-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.5/sharkord-desktop-0.5.5-darwin-arm64.zip",
+      "size": 4376157,
+      "sha256": "2cb633026d9a9877485da25f968fc0ad069f20a9fdb3d909bf49d2829ffaadb4",
+      "version": "0.5.5",
       "channel": "stable"
     },
     {
-      "name": "sharkord-desktop-0.4.20-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-linux-amd64.tar.gz",
-      "size": 4699264,
-      "sha256": "bedcfe78d1035648023ba8c33857b0ad2fbc654c1e67ba288664aed4a9ebd401",
-      "version": "0.4.20",
+      "name": "sharkord-desktop-0.5.5-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.5/sharkord-desktop-0.5.5-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.5/sharkord-desktop-0.5.5-linux-amd64.tar.gz",
+      "size": 4702356,
+      "sha256": "9f5b26337cd6d2028a98e1fff4e6496e07c2dc7e2dbfc1769fe82cca961365c5",
+      "version": "0.5.5",
       "channel": "stable"
     },
     {
-      "name": "sharkord-desktop-0.4.20-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.4.20/sharkord-desktop-0.4.20-windows-amd64.exe",
-      "size": 11681792,
-      "sha256": "288d97737d19a6d6a9cebf9d71720cbe56dbef97e99ceec92123b499e42f6809",
-      "version": "0.4.20",
+      "name": "sharkord-desktop-0.5.5-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.5/sharkord-desktop-0.5.5-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.5/sharkord-desktop-0.5.5-windows-amd64.exe",
+      "size": 11689984,
+      "sha256": "9d29751ca18c13f6c6dac5a0f141b2ee148016515c219e2ba0d5cae1f31d2ef5",
+      "version": "0.5.5",
       "channel": "stable"
     }
   ]

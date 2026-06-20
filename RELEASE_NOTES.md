@@ -1,7 +1,7 @@
-# Sharkord Desktop v0.5.4 Beta
+# Sharkord Desktop v0.5.5 Beta
 
 ## Fixes
 
-- Gates voice participant move controls behind the server capability contract, so original Sharkord servers stay safe when the Kanuracer move API is unavailable.
-- Adds a visible in-app confirmation flow for direct-message conversation deletion instead of relying on fragile native browser confirmation.
-- Keeps beta channel current while stable remains unchanged.
+- Adds the visible in-app confirmation flow for direct-message conversation deletion and uses the real capability-gated delete route.
+- Keeps the beta app version, package metadata, and build script defaults aligned at 0.5.5.
+- Stable channel remains unchanged.

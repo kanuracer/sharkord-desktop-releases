@@ -1,0 +1,36 @@
+{
+  "version": "0.5.12",
+  "tagName": "v0.5.12",
+  "channel": "stable",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.12",
+  "changelog": "# Sharkord Desktop v0.5.12 Stable\n\n## Fixed\n\n- Fixes English locale text corruption such as `Privatee Voice Channels`.\n- Fixes mixed German/English plural text such as `3 Categoryn`; English now renders `3 Categories`.\n- Includes the previously verified 0.5.12 beta fixes for Linux, Windows, and macOS arm64.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.12-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-linux-amd64.tar.gz",
+      "size": 4717717,
+      "sha256": "bc7f0d4d64e6332da51ad90f8505ee7f01079691ba391a64dc4442fa2844fa4c",
+      "version": "0.5.12",
+      "channel": "stable"
+    },
+    {
+      "name": "sharkord-desktop-0.5.12-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-windows-amd64.exe",
+      "size": 11727872,
+      "sha256": "f895dc59db23ab11c6300256ba75230c17c9bf9a53e01dd99087aaa9d93e53a7",
+      "version": "0.5.12",
+      "channel": "stable"
+    },
+    {
+      "name": "sharkord-desktop-0.5.12-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-darwin-arm64.zip",
+      "size": 4386004,
+      "sha256": "7aceaca77c3a4a5f94f0a8357e0464ffa3097d26cb61feb7f959f8a323f9d7d0",
+      "version": "0.5.12",
+      "channel": "stable"
+    }
+  ]
+}

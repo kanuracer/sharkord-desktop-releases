@@ -1,7 +1,7 @@
-# Sharkord Desktop v0.5.5 Stable
+# Sharkord Desktop v0.5.12 Stable
 
-## Fixes
+## Fixed
 
-- Adds the visible in-app confirmation flow for direct-message conversation deletion and uses the real capability-gated delete route.
-- Includes the original-safe voice participant move capability gate from the beta channel.
-- Promotes the verified 0.5.5 build to stable.
+- Fixes English locale text corruption such as `Privatee Voice Channels`.
+- Fixes mixed German/English plural text such as `3 Categoryn`; English now renders `3 Categories`.
+- Includes the previously verified 0.5.12 beta fixes for Linux, Windows, and macOS arm64.

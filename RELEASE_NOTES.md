@@ -1,7 +1,6 @@
-# Sharkord Desktop v0.5.12 Stable
+# Sharkord Desktop v0.5.13 Stable
 
 ## Fixed
 
-- Fixes English locale text corruption such as `Privatee Voice Channels`.
-- Fixes mixed German/English plural text such as `3 Categoryn`; English now renders `3 Categories`.
-- Includes the previously verified 0.5.12 beta fixes for Linux, Windows, and macOS arm64.
+- Preserves unsaved local role edits while realtime role updates arrive, so in-progress permission changes no longer get overwritten before saving.
+- Includes the 0.5.12 English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.

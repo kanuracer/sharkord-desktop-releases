@@ -1,0 +1,36 @@
+{
+  "version": "0.5.11",
+  "tagName": "v0.5.11",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.11",
+  "changelog": "# Sharkord Desktop v0.5.11 Beta\n\n## Fixed\n\n- Completes the remaining English/German i18n cleanup for dynamic app text, dialogs, admin settings, server update status, storage, DM deletion, and voice move/status surfaces.\n- Routes previously raw role/emoji admin strings through the i18n system.\n- Adds regression coverage so English mode fails tests if production `tr(...)` strings leak German UI text.\n- Stable channel remains unchanged.\n\n## Downloads\n\n- Linux, Windows, and macOS arm64 assets are included in this beta.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.11-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.11/sharkord-desktop-0.5.11-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.11/sharkord-desktop-0.5.11-linux-amd64.tar.gz",
+      "size": 4710064,
+      "sha256": "46df3f7385d829b1ae71e2cde69b0e02d6e2abb207a116c1c08dc1133e124a01",
+      "version": "0.5.11",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.11-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.11/sharkord-desktop-0.5.11-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.11/sharkord-desktop-0.5.11-windows-amd64.exe",
+      "size": 11727872,
+      "sha256": "ae3fe21878834263a0deb751bc52f7d569410a2251d6e3329c7304fdcb76cc3a",
+      "version": "0.5.11",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.11-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.11/sharkord-desktop-0.5.11-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.11/sharkord-desktop-0.5.11-darwin-arm64.zip",
+      "size": 4386022,
+      "sha256": "d6457d1f155d1c744062d6822a1b6d79d0519133fd91d5db26b9d096e32d2068",
+      "version": "0.5.11",
+      "channel": "beta"
+    }
+  ]
+}

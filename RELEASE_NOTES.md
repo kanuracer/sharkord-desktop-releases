@@ -1,10 +1,10 @@
-# Sharkord Desktop v0.5.10 Beta
+# Sharkord Desktop v0.5.11 Beta
 
 ## Fixed
 
-- Completes English locale coverage for the reported update/settings, server update, direct-message delete, storage, and voice move UI surfaces.
-- Moves these strings into the i18n language table/fallbacks instead of leaking mixed German/English text when English is selected.
-- Adds coverage for the reported mixed-language UI so phrases like `Direktnachricht delete`, `Herunterladen`, `URL kopieren`, `Server-Update`, and `verschoben nach` stay translated.
+- Completes the remaining English/German i18n cleanup for dynamic app text, dialogs, admin settings, server update status, storage, DM deletion, and voice move/status surfaces.
+- Routes previously raw role/emoji admin strings through the i18n system.
+- Adds regression coverage so English mode fails tests if production `tr(...)` strings leak German UI text.
 - Stable channel remains unchanged.
 
 ## Downloads

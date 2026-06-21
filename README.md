@@ -12,43 +12,13 @@ Sharkord Desktop is a real native desktop shell for Sharkord. It is built with W
 
 ---
 
-## Screenshots
+## Screenshot
 
-### Full chat layout
+### Full desktop layout
 
-![Sharkord Desktop full chat layout](docs/screenshots/01-main-chat.png)
+![Sharkord Desktop full desktop layout](docs/screenshots/sharkord-desktop-main-fullscreen-original.png)
 
-The main desktop layout includes the server switcher, channel list, text channel view, composer, voice/status footer, and the full member sidebar.
-
-### First-run onboarding
-
-![Sharkord Desktop welcome screen](docs/screenshots/01-welcome.png)
-
-The first-run screen starts with a clean server list and guides the user to add a Sharkord server.
-
-### Add a server
-
-![Add Sharkord server dialog](docs/screenshots/02-add-server.png)
-
-Add a server by URL, optional invite code, optional server password, and encrypted saved login credentials for auto-connect.
-
-### Appearance and accessibility
-
-![Appearance and accessibility settings](docs/screenshots/03-appearance-settings.png)
-
-Configure dark/light theme, language, compact mode, reduced motion, high contrast, and font size from the native settings screen.
-
-### Audio, video, and screen sharing
-
-![Audio and video settings](docs/screenshots/04-audio-video-settings.png)
-
-Configure playback, microphone, webcam, voice filters, echo cancellation, screen-sharing resolution, frame rate, codec, bitrate, and system audio options.
-
-### Import and export
-
-![Import and export settings](docs/screenshots/05-import-export.png)
-
-Export and import desktop settings through native file dialogs. User data and saved credentials are optional and must be explicitly included.
+Sharkord Desktop with server switcher, channel list, text channel view, composer, voice/status footer, and member sidebar.
 
 ---
 

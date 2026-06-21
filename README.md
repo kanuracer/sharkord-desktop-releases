@@ -6,8 +6,6 @@ Public release repository for **Sharkord Desktop**, the native desktop client fo
 
 **Latest release:** <https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.13>
 
-**Desktop source:** <https://github.com/kanuracer/sharkord-desktop>
-
 **Kanuracer server fork:** <https://github.com/kanuracer/sharkord-server>
 
 Sharkord Desktop is a real native desktop shell for Sharkord. It is built with Wails, Go, React, TypeScript, and Vite. It is not Electron, and it is not an iframe around the web client.
@@ -290,12 +288,6 @@ Full notes: [`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 No. This repository contains public desktop release artifacts. The Kanuracer server fork is here:
 
 - <https://github.com/kanuracer/sharkord-server>
-
-### Is this the desktop source code?
-
-No. The desktop source code is here:
-
-- <https://github.com/kanuracer/sharkord-desktop>
 
 ### Why do I not see DM delete, server update, owner-token, or voice move controls?
 

@@ -1,8 +1,11 @@
-# Sharkord Desktop v0.5.8 Beta
+# Sharkord Desktop v0.5.9 Beta
 
 ## Fixed
 
-- Keeps the DM delete button visible on every connected server.
-- Shows an in-app unsupported-feature dialog when the selected server does not support DM conversation deletion.
-- Removes the old unsupported-sidebar label so the UI stays consistent.
+- Updates live member presence immediately when a user comes online while the desktop app is already open.
+- Forces `users.onJoin` realtime events to mark the joined user as online, matching the webclient behavior and avoiding stale offline state until restart.
 - Stable channel remains unchanged.
+
+## Notes
+
+- Linux and Windows assets are included in this beta. macOS requires a native macOS build host and is not included in this package.

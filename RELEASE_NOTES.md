@@ -1,13 +1,8 @@
-# Sharkord Desktop v0.5.7 Beta
-
-## Added
-
-- Adds a command palette with Ctrl/Cmd+K for quick app actions and navigation.
-- Adds an attachment lightbox for image/media previews from messages and storage.
-- Adds a notification center and appearance controls for compact mode, reduced motion, high contrast, and font size.
+# Sharkord Desktop v0.5.8 Beta
 
 ## Fixed
 
-- Localizes the new appearance and command-palette UI in English.
-- Keeps beta update verification copy focused on checksum/feed status and safe rollback/manual install guidance.
+- Keeps the DM delete button visible on every connected server.
+- Shows an in-app unsupported-feature dialog when the selected server does not support DM conversation deletion.
+- Removes the old unsupported-sidebar label so the UI stays consistent.
 - Stable channel remains unchanged.

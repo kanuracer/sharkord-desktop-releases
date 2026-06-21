@@ -1,0 +1,36 @@
+{
+  "version": "0.5.8",
+  "tagName": "v0.5.8",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.8",
+  "changelog": "# Sharkord Desktop v0.5.8 Beta\n\n## Fixed\n\n- Keeps the DM delete button visible on every connected server.\n- Shows an in-app unsupported-feature dialog when the selected server does not support DM conversation deletion.\n- Removes the old unsupported-sidebar label so the UI stays consistent.\n- Stable channel remains unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.8-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.8/sharkord-desktop-0.5.8-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.8/sharkord-desktop-0.5.8-darwin-arm64.zip",
+      "size": 4382333,
+      "sha256": "4bd0ec990f194d97122b55ba5428039f7467122843d5f6914d7fc7ec0f97f1ca",
+      "version": "0.5.8",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.8-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.8/sharkord-desktop-0.5.8-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.8/sharkord-desktop-0.5.8-linux-amd64.tar.gz",
+      "size": 4706967,
+      "sha256": "c58cbc48f415138a4146ba5974bff9c4c30ca74d6ac172df7b64b0c413904815",
+      "version": "0.5.8",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.8-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.8/sharkord-desktop-0.5.8-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.8/sharkord-desktop-0.5.8-windows-amd64.exe",
+      "size": 11716096,
+      "sha256": "9b73af68107c6650dc3ebc440bcf1a573b0946761a54efa29baa7db18abf3e0b",
+      "version": "0.5.8",
+      "channel": "beta"
+    }
+  ]
+}

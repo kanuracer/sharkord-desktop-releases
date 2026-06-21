@@ -1,35 +1,35 @@
 {
-  "version": "0.5.12",
-  "tagName": "v0.5.12",
+  "version": "0.5.13",
+  "tagName": "v0.5.13",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.12",
-  "changelog": "# Sharkord Desktop v0.5.12 Beta\n\n## Fixed\n\n- Stops English locale fallback from partially translating English words, fixing `Private Voice Channels` showing as `Privatee Voice Channels`.\n- Fixes mixed German/English category plurals like `3 Categoryn`; English now renders `3 Categories`.\n- Adds regression coverage for these screenshot-reported text corruption cases.\n- Stable channel remains unchanged.\n\n## Downloads\n\n- Linux, Windows, and macOS arm64 assets are included in this beta.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.13",
+  "changelog": "# Sharkord Desktop v0.5.13 Beta\n\n## Fixed\n\n- Preserves unsaved local role edits while realtime role updates arrive, so in-progress permission changes no longer get overwritten before saving.\n- Includes the 0.5.12 English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.12-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-linux-amd64.tar.gz",
-      "size": 4717717,
-      "sha256": "bc7f0d4d64e6332da51ad90f8505ee7f01079691ba391a64dc4442fa2844fa4c",
-      "version": "0.5.12",
+      "name": "sharkord-desktop-0.5.13-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-linux-amd64.tar.gz",
+      "size": 4710084,
+      "sha256": "2b53af8e7bb26956e89e4403710011843ddf4daf6fd50a3ac52618c5f81c67dc",
+      "version": "0.5.13",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.12-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-windows-amd64.exe",
-      "size": 11727872,
-      "sha256": "f895dc59db23ab11c6300256ba75230c17c9bf9a53e01dd99087aaa9d93e53a7",
-      "version": "0.5.12",
+      "name": "sharkord-desktop-0.5.13-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-windows-amd64.exe",
+      "size": 11728384,
+      "sha256": "8a85605419802a315821b3cddb16985683e7eda080a1aca33fc3c64a1ac8167a",
+      "version": "0.5.13",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.12-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.12/sharkord-desktop-0.5.12-darwin-arm64.zip",
-      "size": 4386004,
-      "sha256": "7aceaca77c3a4a5f94f0a8357e0464ffa3097d26cb61feb7f959f8a323f9d7d0",
-      "version": "0.5.12",
+      "name": "sharkord-desktop-0.5.13-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-darwin-arm64.zip",
+      "size": 4386078,
+      "sha256": "1d5e3a021951c5e4b81083fef4a7ac7e8932a54f33afa6bff45ccca153eed362",
+      "version": "0.5.13",
       "channel": "beta"
     }
   ]

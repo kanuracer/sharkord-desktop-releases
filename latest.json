@@ -1,26 +1,26 @@
 {
-  "version": "0.5.9",
-  "tagName": "v0.5.9",
+  "version": "0.5.10",
+  "tagName": "v0.5.10",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.9",
-  "changelog": "# Sharkord Desktop v0.5.9 Beta\n\n## Fixed\n\n- Updates live member presence immediately when a user comes online while the desktop app is already open.\n- Forces `users.onJoin` realtime events to mark the joined user as online, matching the webclient behavior and avoiding stale offline state until restart.\n- Stable channel remains unchanged.\n\n## Notes\n\n- Linux and Windows assets are included in this beta. macOS requires a native macOS build host and is not included in this package.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/tree/beta/releases/v0.5.10",
+  "changelog": "# Sharkord Desktop v0.5.10 Beta\n\n## Fixed\n\n- Completes English locale coverage for the reported update/settings, server update, direct-message delete, storage, and voice move UI surfaces.\n- Moves these strings into the i18n language table/fallbacks instead of leaking mixed German/English text when English is selected.\n- Adds regression coverage for the reported screenshots so phrases like `Direktnachricht delete`, `Herunterladen`, `URL kopieren`, `Server-Update`, and `verschoben nach` stay translated.\n- Stable channel remains unchanged.\n\n## Verification\n\n- Frontend tests: 286/286 passing.\n- Frontend production build: passing.\n- Go tests: 27/27 passing.\n- npm audit high/prod: 0 vulnerabilities.\n- govulncheck: 0 reachable vulnerabilities.\n\n## Notes\n\n- Linux and Windows assets are included in this beta. macOS requires a native macOS build host and is not included in this package.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.9-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.9/sharkord-desktop-0.5.9-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.9/sharkord-desktop-0.5.9-linux-amd64.tar.gz",
-      "size": 4708025,
-      "sha256": "87745dd5d88d7d29ae6e54f0abba0e1ae42562c7b6ca9867e4b9f61be5f0575d",
-      "version": "0.5.9",
+      "name": "sharkord-desktop-0.5.10-linux-amd64.tar.gz",
+      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.10/sharkord-desktop-0.5.10-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.10/sharkord-desktop-0.5.10-linux-amd64.tar.gz",
+      "size": 4675813,
+      "sha256": "a3dd2466e681822ad18c474cf563f6de3a31d9c734cd88666912f394d8f39dd4",
+      "version": "0.5.10",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.9-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.9/sharkord-desktop-0.5.9-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.9/sharkord-desktop-0.5.9-windows-amd64.exe",
-      "size": 11716608,
-      "sha256": "92e29a6202d0eda8bc50c03284327520d14ea46a2b00957c4bd9edf28e1723ed",
-      "version": "0.5.9",
+      "name": "sharkord-desktop-0.5.10-windows-amd64.exe",
+      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.10/sharkord-desktop-0.5.10-windows-amd64.exe",
+      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.10/sharkord-desktop-0.5.10-windows-amd64.exe",
+      "size": 11719680,
+      "sha256": "6aa3b83f0851bdbcc41ca515e56f8bd1697e5dbca724120664f4ff34cbea08e4",
+      "version": "0.5.10",
       "channel": "beta"
     }
   ]

@@ -1,12 +1,12 @@
-# Sharkord Desktop v0.5.14 Beta
+# Sharkord Desktop v0.5.15 Beta
 
 ## Added
 
-- Adds native two-factor login support for servers requiring TOTP.
-- Stores a server-minted remembered-device app password in the existing secure credential store after successful TOTP login.
-- Adds profile UI to list and revoke remembered-device app passwords.
+- Adds native Desktop TOTP setup and disable controls in the account/profile popup.
+- Replaces the inline optional login 2FA field with a focused two-factor verification dialog.
+- Keeps Desktop in parity with the Webclient TOTP setup flow.
 
 ## Security
 
-- TOTP codes are not persisted.
-- Remembered-device app passwords are stored locally through the existing encrypted credential path.
+- TOTP one-time codes are not stored.
+- Remembered-device app passwords remain revocable and stored through the existing secure credential path.

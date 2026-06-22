@@ -1,35 +1,35 @@
 {
-  "version": "0.5.15",
-  "tagName": "v0.5.15",
+  "version": "0.5.16",
+  "tagName": "v0.5.16",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.15",
-  "changelog": "# Sharkord Desktop v0.5.15 Beta\n\n## Added\n\n- Adds native Desktop TOTP setup and disable controls in the account/profile popup.\n- Replaces the inline optional login 2FA field with a focused two-factor verification dialog.\n- Keeps Desktop in parity with the Webclient TOTP setup flow.\n\n## Security\n\n- TOTP one-time codes are not stored.\n- Remembered-device app passwords remain revocable and stored through the existing secure credential path.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.16",
+  "changelog": "# Sharkord Desktop v0.5.16 Beta\n\n## Fixed\n\n- Displays a real QR code when setting up two-factor authentication with an authenticator app.\n- Keeps the setup link, setup URI copy action, and secret-key fallback for manual enrollment.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.15-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.15/sharkord-desktop-0.5.15-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.15/sharkord-desktop-0.5.15-linux-amd64.tar.gz",
-      "size": 4712020,
-      "sha256": "4d8aed35a8d74d658b52aeedafe8426385c289bf0b333adffcee13b78aefd77f",
-      "version": "0.5.15",
+      "name": "sharkord-desktop-0.5.16-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz",
+      "size": 4722608,
+      "sha256": "19fafacc48f1056afdd87b88265f3a545ade42d69ca5f8e01abd7e09eb6196ef",
+      "version": "0.5.16",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.15-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.15/sharkord-desktop-0.5.15-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.15/sharkord-desktop-0.5.15-windows-amd64.exe",
-      "size": 11737600,
-      "sha256": "7e3d105775e0a46fdedf08984295d8ce42f0d3aea4c40600f40f91bcbed2a6f9",
-      "version": "0.5.15",
+      "name": "sharkord-desktop-0.5.16-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe",
+      "size": 11762176,
+      "sha256": "ac19e295c8ce4bdef04ee8e6d955718959125bd21a606b415365411fe5b73d6e",
+      "version": "0.5.16",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.15-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.15/sharkord-desktop-0.5.15-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.15/sharkord-desktop-0.5.15-darwin-arm64.zip",
-      "size": 4388538,
-      "sha256": "2c65ac2db70df001dfb25cdf2bcd4ce1ffa24908e7179b23ed3eb71975b2a8e8",
-      "version": "0.5.15",
+      "name": "sharkord-desktop-0.5.16-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-darwin-arm64.zip",
+      "size": 4397215,
+      "sha256": "d17479b29ea0b2794449610643c5597ce3cb8e280e51b70403bc69f3796885c4",
+      "version": "0.5.16",
       "channel": "beta"
     }
   ]

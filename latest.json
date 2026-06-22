@@ -3,7 +3,7 @@
   "tagName": "v0.5.22",
   "channel": "beta",
   "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.22",
-  "minimumServerVersion": "0.0.23-kr.6",
+  "minimumServerVersion": "0.0.23-kr.7",
   "releasedAt": "2026-06-22T14:34:07Z",
   "changelog": "Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.",
   "notes": "Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.",

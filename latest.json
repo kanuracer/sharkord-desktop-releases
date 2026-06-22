@@ -1,35 +1,35 @@
 {
-  "version": "0.5.16",
-  "tagName": "v0.5.16",
+  "version": "0.5.17",
+  "tagName": "v0.5.17",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.16",
-  "changelog": "# Sharkord Desktop v0.5.16 Beta\n\n## Fixed\n\n- Displays a real QR code when setting up two-factor authentication with an authenticator app.\n- Keeps the setup link, setup URI copy action, and secret-key fallback for manual enrollment.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.17",
+  "changelog": "# Sharkord Desktop v0.5.17 Beta\n\n## Fixed\n\n- Improves two-factor authentication and app-password management surfaces.\n- Disconnects active desktop sessions immediately when their app password is revoked.\n- Keeps app-password metadata and revoke controls visible without clipped rows.\n- Preserves invite login, presence, role realtime updates, DM delete capability handling, and EN/DE locale switching.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.16-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz",
-      "size": 4722608,
-      "sha256": "19fafacc48f1056afdd87b88265f3a545ade42d69ca5f8e01abd7e09eb6196ef",
-      "version": "0.5.16",
+      "name": "sharkord-desktop-0.5.17-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.17/sharkord-desktop-0.5.17-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.17/sharkord-desktop-0.5.17-linux-amd64.tar.gz",
+      "size": 4723037,
+      "sha256": "648047608554c4ef832654a72344bd62e8147b99d1d6aa6622bed51765980ce7",
+      "version": "0.5.17",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.16-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe",
-      "size": 11762176,
-      "sha256": "ac19e295c8ce4bdef04ee8e6d955718959125bd21a606b415365411fe5b73d6e",
-      "version": "0.5.16",
+      "name": "sharkord-desktop-0.5.17-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.17/sharkord-desktop-0.5.17-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.17/sharkord-desktop-0.5.17-windows-amd64.exe",
+      "size": 11762688,
+      "sha256": "cf8eb4d20ea40e7ead49781af1f2536370b2665c6c43f702346234d5554856b4",
+      "version": "0.5.17",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.16-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-darwin-arm64.zip",
-      "size": 4397215,
-      "sha256": "d17479b29ea0b2794449610643c5597ce3cb8e280e51b70403bc69f3796885c4",
-      "version": "0.5.16",
+      "name": "sharkord-desktop-0.5.17-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.17/sharkord-desktop-0.5.17-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.17/sharkord-desktop-0.5.17-darwin-arm64.zip",
+      "size": 4397303,
+      "sha256": "e21e720c4aaedb88cf2051390aecf0dc058f26c77ef435d3b6b0558c7e12b0cb",
+      "version": "0.5.17",
       "channel": "beta"
     }
   ]

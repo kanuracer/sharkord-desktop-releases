@@ -2,9 +2,9 @@
 
 Public release repository for **Sharkord Desktop**, the native desktop client for self-hosted Sharkord servers.
 
-**Latest stable:** `v0.5.13`
+**Latest stable:** `v0.5.16`
 
-**Latest release:** <https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.13>
+**Latest release:** <https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.16>
 
 **Kanuracer server fork:** <https://github.com/kanuracer/sharkord-server>
 
@@ -56,16 +56,14 @@ Export and import desktop settings through native file dialogs, with optional us
 
 | Platform | File | Download |
 |---|---|---|
-| Windows amd64 | `sharkord-desktop-0.5.13-windows-amd64.exe` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-windows-amd64.exe) |
-| Linux amd64 | `sharkord-desktop-0.5.13-linux-amd64.tar.gz` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-linux-amd64.tar.gz) |
-| macOS arm64 | `sharkord-desktop-0.5.13-darwin-arm64.zip` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-darwin-arm64.zip) |
+| Windows amd64 | `sharkord-desktop-0.5.16-windows-amd64.exe` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe) |
+| Linux amd64 | `sharkord-desktop-0.5.16-linux-amd64.tar.gz` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz) |
 
 Checksums are published in [`SHA256SUMS.txt`](SHA256SUMS.txt):
 
 ```text
-1d5e3a021951c5e4b81083fef4a7ac7e8932a54f33afa6bff45ccca153eed362  sharkord-desktop-0.5.13-darwin-arm64.zip
-2b53af8e7bb26956e89e4403710011843ddf4daf6fd50a3ac52618c5f81c67dc  sharkord-desktop-0.5.13-linux-amd64.tar.gz
-8a85605419802a315821b3cddb16985683e7eda080a1aca33fc3c64a1ac8167a  sharkord-desktop-0.5.13-windows-amd64.exe
+871c97ad31096ded667d1c0766f70053962316e7a60de350e92dec4b3dbbc941  sharkord-desktop-0.5.16-linux-amd64.tar.gz
+ac19e295c8ce4bdef04ee8e6d955718959125bd21a606b415365411fe5b73d6e  sharkord-desktop-0.5.16-windows-amd64.exe
 ```
 
 ### Verify downloads
@@ -79,13 +77,13 @@ sha256sum -c SHA256SUMS.txt
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\sharkord-desktop-0.5.13-windows-amd64.exe -Algorithm SHA256
+Get-FileHash .\sharkord-desktop-0.5.16-windows-amd64.exe -Algorithm SHA256
 ```
 
 The Windows hash should be:
 
 ```text
-8a85605419802a315821b3cddb16985683e7eda080a1aca33fc3c64a1ac8167a
+ac19e295c8ce4bdef04ee8e6d955718959125bd21a606b415365411fe5b73d6e
 ```
 
 ---
@@ -94,7 +92,7 @@ The Windows hash should be:
 
 ### Windows
 
-1. Download `sharkord-desktop-0.5.13-windows-amd64.exe`.
+1. Download `sharkord-desktop-0.5.16-windows-amd64.exe`.
 2. Run the installer/executable.
 3. If Windows SmartScreen appears, review the file source and continue only if you trust this release.
 4. Add your Sharkord server and sign in with your Sharkord identity.
@@ -102,15 +100,13 @@ The Windows hash should be:
 ### Linux
 
 ```bash
-tar -xzf sharkord-desktop-0.5.13-linux-amd64.tar.gz
+tar -xzf sharkord-desktop-0.5.16-linux-amd64.tar.gz
 ./sharkord-desktop
 ```
 
 Some distributions may require WebKit/GTK runtime packages because Sharkord Desktop is built with Wails.
 
-### macOS arm64
 
-1. Download `sharkord-desktop-0.5.13-darwin-arm64.zip`.
 2. Extract the ZIP.
 3. Move the `.app` bundle to `/Applications`.
 4. On first launch, use right-click → Open if Gatekeeper blocks a normal double-click launch.
@@ -247,8 +243,7 @@ This keeps Sharkord Desktop compatible with original Sharkord while unlocking fo
 | `kanuracer/sharkord-server` | Base features plus capability-gated fork features. |
 | Windows amd64 | Release asset available. |
 | Linux amd64 | Release asset available. |
-| macOS arm64 | Release asset available. |
-| macOS amd64 | No current `v0.5.13` asset. |
+| macOS amd64 | No current `v0.5.16` asset. |
 
 ---
 
@@ -265,14 +260,14 @@ https://api.github.com/repos/kanuracer/sharkord-desktop-releases/releases/latest
 Release download URL pattern:
 
 ```text
-https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/<asset-name>
+https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/<asset-name>
 ```
 
 ---
 
 ## Release notes
 
-`v0.5.13` summary:
+`v0.5.16` summary:
 
 - Preserves unsaved local role and permission edits while realtime role updates arrive.
 - Includes the `v0.5.12` English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.
@@ -295,7 +290,7 @@ Those features depend on the connected server. Sharkord Desktop enables them onl
 
 ### Which version should I install?
 
-Use the newest GitHub Release for your platform. Current stable: `v0.5.13`.
+Use the newest GitHub Release for your platform. Current stable: `v0.5.16`.
 
 ### Can I use beta releases?
 

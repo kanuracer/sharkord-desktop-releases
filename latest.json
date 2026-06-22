@@ -1,35 +1,26 @@
 {
-  "version": "0.5.13",
-  "tagName": "v0.5.13",
+  "version": "0.5.16",
+  "tagName": "v0.5.16",
   "channel": "stable",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.13",
-  "changelog": "# Sharkord Desktop v0.5.13 Stable\n\n## Fixed\n\n- Preserves unsaved local role edits while realtime role updates arrive, so in-progress permission changes no longer get overwritten before saving.\n- Includes the 0.5.12 English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.\n",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.16",
+  "changelog": "# Sharkord Desktop v0.5.16 Stable\n\n## Fixed\n\n- Renders a real QR code in the 2FA authenticator-app setup panel.\n- Keeps setup URI copy/link and secret-key fallback for manual enrollment.\n- Adds regression coverage so the QR code cannot disappear again.\n\n## Artifacts\n\n- Linux amd64 tarball\n- Windows amd64 executable\n\nmacOS is not included in this hotfix because this release was built on Linux.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.13-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-linux-amd64.tar.gz",
-      "size": 4710084,
-      "sha256": "2b53af8e7bb26956e89e4403710011843ddf4daf6fd50a3ac52618c5f81c67dc",
-      "version": "0.5.13",
+      "name": "sharkord-desktop-0.5.16-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-linux-amd64.tar.gz",
+      "size": 4722598,
+      "sha256": "871c97ad31096ded667d1c0766f70053962316e7a60de350e92dec4b3dbbc941",
+      "version": "0.5.16",
       "channel": "stable"
     },
     {
-      "name": "sharkord-desktop-0.5.13-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-windows-amd64.exe",
-      "size": 11728384,
-      "sha256": "8a85605419802a315821b3cddb16985683e7eda080a1aca33fc3c64a1ac8167a",
-      "version": "0.5.13",
-      "channel": "stable"
-    },
-    {
-      "name": "sharkord-desktop-0.5.13-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.13/sharkord-desktop-0.5.13-darwin-arm64.zip",
-      "size": 4386078,
-      "sha256": "1d5e3a021951c5e4b81083fef4a7ac7e8932a54f33afa6bff45ccca153eed362",
-      "version": "0.5.13",
+      "name": "sharkord-desktop-0.5.16-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.16/sharkord-desktop-0.5.16-windows-amd64.exe",
+      "size": 11762176,
+      "sha256": "ac19e295c8ce4bdef04ee8e6d955718959125bd21a606b415365411fe5b73d6e",
+      "version": "0.5.16",
       "channel": "stable"
     }
   ]

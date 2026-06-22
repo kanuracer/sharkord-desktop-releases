@@ -1,6 +1,14 @@
-# Sharkord Desktop v0.5.13 Stable
+# Sharkord Desktop v0.5.16 Stable
 
 ## Fixed
 
-- Preserves unsaved local role edits while realtime role updates arrive, so in-progress permission changes no longer get overwritten before saving.
-- Includes the 0.5.12 English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.
+- Renders a real QR code in the 2FA authenticator-app setup panel.
+- Keeps setup URI copy/link and secret-key fallback for manual enrollment.
+- Adds regression coverage so the QR code cannot disappear again.
+
+## Artifacts
+
+- Linux amd64 tarball
+- Windows amd64 executable
+
+macOS is not included in this hotfix because this release was built on Linux.

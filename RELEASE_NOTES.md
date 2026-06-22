@@ -1,11 +1,6 @@
-# Sharkord Desktop v0.5.22
+Sharkord Desktop 0.5.23 beta.
 
-- Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.
-
-## Checksums
-
-```
-a1e766504ced7af0c781c2d2bb3e1221b5e0fd742553c0fb5223ffd854c794ba  sharkord-desktop-0.5.22-windows-amd64.exe
-902e4efc33e69417bde4c784f03874b5e7ec0e787e0f52147422fd876c8f841b  sharkord-desktop-0.5.22-linux-amd64.tar.gz
-75c5e6fd1e430893bb0546723e8e8cc5c5db6dd4b7369f324ca353c9eb4645ef  sharkord-desktop-0.5.22-darwin-arm64.zip
-```
+Product changes:
+- Ships the latest Kanuracer fork capability metadata for MFA reauthentication hardening.
+- Keeps original Sharkord server fallback behavior safe when fork-only capabilities are missing.
+- Requires Sharkord Server 0.0.23-kr.8 beta for the newest fork-only server features.

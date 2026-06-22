@@ -1,33 +1,33 @@
 {
-  "version": "0.5.22",
-  "tagName": "v0.5.22",
+  "version": "0.5.23",
+  "tagName": "v0.5.23",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.22",
-  "minimumServerVersion": "0.0.23-kr.7",
-  "releasedAt": "2026-06-22T14:34:07Z",
-  "changelog": "Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.",
-  "notes": "Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.23",
+  "minimumServerVersion": "0.0.23-kr.8",
+  "releasedAt": "2026-06-22T22:05:19Z",
+  "changelog": "Ships the latest Kanuracer fork capability metadata and requires Sharkord Server 0.0.23-kr.8 beta for newest fork-only features.",
+  "notes": "Ships the latest Kanuracer fork capability metadata and requires Sharkord Server 0.0.23-kr.8 beta for newest fork-only features.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.22-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-windows-amd64.exe",
-      "sha256": "a1e766504ced7af0c781c2d2bb3e1221b5e0fd742553c0fb5223ffd854c794ba",
-      "size": 11765248
+      "name": "sharkord-desktop-0.5.23-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.23/sharkord-desktop-0.5.23-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.23/sharkord-desktop-0.5.23-windows-amd64.exe",
+      "sha256": "4de0608dafe856735cdbd3221542e8be418d500d512d221a0a825847e267981c",
+      "size": 11792384
     },
     {
-      "name": "sharkord-desktop-0.5.22-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-linux-amd64.tar.gz",
-      "sha256": "902e4efc33e69417bde4c784f03874b5e7ec0e787e0f52147422fd876c8f841b",
-      "size": 4722953
+      "name": "sharkord-desktop-0.5.23-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.23/sharkord-desktop-0.5.23-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.23/sharkord-desktop-0.5.23-linux-amd64.tar.gz",
+      "sha256": "36f69746c43bcebaf20779f0a2d618a63f5efc738a832656a54634620a3b3096",
+      "size": 4729355
     },
     {
-      "name": "sharkord-desktop-0.5.22-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-darwin-arm64.zip",
-      "sha256": "75c5e6fd1e430893bb0546723e8e8cc5c5db6dd4b7369f324ca353c9eb4645ef",
-      "size": 4397563
+      "name": "sharkord-desktop-0.5.23-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.23/sharkord-desktop-0.5.23-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.23/sharkord-desktop-0.5.23-darwin-arm64.zip",
+      "sha256": "eb195ad1d89ceafbe6f0d7dff55f979a5af76ee98681b785e61a7e430375e9b9",
+      "size": 4402768
     }
   ]
 }

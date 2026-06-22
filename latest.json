@@ -4,7 +4,7 @@
   "channel": "beta",
   "releaseNotes": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.18/RELEASE_NOTES.md",
   "publishedAt": "2026-06-22T12:55:00Z",
-  "minimumServerVersion": "0.0.23-kr.5",
+  "minimumServerVersion": "0.0.23-kr.6",
   "assets": [
     {
       "name": "sharkord-desktop-0.5.18-linux-amd64.tar.gz",
@@ -37,6 +37,6 @@
   "notes": [
     "Hide TOTP/app-password account-security settings unless the server advertises mfaAppPasswords support.",
     "Server beta exposes the mfaAppPasswords desktop capability so supported servers keep the account-security UI.",
-    "Server update checks no longer show fake Latest Version 0.0.0; they fall back to the kanuracer/sharkord-server GitHub latest tag or unknown."
+    "Server beta v0.0.23-kr.6 makes the webclient update fallback beta-aware so Latest Version no longer shows fake 0.0.0 or stale stable-only data."
   ]
 }

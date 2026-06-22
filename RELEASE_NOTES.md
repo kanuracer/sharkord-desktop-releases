@@ -1,6 +1,12 @@
-# Sharkord Desktop v0.5.13 Beta
+# Sharkord Desktop v0.5.14 Beta
 
-## Fixed
+## Added
 
-- Preserves unsaved local role edits while realtime role updates arrive, so in-progress permission changes no longer get overwritten before saving.
-- Includes the 0.5.12 English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.
+- Adds native two-factor login support for servers requiring TOTP.
+- Stores a server-minted remembered-device app password in the existing secure credential store after successful TOTP login.
+- Adds profile UI to list and revoke remembered-device app passwords.
+
+## Security
+
+- TOTP codes are not persisted.
+- Remembered-device app passwords are stored locally through the existing encrypted credential path.

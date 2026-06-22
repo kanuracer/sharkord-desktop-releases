@@ -1,0 +1,36 @@
+{
+  "version": "0.5.14",
+  "tagName": "v0.5.14",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.14",
+  "changelog": "# Sharkord Desktop v0.5.14 Beta\n\n## Added\n\n- Adds native two-factor login support for servers requiring TOTP.\n- Stores a server-minted remembered-device app password in the existing secure credential store after successful TOTP login.\n- Adds profile UI to list and revoke remembered-device app passwords.\n\n## Security\n\n- TOTP codes are not persisted.\n- Remembered-device app passwords are stored locally through the existing encrypted credential path.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.14-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.14/sharkord-desktop-0.5.14-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.14/sharkord-desktop-0.5.14-linux-amd64.tar.gz",
+      "size": 4710897,
+      "sha256": "87a5242ecec858f606a96c85cbf87eff85701eeea265a5443ff92c729d1ff456",
+      "version": "0.5.14",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.14-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.14/sharkord-desktop-0.5.14-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.14/sharkord-desktop-0.5.14-windows-amd64.exe",
+      "size": 11731456,
+      "sha256": "6183b6599ed05b2f4765a4548521a98692d005ca8daedad07c9340061a6ee30d",
+      "version": "0.5.14",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.14-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.14/sharkord-desktop-0.5.14-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.14/sharkord-desktop-0.5.14-darwin-arm64.zip",
+      "size": 4387346,
+      "sha256": "7e1d07ca3cfbd119cfe81d1e4ba912179d67f5b512970b4d1b1676420144a62e",
+      "version": "0.5.14",
+      "channel": "beta"
+    }
+  ]
+}

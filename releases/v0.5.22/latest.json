@@ -1,0 +1,33 @@
+{
+  "version": "0.5.22",
+  "tagName": "v0.5.22",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.22",
+  "minimumServerVersion": "0.0.23-kr.6",
+  "releasedAt": "2026-06-22T14:34:07Z",
+  "changelog": "Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.",
+  "notes": "Fixes Audio & Video settings scrollbar theme and voice filter strength slider alignment.",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.22-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-windows-amd64.exe",
+      "sha256": "a1e766504ced7af0c781c2d2bb3e1221b5e0fd742553c0fb5223ffd854c794ba",
+      "size": 11765248
+    },
+    {
+      "name": "sharkord-desktop-0.5.22-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-linux-amd64.tar.gz",
+      "sha256": "902e4efc33e69417bde4c784f03874b5e7ec0e787e0f52147422fd876c8f841b",
+      "size": 4722953
+    },
+    {
+      "name": "sharkord-desktop-0.5.22-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.22/sharkord-desktop-0.5.22-darwin-arm64.zip",
+      "sha256": "75c5e6fd1e430893bb0546723e8e8cc5c5db6dd4b7369f324ca353c9eb4645ef",
+      "size": 4397563
+    }
+  ]
+}

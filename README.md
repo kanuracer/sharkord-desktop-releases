@@ -1,12 +1,12 @@
 # Sharkord Desktop beta releases
 
-Current beta: v0.5.21
+Current beta: v0.5.22
 
 ## Downloads
 
 Use the GitHub prerelease for binaries:
 
-- https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.21
+- https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.22
 
 The beta update feed is available at:
 

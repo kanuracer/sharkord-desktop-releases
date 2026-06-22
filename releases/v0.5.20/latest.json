@@ -1,0 +1,31 @@
+{
+  "version": "0.5.20",
+  "channel": "beta",
+  "publishedAt": "2026-06-22T12:51:44Z",
+  "minimumServerVersion": "0.0.23-kr.6",
+  "notes": [
+    "Hotfix: Windows build is now a GUI subsystem executable, so launching Sharkord Desktop no longer opens a Windows Terminal/console window with WebView2 log output.",
+    "Keeps v0.5.19 account-security behavior: TOTP and app-password panels remain visible on Kanuracer fork servers while original/upstream servers hide unsupported fork-only panels.",
+    "Release pipeline now has a Windows GUI subsystem check to block future console-subsystem artifacts."
+  ],
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.20-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.20/sharkord-desktop-0.5.20-darwin-arm64.zip",
+      "sha256": "ef074b006e76c63fa5b1d0e05eb457899d168305a15d594774c02735b2fd4dc4",
+      "size": 4397472
+    },
+    {
+      "name": "sharkord-desktop-0.5.20-linux-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.20/sharkord-desktop-0.5.20-linux-amd64",
+      "sha256": "d6b49d855994e710a7c85c1f427ae420efd2d0770d861368286bdec95d71e495",
+      "size": 11585552
+    },
+    {
+      "name": "sharkord-desktop-0.5.20-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.20/sharkord-desktop-0.5.20-windows-amd64.exe",
+      "sha256": "616b2359e9283a368ab9dde15508b849958961bc4f73d9836b3c7e49a537fc1b",
+      "size": 11763200
+    }
+  ]
+}

@@ -1,13 +1,13 @@
-# Sharkord Desktop v0.5.19
+# Sharkord Desktop v0.5.20
 
-- Hotfix: TOTP and app-password panels stay visible on Kanuracer fork servers even when older fork builds do not advertise the new mfaAppPasswords capability.
-- Original/upstream Sharkord servers still hide the fork-only account-security panels to avoid unsupported users.mfa.* route errors.
-- Fork detection now accepts desktop.capabilities flavor=kanuracer and /info version/name markers such as -kr. or Kanuracer.
+- Hotfix: Windows build is now a GUI subsystem executable, so launching Sharkord Desktop no longer opens a Windows Terminal/console window with WebView2 log output.
+- Keeps v0.5.19 account-security behavior: TOTP and app-password panels remain visible on Kanuracer fork servers while original/upstream servers hide unsupported fork-only panels.
+- Release pipeline now has a Windows GUI subsystem check to block future console-subsystem artifacts.
 
 ## Checksums
 
 ```
-c5cad78f2cf9bd00b1671e71f4fafc13fe7b08a35d2d1a263941a94e736c0232  sharkord-desktop-0.5.19-darwin-arm64.zip
-307280de158f6696031b1779cab71f80e7e5a291343be21a9e17f27a8db25435  sharkord-desktop-0.5.19-linux-amd64
-9c75c227d73bab1ff03bc2788c945a8209c2ea764606712ace5862d42739c6f7  sharkord-desktop-0.5.19-windows-amd64.exe
+ef074b006e76c63fa5b1d0e05eb457899d168305a15d594774c02735b2fd4dc4  sharkord-desktop-0.5.20-darwin-arm64.zip
+d6b49d855994e710a7c85c1f427ae420efd2d0770d861368286bdec95d71e495  sharkord-desktop-0.5.20-linux-amd64
+616b2359e9283a368ab9dde15508b849958961bc4f73d9836b3c7e49a537fc1b  sharkord-desktop-0.5.20-windows-amd64.exe
 ```

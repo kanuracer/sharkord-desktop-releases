@@ -1,0 +1,3 @@
+c61a921ff95b4f6aff7abe4ae913cf63eae48335200ae3b9b052f606263caef0  sharkord-desktop-0.5.21-darwin-arm64.zip
+dd0f04bb008741b8bef2bfdd2242b0b67266f54f8ce2e40f6670c731915df786  sharkord-desktop-0.5.21-linux-amd64
+377c35041b9b92f63dbe4002a6bcd6b28721c9f4f4acd66f0522cb05aa360abc  sharkord-desktop-0.5.21-windows-amd64.exe

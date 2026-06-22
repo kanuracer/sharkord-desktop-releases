@@ -1,31 +1,27 @@
 {
-  "version": "0.5.20",
+  "version": "0.5.21",
   "channel": "beta",
-  "publishedAt": "2026-06-22T12:51:44Z",
   "minimumServerVersion": "0.0.23-kr.6",
-  "notes": [
-    "Hotfix: Windows build is now a GUI subsystem executable, so launching Sharkord Desktop no longer opens a Windows Terminal/console window with WebView2 log output.",
-    "Keeps v0.5.19 account-security behavior: TOTP and app-password panels remain visible on Kanuracer fork servers while original/upstream servers hide unsupported fork-only panels.",
-    "Release pipeline now has a Windows GUI subsystem check to block future console-subsystem artifacts."
-  ],
+  "releasedAt": "2026-06-22T13:08:36.843812Z",
+  "notes": "Themes the edit-profile modal, textarea, and account-security scrollbars so the Windows user settings menu no longer shows native white scrollbars.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.20-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.20/sharkord-desktop-0.5.20-darwin-arm64.zip",
-      "sha256": "ef074b006e76c63fa5b1d0e05eb457899d168305a15d594774c02735b2fd4dc4",
-      "size": 4397472
+      "platform": "windows-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.21/sharkord-desktop-0.5.21-windows-amd64.exe",
+      "sha256": "377c35041b9b92f63dbe4002a6bcd6b28721c9f4f4acd66f0522cb05aa360abc",
+      "size": 11764736
     },
     {
-      "name": "sharkord-desktop-0.5.20-linux-amd64",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.20/sharkord-desktop-0.5.20-linux-amd64",
-      "sha256": "d6b49d855994e710a7c85c1f427ae420efd2d0770d861368286bdec95d71e495",
-      "size": 11585552
+      "platform": "linux-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.21/sharkord-desktop-0.5.21-linux-amd64",
+      "sha256": "dd0f04bb008741b8bef2bfdd2242b0b67266f54f8ce2e40f6670c731915df786",
+      "size": 11589648
     },
     {
-      "name": "sharkord-desktop-0.5.20-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.20/sharkord-desktop-0.5.20-windows-amd64.exe",
-      "sha256": "616b2359e9283a368ab9dde15508b849958961bc4f73d9836b3c7e49a537fc1b",
-      "size": 11763200
+      "platform": "darwin-arm64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.21/sharkord-desktop-0.5.21-darwin-arm64.zip",
+      "sha256": "c61a921ff95b4f6aff7abe4ae913cf63eae48335200ae3b9b052f606263caef0",
+      "size": 4397506
     }
   ]
 }

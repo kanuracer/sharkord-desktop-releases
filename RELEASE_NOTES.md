@@ -1,9 +1,8 @@
-# Sharkord Desktop v0.5.37 Beta
+# Sharkord Desktop v0.5.38 Beta
 
 ## Voice
 
-- Prevents the voice call UI from turning into a grey/blank screen when remote-audio speaking detection hits a stale or unavailable audio track.
-- Keeps speaking detection best-effort instead of letting Web Audio setup failures break the app shell.
-- Adds frontend error diagnostics into the local redacted diagnostic log so future UI failures are visible.
+- Fixes a crash/blank-screen path when remote user volume is set above 100%.
+- Keeps the per-user volume slider range up to 200%, while clamping the underlying browser audio element to its valid 0-100% range.
 
 Stable channel stays unchanged.

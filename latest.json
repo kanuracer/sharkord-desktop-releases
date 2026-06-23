@@ -1,36 +1,36 @@
 {
-  "version": "0.5.37",
-  "tagName": "v0.5.37",
+  "version": "0.5.38",
+  "tagName": "v0.5.38",
   "channel": "beta",
-  "publishedAt": "2026-06-23T20:23:11Z",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.37",
-  "changelog": "# Sharkord Desktop v0.5.37 Beta\n\n## Voice\n\n- Prevents the voice call UI from turning into a grey/blank screen when remote-audio speaking detection hits a stale or unavailable audio track.\n- Keeps speaking detection best-effort instead of letting Web Audio setup failures break the app shell.\n- Adds frontend error diagnostics into the local redacted diagnostic log so future UI failures are visible.\n\nStable channel stays unchanged.\n",
+  "publishedAt": "2026-06-23T20:49:52Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.38",
+  "changelog": "# Sharkord Desktop v0.5.38 Beta\n\n## Voice\n\n- Fixes a crash/blank-screen path when remote user volume is set above 100%.\n- Keeps the per-user volume slider range up to 200%, while clamping the underlying browser audio element to its valid 0-100% range.\n\nStable channel stays unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.37-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.37/sharkord-desktop-0.5.37-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.37/sharkord-desktop-0.5.37-windows-amd64.exe",
+      "name": "sharkord-desktop-0.5.38-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.38/sharkord-desktop-0.5.38-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.38/sharkord-desktop-0.5.38-windows-amd64.exe",
       "size": 11838976,
-      "sha256": "e65a87de9b1d873a4d9ee4759031f5d7e3711edee2d5cf7822db8ba7a7fd54b7",
-      "version": "0.5.37",
+      "sha256": "405842df73f95a06e93ac1272f710a2a6aa099c9eee6421743befbb9959a0741",
+      "version": "0.5.38",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.37-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.37/sharkord-desktop-0.5.37-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.37/sharkord-desktop-0.5.37-linux-amd64.tar.gz",
-      "size": 4740095,
-      "sha256": "75657ea6163164baa3a00835c52a1206f4b6fa036b85d7bf853f88cd7dcf771d",
-      "version": "0.5.37",
+      "name": "sharkord-desktop-0.5.38-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.38/sharkord-desktop-0.5.38-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.38/sharkord-desktop-0.5.38-linux-amd64.tar.gz",
+      "size": 4739421,
+      "sha256": "fba59e827f227262e328af60f945147250125dd3ed482d32427f5d065bc5d2b7",
+      "version": "0.5.38",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.37-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.37/sharkord-desktop-0.5.37-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.37/sharkord-desktop-0.5.37-darwin-arm64.zip",
-      "size": 4415835,
-      "sha256": "1046b6a3b72f15e0898deeb014b6a431a1fff75143490a12d50a348069ec0620",
-      "version": "0.5.37",
+      "name": "sharkord-desktop-0.5.38-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.38/sharkord-desktop-0.5.38-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.38/sharkord-desktop-0.5.38-darwin-arm64.zip",
+      "size": 4415826,
+      "sha256": "b296e28ee9a467c53d9cfb509132e6f4c3c8dd4524d3d4202b2748ecfa5b81f8",
+      "version": "0.5.38",
       "channel": "beta"
     }
   ]

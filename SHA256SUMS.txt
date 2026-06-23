@@ -1,3 +1,3 @@
-c1b9ff4958d3b4f82b8963ca49d04c22c9303623b1f4bb7cc329cdd1111ea080  sharkord-desktop-0.5.32-windows-amd64.exe
-f259031c3583657be29a44629fa585a4edbb558487fd636657f4fedb4792197e  sharkord-desktop-0.5.32-linux-amd64.tar.gz
-ad3874e603fe7de85e64a2c90879d55559ddefbecce9f6b4f15be8a63e493185  sharkord-desktop-0.5.32-darwin-arm64.zip
+88bf5803d9705848ad91e8366e3ddd7e06b0ef38667a363615f6d13ac658c341  sharkord-desktop-0.5.33-windows-amd64.exe
+7b01aab3d21079f8a544ecaaf14ab594a66182f8273e454f2470c429a6e34183  sharkord-desktop-0.5.33-linux-amd64.tar.gz
+9eec47bcc84a1852d3c4fa677645a8b763796c45bc4010212708777ec3b669fe  sharkord-desktop-0.5.33-darwin-arm64.zip

@@ -1,0 +1,37 @@
+{
+  "version": "0.5.36",
+  "tagName": "v0.5.36",
+  "channel": "beta",
+  "publishedAt": "2026-06-23T19:58:59Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.36",
+  "changelog": "# Sharkord Desktop v0.5.36 Beta\n\n## Diagnostics\n\n- Adds always-on local Voice UI audit logging for the Windows-only grey blocker report.\n- Captures voice join/realtime/media boundaries, overlay state, visible overlay DOM, and center-screen element stack.\n- Keeps diagnostic payloads redacted: no auth fields or message bodies.\n\nStable channel stays unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.36-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.36/sharkord-desktop-0.5.36-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.36/sharkord-desktop-0.5.36-windows-amd64.exe",
+      "size": 11837952,
+      "sha256": "879cd4715a4633c000ab11754f0278c21119f1f3e40424b0901bb50a9f55bcd5",
+      "version": "0.5.36",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.36-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.36/sharkord-desktop-0.5.36-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.36/sharkord-desktop-0.5.36-linux-amd64.tar.gz",
+      "size": 4739094,
+      "sha256": "5f7fa572968b2b11bd6c62a027d277f4d0d4d88efc66345e78e5d214e90c22ac",
+      "version": "0.5.36",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.36-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.36/sharkord-desktop-0.5.36-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.36/sharkord-desktop-0.5.36-darwin-arm64.zip",
+      "size": 4415574,
+      "sha256": "fb666e50375b4a7314c9971043c8761674e93212b5976520043d49579cbc732a",
+      "version": "0.5.36",
+      "channel": "beta"
+    }
+  ]
+}

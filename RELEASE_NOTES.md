@@ -1,9 +1,9 @@
-# Sharkord Desktop v0.5.35 Beta
+# Sharkord Desktop v0.5.36 Beta
 
-## Fixed
+## Diagnostics
 
-- Prevents stale profile, context, and menu overlays from covering the voice grid when voice rosters change.
-- Keeps voice participant media flags intact during partial producer/state updates.
-- Adds regression coverage for 2+ voice participants so roster changes cannot create a global blocker over the call view.
+- Adds always-on local Voice UI audit logging for the Windows-only grey blocker report.
+- Captures voice join/realtime/media boundaries, overlay state, visible overlay DOM, and center-screen element stack.
+- Keeps diagnostic payloads redacted: no auth fields or message bodies.
 
 Stable channel stays unchanged.

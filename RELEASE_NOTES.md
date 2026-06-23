@@ -1,8 +1,10 @@
-# Sharkord Desktop v0.5.38 Beta
+# Sharkord Desktop v0.5.39 Beta
 
-## Voice
+## Updates
 
-- Fixes a crash/blank-screen path when remote user volume is set above 100%.
-- Keeps the per-user volume slider range up to 200%, while clamping the underlying browser audio element to its valid 0-100% range.
+- Cleans stale update downloads and apply scripts at app startup.
+- Cleans old update artifacts before installing a new update.
+- Removes the downloaded update package and temporary apply script after a successful restart.
+- Prevents `AppData\Local\sharkord-desktop\updates` from accumulating old installers.
 
 Stable channel stays unchanged.

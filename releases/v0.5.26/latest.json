@@ -1,0 +1,33 @@
+{
+  "version": "0.5.26",
+  "tagName": "v0.5.26",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.26",
+  "minimumServerVersion": "0.0.23-kr.10",
+  "releasedAt": "2026-06-23T13:55:44Z",
+  "changelog": "Hotfix for desktop UX polish. Message reaction picker now opens downward and remains hoverable, voice recovery is separated from emoji reactions, and the member list uses configurable role weights with Owner above Member and Guest by default.",
+  "notes": "Hotfix for desktop UX polish. Message reaction picker now opens downward and remains hoverable, voice recovery is separated from emoji reactions, and the member list uses configurable role weights with Owner above Member and Guest by default.",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.26-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.26/sharkord-desktop-0.5.26-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.26/sharkord-desktop-0.5.26-windows-amd64.exe",
+      "sha256": "7fc9f39ab5d462109576de9ab432776885d6e5c1ae4b76354b54128e51ec5b6b",
+      "size": 11817984
+    },
+    {
+      "name": "sharkord-desktop-0.5.26-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.26/sharkord-desktop-0.5.26-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.26/sharkord-desktop-0.5.26-linux-amd64.tar.gz",
+      "sha256": "633aea71730a23e88e44a66007bcd5db39ed07fa53ef279485521bf77c229453",
+      "size": 4735065
+    },
+    {
+      "name": "sharkord-desktop-0.5.26-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.26/sharkord-desktop-0.5.26-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.26/sharkord-desktop-0.5.26-darwin-arm64.zip",
+      "sha256": "4b2929a84056628817cb0204e6e4e867206ab4812ab01603cfd569902bd73573",
+      "size": 4410200
+    }
+  ]
+}

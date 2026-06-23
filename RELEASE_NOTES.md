@@ -1,3 +1,4 @@
-# Sharkord Desktop 0.5.26
+# Sharkord Desktop 0.5.27 beta
 
-Hotfix for desktop UX polish. Message reaction picker now opens downward and remains hoverable, voice recovery is separated from emoji reactions, and the member list uses configurable role weights with Owner above Member and Guest by default.
+Hotfix for global search navigation. Clicking a message result now switches to the target channel, loads the message page around the hit, scrolls to the message, and only closes the search dialog after navigation succeeds.
+

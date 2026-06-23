@@ -1,17 +1,16 @@
-# Sharkord Desktop beta releases
+# Sharkord Desktop Releases
 
-Current beta: v0.5.24
+Latest public beta release.
+
+## v0.5.31 Beta
+
+- Fixes the grey-screen Voice crash when another participant is present in the same voice channel.
+- Stable channel stays on the approved stable version.
 
 ## Downloads
 
-Use the GitHub prerelease for binaries:
+- Windows x64: `sharkord-desktop-0.5.31-windows-amd64.exe`
+- Linux x64: `sharkord-desktop-0.5.31-linux-amd64.tar.gz`
+- macOS Apple Silicon: `sharkord-desktop-0.5.31-darwin-arm64.zip`
 
-- https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.24
-
-The beta update feed is available at:
-
-- https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/latest.json
-
-Minimum recommended server for this beta: Sharkord Server 0.0.23-kr.9.
-
-Stable users stay on the `main` branch feed.
+Verify with `SHA256SUMS.txt`.

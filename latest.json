@@ -1,33 +1,37 @@
 {
-  "version": "0.5.30",
-  "tagName": "v0.5.30",
+  "version": "0.5.31",
+  "tagName": "v0.5.31",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/tree/beta/releases/v0.5.30",
-  "minimumServerVersion": "0.0.23-kr.10",
-  "releasedAt": "2026-06-23T17:37:29Z",
-  "changelog": "Fixes Desktop member-list grouping: online users stay grouped by role order (Owner, Member, Guest, …), while offline users collapse into one plain Offline section without role grouping/sorting. Keeps previous live status, new member, and context-menu role freshness fixes.",
-  "notes": "Fixes Desktop member-list grouping: online users stay grouped by role order (Owner, Member, Guest, …), while offline users collapse into one plain Offline section without role grouping/sorting. Keeps previous live status, new member, and context-menu role freshness fixes.",
+  "publishedAt": "2026-06-23T17:53:01Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.31",
+  "changelog": "# Sharkord Desktop v0.5.31 Beta\n\n## Changes\n\n- Fixes a Desktop Voice crash/blank grey screen when a second participant joins the same voice channel.\n- Voice participant state is now normalized before rendering and before media refresh checks.\n- Guards the left channel voice list, main voice grid, camera hints, and screen-share cards against missing/partial voice state from realtime payloads.\n- Stable channel stays unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.30-windows-amd64.exe",
-      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.30/sharkord-desktop-0.5.30-windows-amd64.exe",
-      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.30/sharkord-desktop-0.5.30-windows-amd64.exe",
-      "sha256": "e6cacd5af909b6b388f3a10e8f2bf38939dc895905b96f25f35dd158e024a431",
-      "size": 11819520
+      "name": "sharkord-desktop-0.5.31-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.31/sharkord-desktop-0.5.31-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.31/sharkord-desktop-0.5.31-windows-amd64.exe",
+      "size": 11819520,
+      "sha256": "daf10adaed3d22a8e5b5335907ec343f638b86207eda5e22a4606427d6f4990a",
+      "version": "0.5.31",
+      "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.30-linux-amd64.tar.gz",
-      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.30/sharkord-desktop-0.5.30-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.30/sharkord-desktop-0.5.30-linux-amd64.tar.gz",
-      "sha256": "2e53233867d358930b45413abfab85305f694854f4071409d4aa135355a27db0",
-      "size": 6069831
+      "name": "sharkord-desktop-0.5.31-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.31/sharkord-desktop-0.5.31-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.31/sharkord-desktop-0.5.31-linux-amd64.tar.gz",
+      "size": 10465921,
+      "sha256": "400c6f8faf96feca8526fbae41942c3f0799fdcc5c187e7651e1e471a7f57844",
+      "version": "0.5.31",
+      "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.30-darwin-arm64.zip",
-      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.30/sharkord-desktop-0.5.30-darwin-arm64.zip",
-      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.30/sharkord-desktop-0.5.30-darwin-arm64.zip",
-      "sha256": "9cc89f65a1ea819bb65d1813e9ebb2d3af9284d35f05906b2ebab06968a7c491",
-      "size": 4410827
+      "name": "sharkord-desktop-0.5.31-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.31/sharkord-desktop-0.5.31-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.31/sharkord-desktop-0.5.31-darwin-arm64.zip",
+      "size": 10682940,
+      "sha256": "6a28c3729004725214966e5da6329cca4224886dc1859657f9a50dcc90fc6132",
+      "version": "0.5.31",
+      "channel": "beta"
     }
   ]
 }

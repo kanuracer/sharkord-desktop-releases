@@ -1,10 +1,10 @@
-# Sharkord Desktop v0.5.39 Beta
+# Sharkord Desktop v0.5.40 Beta
 
 ## Updates
 
-- Cleans stale update downloads and apply scripts at app startup.
-- Cleans old update artifacts before installing a new update.
-- Removes the downloaded update package and temporary apply script after a successful restart.
-- Prevents `AppData\Local\sharkord-desktop\updates` from accumulating old installers.
+- Polishes Server Settings overview, roles, users, plugins, and parity layouts.
+- Replaces raw role permission IDs with readable labels and descriptions.
+- Fixes duplicated save footer placement and reduces admin row clipping/overflow.
+- Adds English translations for the new permission labels.
 
 Stable channel stays unchanged.

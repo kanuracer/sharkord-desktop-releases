@@ -1,24 +1,14 @@
-## Latest Beta
+# Sharkord Desktop Beta
 
-# Sharkord Desktop v0.5.39 Beta
+Current beta: v0.5.40
 
-## Updates
+Download from the GitHub Release:
+https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.40
 
-- Cleans stale update downloads and apply scripts at app startup.
-- Cleans old update artifacts before installing a new update.
-- Removes the downloaded update package and temporary apply script after a successful restart.
-- Prevents `AppData\Local\sharkord-desktop\updates` from accumulating old installers.
+## Assets
 
-Stable channel stays unchanged.
+- `sharkord-desktop-0.5.40-windows-amd64.exe` — SHA256 `9ae6ff4ad77d2ca50fbfdf5415ca0a641fb998efa59e10b5a9a611007da403c2`
+- `sharkord-desktop-0.5.40-linux-amd64.tar.gz` — SHA256 `f3f5f3607acde0469424d0549ac296613c4a8b784c3d5f94e290e93a800484a7`
+- `sharkord-desktop-0.5.40-darwin-arm64.zip` — SHA256 `950ab2c59eb72495927cb31dd63657a3983c838e8bf1bdcdd0004490d64fce0e`
 
-# Sharkord Desktop Releases
-
-Latest public beta release.
-
-## Downloads
-
-- Windows x64: `sharkord-desktop-0.5.39-windows-amd64.exe`
-- Linux x64: `sharkord-desktop-0.5.39-linux-amd64.tar.gz`
-- macOS Apple Silicon: `sharkord-desktop-0.5.39-darwin-arm64.zip`
-
-Verify with `SHA256SUMS.txt`.
+Stable channel remains on the stable branch.

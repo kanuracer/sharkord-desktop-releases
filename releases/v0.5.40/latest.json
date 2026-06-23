@@ -1,0 +1,37 @@
+{
+  "version": "0.5.40",
+  "tagName": "v0.5.40",
+  "channel": "beta",
+  "publishedAt": "2026-06-23T23:43:00Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.40",
+  "changelog": "# Sharkord Desktop v0.5.40 Beta\n\n## Updates\n\n- Polishes Server Settings overview, roles, users, plugins, and parity layouts.\n- Replaces raw role permission IDs with readable labels and descriptions.\n- Fixes duplicated save footer placement and reduces admin row clipping/overflow.\n- Adds English translations for the new permission labels.\n\nStable channel stays unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.40-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.40/sharkord-desktop-0.5.40-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.40/sharkord-desktop-0.5.40-windows-amd64.exe",
+      "size": 11868160,
+      "sha256": "9ae6ff4ad77d2ca50fbfdf5415ca0a641fb998efa59e10b5a9a611007da403c2",
+      "version": "0.5.40",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.40-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.40/sharkord-desktop-0.5.40-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.40/sharkord-desktop-0.5.40-linux-amd64.tar.gz",
+      "size": 4748596,
+      "sha256": "f3f5f3607acde0469424d0549ac296613c4a8b784c3d5f94e290e93a800484a7",
+      "version": "0.5.40",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.40-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.40/sharkord-desktop-0.5.40-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.40/sharkord-desktop-0.5.40-darwin-arm64.zip",
+      "size": 4423026,
+      "sha256": "950ab2c59eb72495927cb31dd63657a3983c838e8bf1bdcdd0004490d64fce0e",
+      "version": "0.5.40",
+      "channel": "beta"
+    }
+  ]
+}

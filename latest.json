@@ -1,33 +1,26 @@
 {
-  "version": "0.5.28",
-  "tagName": "v0.5.28",
+  "version": "0.5.29",
+  "tagName": "v0.5.29",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.28",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/tree/beta/releases/v0.5.29",
   "minimumServerVersion": "0.0.23-kr.10",
-  "releasedAt": "2026-06-23T15:44:30Z",
-  "changelog": "Fixes members panel role grouping by using public roles from the join payload, removes the confusing channel-access-only checkbox, and avoids showing a fake \u201cOhne Rolle\u201d group when role metadata is unavailable.",
-  "notes": "Fixes members panel role grouping by using public roles from the join payload, removes the confusing channel-access-only checkbox, and avoids showing a fake \u201cOhne Rolle\u201d group when role metadata is unavailable.",
+  "releasedAt": "2026-06-23T17:22:29Z",
+  "changelog": "Fixes Desktop member/sidebar freshness: member list stores channel-access IDs only and renders live users, new joins/status updates show without restart, Online role groups sort before Offline groups, server-settings user role edits sync into the live cache, and right-click user role menus resolve fresh live roles before showing/toggling roles.",
+  "notes": "Fixes Desktop member/sidebar freshness: member list stores channel-access IDs only and renders live users, new joins/status updates show without restart, Online role groups sort before Offline groups, server-settings user role edits sync into the live cache, and right-click user role menus resolve fresh live roles before showing/toggling roles.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.28-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-windows-amd64.exe",
-      "sha256": "05ad1424f55f5658ed10c4f973a431c8841e062d9bd19cbe6622a95035dfbbff",
-      "size": 11818496
+      "name": "sharkord-desktop-0.5.29-windows-amd64.exe",
+      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.29/sharkord-desktop-0.5.29-windows-amd64.exe",
+      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.29/sharkord-desktop-0.5.29-windows-amd64.exe",
+      "sha256": "0b6a1b2b5c943a48101e52550472763f29d2d4bb3a4b8f5963787f5e7cdbdd37",
+      "size": 11819520
     },
     {
-      "name": "sharkord-desktop-0.5.28-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-linux-amd64.tar.gz",
-      "sha256": "03ad76b147fcd2799a8b56b44b1c1ea0e2872d6948675ae30676cb7642aa375b",
-      "size": 4735516
-    },
-    {
-      "name": "sharkord-desktop-0.5.28-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-darwin-arm64.zip",
-      "sha256": "f2df3cbd49d002ebbcbb6ffcd175a7c72b9d7302b1567a81b854876b6816cfc8",
-      "size": 4410196
+      "name": "sharkord-desktop-0.5.29-linux-amd64.tar.gz",
+      "url": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.29/sharkord-desktop-0.5.29-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/releases/v0.5.29/sharkord-desktop-0.5.29-linux-amd64.tar.gz",
+      "sha256": "adf6c87949fc550fcbac0eaf5c296cf0cf5a4369b64acbf397046f5b56a686e1",
+      "size": 4737089
     }
   ]
 }

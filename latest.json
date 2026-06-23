@@ -1,33 +1,33 @@
 {
-  "version": "0.5.27",
-  "tagName": "v0.5.27",
+  "version": "0.5.28",
+  "tagName": "v0.5.28",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.27",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.28",
   "minimumServerVersion": "0.0.23-kr.10",
-  "releasedAt": "2026-06-23T14:17:35Z",
-  "changelog": "Hotfix for global search navigation. Clicking a message result now switches to the target channel, loads the message page around the hit, scrolls to the message, and only closes the search dialog after navigation succeeds.",
-  "notes": "Hotfix for global search navigation. Clicking a message result now switches to the target channel, loads the message page around the hit, scrolls to the message, and only closes the search dialog after navigation succeeds.",
+  "releasedAt": "2026-06-23T15:44:30Z",
+  "changelog": "Fixes members panel role grouping by using public roles from the join payload, removes the confusing channel-access-only checkbox, and avoids showing a fake \u201cOhne Rolle\u201d group when role metadata is unavailable.",
+  "notes": "Fixes members panel role grouping by using public roles from the join payload, removes the confusing channel-access-only checkbox, and avoids showing a fake \u201cOhne Rolle\u201d group when role metadata is unavailable.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.27-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.27/sharkord-desktop-0.5.27-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.27/sharkord-desktop-0.5.27-windows-amd64.exe",
-      "sha256": "207159ab4fa4c50bebaae70e44011a1ce2942643a5d8acd329f3390948e7e72e",
+      "name": "sharkord-desktop-0.5.28-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-windows-amd64.exe",
+      "sha256": "05ad1424f55f5658ed10c4f973a431c8841e062d9bd19cbe6622a95035dfbbff",
       "size": 11818496
     },
     {
-      "name": "sharkord-desktop-0.5.27-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.27/sharkord-desktop-0.5.27-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.27/sharkord-desktop-0.5.27-linux-amd64.tar.gz",
-      "sha256": "70c1ebd76d573e514d0d647d80eae92aed33681515b226196965fe924364b312",
-      "size": 4735560
+      "name": "sharkord-desktop-0.5.28-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-linux-amd64.tar.gz",
+      "sha256": "03ad76b147fcd2799a8b56b44b1c1ea0e2872d6948675ae30676cb7642aa375b",
+      "size": 4735516
     },
     {
-      "name": "sharkord-desktop-0.5.27-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.27/sharkord-desktop-0.5.27-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.27/sharkord-desktop-0.5.27-darwin-arm64.zip",
-      "sha256": "f6dba9c20b01f5aabe4930b59f2befd6a8bb1480abacbf08ecf9e8564548671e",
-      "size": 4410318
+      "name": "sharkord-desktop-0.5.28-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.28/sharkord-desktop-0.5.28-darwin-arm64.zip",
+      "sha256": "f2df3cbd49d002ebbcbb6ffcd175a7c72b9d7302b1567a81b854876b6816cfc8",
+      "size": 4410196
     }
   ]
 }

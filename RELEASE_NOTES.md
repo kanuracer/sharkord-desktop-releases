@@ -1,6 +1,6 @@
-Sharkord Desktop 0.5.23 beta.
+Sharkord Desktop 0.5.24 beta.
 
 Product changes:
-- Ships the latest Kanuracer fork capability metadata for MFA reauthentication hardening.
-- Keeps original Sharkord server fallback behavior safe when fork-only capabilities are missing.
-- Requires Sharkord Server 0.0.23-kr.8 beta for the newest fork-only server features.
+- Fixes voice media recovery so stale remote audio/video/screen consumers are reset and re-synced after recovery.
+- Keeps original-server fallback behavior safe when the fork-only recovery route is unavailable.
+- Requires Sharkord Server 0.0.23-kr.9 beta for the matching server recovery hardening.

@@ -1,0 +1,37 @@
+{
+  "version": "0.5.32",
+  "tagName": "v0.5.32",
+  "channel": "beta",
+  "publishedAt": "2026-06-23T18:15:09Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.32",
+  "changelog": "# Sharkord Desktop v0.5.32 Beta\n\n## Changes\n\n- Fixes the remaining Desktop Voice grey-screen crash paths when voice channel state is missing or malformed.\n- Hardens voice participant lookups used by voice lists, context menus, media moderation, disconnect, and drag/drop.\n- Fixes right-click role changes marking online members offline until app restart by preserving live presence during user refresh/update payloads.\n- Stable channel stays unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.32-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.32/sharkord-desktop-0.5.32-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.32/sharkord-desktop-0.5.32-windows-amd64.exe",
+      "size": 11820032,
+      "sha256": "c1b9ff4958d3b4f82b8963ca49d04c22c9303623b1f4bb7cc329cdd1111ea080",
+      "version": "0.5.32",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.32-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.32/sharkord-desktop-0.5.32-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.32/sharkord-desktop-0.5.32-linux-amd64.tar.gz",
+      "size": 4736730,
+      "sha256": "f259031c3583657be29a44629fa585a4edbb558487fd636657f4fedb4792197e",
+      "version": "0.5.32",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.32-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.32/sharkord-desktop-0.5.32-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.32/sharkord-desktop-0.5.32-darwin-arm64.zip",
+      "size": 4410996,
+      "sha256": "ad3874e603fe7de85e64a2c90879d55559ddefbecce9f6b4f15be8a63e493185",
+      "version": "0.5.32",
+      "channel": "beta"
+    }
+  ]
+}

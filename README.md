@@ -2,15 +2,16 @@
 
 Latest public beta release.
 
-## v0.5.31 Beta
+## v0.5.32 Beta
 
-- Fixes the grey-screen Voice crash when another participant is present in the same voice channel.
+- Fixes remaining grey-screen Voice crash paths for malformed/missing voice state.
+- Keeps members online after right-click role changes.
 - Stable channel stays on the approved stable version.
 
 ## Downloads
 
-- Windows x64: `sharkord-desktop-0.5.31-windows-amd64.exe`
-- Linux x64: `sharkord-desktop-0.5.31-linux-amd64.tar.gz`
-- macOS Apple Silicon: `sharkord-desktop-0.5.31-darwin-arm64.zip`
+- Windows x64: `sharkord-desktop-0.5.32-windows-amd64.exe`
+- Linux x64: `sharkord-desktop-0.5.32-linux-amd64.tar.gz`
+- macOS Apple Silicon: `sharkord-desktop-0.5.32-darwin-arm64.zip`
 
 Verify with `SHA256SUMS.txt`.

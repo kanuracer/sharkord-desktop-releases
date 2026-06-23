@@ -1,36 +1,27 @@
 {
-  "version": "0.5.33",
-  "tagName": "v0.5.33",
+  "version": "0.5.34",
+  "tagName": "v0.5.34",
   "channel": "beta",
-  "publishedAt": "2026-06-23T18:52:44Z",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.33",
-  "changelog": "# Sharkord Desktop v0.5.33 Beta\n\n## Fixed\n\n- Fixes voice join showing a blank grey voice screen while the server voice-user list catches up.\n- Keeps the local user's voice card visible immediately after joining a voice channel.\n\nStable channel stays unchanged.\n",
+  "publishedAt": "2026-06-23T19:21:49Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.34",
+  "changelog": "# Sharkord Desktop v0.5.34 Beta\n\n## Fixed\n\n- Adds always-on local voice diagnostics at the React/Wails boundary for voice join/render/realtime events.\n- Writes diagnostics to the app config directory instead of sending live debug HTTP payloads.\n- Redacts auth fields, message bodies, HTML/content, and bearer/token-like values before writing diagnostic logs.\n\n## Known limitation\n\n- macOS Apple Silicon beta artifact was not produced in this Linux build environment.\n\nStable channel stays unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.33-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.33/sharkord-desktop-0.5.33-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.33/sharkord-desktop-0.5.33-windows-amd64.exe",
-      "size": 11820032,
-      "sha256": "88bf5803d9705848ad91e8366e3ddd7e06b0ef38667a363615f6d13ac658c341",
-      "version": "0.5.33",
+      "name": "sharkord-desktop-0.5.34-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.34/sharkord-desktop-0.5.34-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.34/sharkord-desktop-0.5.34-windows-amd64.exe",
+      "size": 11832832,
+      "sha256": "1566bab65495b7492ffc5edba39a532f495511f238fb6a4aa93454d2c0cee98d",
+      "version": "0.5.34",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.33-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.33/sharkord-desktop-0.5.33-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.33/sharkord-desktop-0.5.33-linux-amd64.tar.gz",
-      "size": 4737395,
-      "sha256": "7b01aab3d21079f8a544ecaaf14ab594a66182f8273e454f2470c429a6e34183",
-      "version": "0.5.33",
-      "channel": "beta"
-    },
-    {
-      "name": "sharkord-desktop-0.5.33-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.33/sharkord-desktop-0.5.33-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.33/sharkord-desktop-0.5.33-darwin-arm64.zip",
-      "size": 4411249,
-      "sha256": "9eec47bcc84a1852d3c4fa677645a8b763796c45bc4010212708777ec3b669fe",
-      "version": "0.5.33",
+      "name": "sharkord-desktop-0.5.34-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.34/sharkord-desktop-0.5.34-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.34/sharkord-desktop-0.5.34-linux-amd64.tar.gz",
+      "size": 4739309,
+      "sha256": "0f271168dbaf4b1c6d923e104b42540e7264fc9eabae644979570294b4b98e6b",
+      "version": "0.5.34",
       "channel": "beta"
     }
   ]

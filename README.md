@@ -2,16 +2,16 @@
 
 Latest public beta release.
 
-## v0.5.33 Beta
+## v0.5.34 Beta
 
-- Fixes voice join showing a blank grey voice screen while the server voice-user list catches up.
-- Keeps your own voice card visible immediately after joining a voice channel.
+- Adds local redacted voice diagnostics for join/render/realtime events.
+- Stores diagnostic logs in the app config directory; no live debug HTTP posting.
 - Stable channel stays on the approved stable version.
 
 ## Downloads
 
-- Windows x64: `sharkord-desktop-0.5.33-windows-amd64.exe`
-- Linux x64: `sharkord-desktop-0.5.33-linux-amd64.tar.gz`
-- macOS Apple Silicon: `sharkord-desktop-0.5.33-darwin-arm64.zip`
+- Windows x64: `sharkord-desktop-0.5.34-windows-amd64.exe`
+- Linux x64: `sharkord-desktop-0.5.34-linux-amd64.tar.gz`
+- macOS Apple Silicon: not included in this beta build.
 
 Verify with `SHA256SUMS.txt`.

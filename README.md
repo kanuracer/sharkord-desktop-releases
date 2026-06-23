@@ -2,16 +2,16 @@
 
 Latest public beta release.
 
-## v0.5.34 Beta
+## v0.5.35 Beta
 
-- Adds local redacted voice diagnostics for join/render/realtime events.
-- Stores diagnostic logs in the app config directory; no live debug HTTP posting.
+- Fixes a voice-call overlay issue that could make the call view look blank when multiple participants were present.
+- Preserves webcam/screen-share participant state during realtime voice updates.
 - Stable channel stays on the approved stable version.
 
 ## Downloads
 
-- Windows x64: `sharkord-desktop-0.5.34-windows-amd64.exe`
-- Linux x64: `sharkord-desktop-0.5.34-linux-amd64.tar.gz`
-- macOS Apple Silicon: not included in this beta build.
+- Windows x64: `sharkord-desktop-0.5.35-windows-amd64.exe`
+- Linux x64: `sharkord-desktop-0.5.35-linux-amd64.tar.gz`
+- macOS Apple Silicon: `sharkord-desktop-0.5.35-darwin-arm64.zip`
 
 Verify with `SHA256SUMS.txt`.

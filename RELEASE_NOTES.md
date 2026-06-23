@@ -1,13 +1,9 @@
-# Sharkord Desktop v0.5.34 Beta
+# Sharkord Desktop v0.5.35 Beta
 
 ## Fixed
 
-- Adds always-on local voice diagnostics at the React/Wails boundary for voice join/render/realtime events.
-- Writes diagnostics to the app config directory instead of sending live debug HTTP payloads.
-- Redacts auth fields, message bodies, HTML/content, and bearer/token-like values before writing diagnostic logs.
-
-## Known limitation
-
-- macOS Apple Silicon beta artifact was not produced in this Linux build environment.
+- Prevents stale profile, context, and menu overlays from covering the voice grid when voice rosters change.
+- Keeps voice participant media flags intact during partial producer/state updates.
+- Adds regression coverage for 2+ voice participants so roster changes cannot create a global blocker over the call view.
 
 Stable channel stays unchanged.

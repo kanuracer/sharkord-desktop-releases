@@ -1,12 +1,12 @@
 ## Latest Beta
 
-# Sharkord Desktop v0.5.36 Beta
+# Sharkord Desktop v0.5.37 Beta
 
-## Diagnostics
+## Voice
 
-- Adds always-on local Voice UI audit logging for the Windows-only grey blocker report.
-- Captures voice join/realtime/media boundaries, overlay state, visible overlay DOM, and center-screen element stack.
-- Keeps diagnostic payloads redacted: no auth fields or message bodies.
+- Prevents the voice call UI from turning into a grey/blank screen when remote-audio speaking detection hits a stale or unavailable audio track.
+- Keeps speaking detection best-effort instead of letting Web Audio setup failures break the app shell.
+- Adds frontend error diagnostics into the local redacted diagnostic log so future UI failures are visible.
 
 Stable channel stays unchanged.
 
@@ -14,16 +14,10 @@ Stable channel stays unchanged.
 
 Latest public beta release.
 
-## v0.5.35 Beta
-
-- Fixes a voice-call overlay issue that could make the call view look blank when multiple participants were present.
-- Preserves webcam/screen-share participant state during realtime voice updates.
-- Stable channel stays on the approved stable version.
-
 ## Downloads
 
-- Windows x64: `sharkord-desktop-0.5.35-windows-amd64.exe`
-- Linux x64: `sharkord-desktop-0.5.35-linux-amd64.tar.gz`
-- macOS Apple Silicon: `sharkord-desktop-0.5.35-darwin-arm64.zip`
+- Windows x64: `sharkord-desktop-0.5.37-windows-amd64.exe`
+- Linux x64: `sharkord-desktop-0.5.37-linux-amd64.tar.gz`
+- macOS Apple Silicon: `sharkord-desktop-0.5.37-darwin-arm64.zip`
 
 Verify with `SHA256SUMS.txt`.

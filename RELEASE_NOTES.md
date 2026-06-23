@@ -1,9 +1,9 @@
-# Sharkord Desktop v0.5.36 Beta
+# Sharkord Desktop v0.5.37 Beta
 
-## Diagnostics
+## Voice
 
-- Adds always-on local Voice UI audit logging for the Windows-only grey blocker report.
-- Captures voice join/realtime/media boundaries, overlay state, visible overlay DOM, and center-screen element stack.
-- Keeps diagnostic payloads redacted: no auth fields or message bodies.
+- Prevents the voice call UI from turning into a grey/blank screen when remote-audio speaking detection hits a stale or unavailable audio track.
+- Keeps speaking detection best-effort instead of letting Web Audio setup failures break the app shell.
+- Adds frontend error diagnostics into the local redacted diagnostic log so future UI failures are visible.
 
 Stable channel stays unchanged.

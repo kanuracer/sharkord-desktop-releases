@@ -1,0 +1,28 @@
+{
+  "version": "0.5.42",
+  "tagName": "v0.5.42",
+  "channel": "beta",
+  "publishedAt": "2026-06-24T13:21:32Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.42",
+  "changelog": "# Sharkord Desktop v0.5.42 Beta\n\n## Fixes\n\n- Stabilizes Server Settings > Users account badges so the Status/Created/Last Login row no longer flickers while realtime presence/voice updates arrive.\n- Uses stable account status (Active/Banned) in the admin user table instead of volatile member presence values.\n- Keeps live member sidebar presence behavior unchanged.\n\n## Artifacts\n\n- Windows and Linux artifacts are published now.\n- macOS artifact is temporarily delayed because the remote Mac build host is offline/unreachable.\n\nStable channel stays unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.42-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-windows-amd64.exe",
+      "size": 11869184,
+      "sha256": "8793bdd2a677136dd2b2377d82901d7d606f28170eeefa93d11e3c87c2e81e25",
+      "version": "0.5.42",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.42-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-linux-amd64.tar.gz",
+      "size": 4749294,
+      "sha256": "f97446ced8473e5b7b1958d10f8975a8294121df2f603544519375e40578b4c2",
+      "version": "0.5.42",
+      "channel": "beta"
+    }
+  ]
+}

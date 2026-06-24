@@ -1,0 +1,4 @@
+16798c0ed7f9d020b317e0d792314de754ca33c93bfed54889b367a1eea2f904  sharkord-desktop-v0.5.44-source.tar.gz
+c6cebf4e9f9e65bec1a5992e13ce21089045e3dd0a153d87339acd3d8acff236  sharkord-desktop-0.5.44-linux-amd64.tar.gz
+aef60b5ad663f161f17bc803dd84a08884b0c638cc8143d8b6a6383a77ca718b  sharkord-desktop-0.5.44-windows-amd64.exe
+c935edc5cbbeafdcc6b906eb30871deca8b0ec0dce4ce6837022a818a55b88e1  sharkord-desktop-0.5.44-darwin-arm64.zip

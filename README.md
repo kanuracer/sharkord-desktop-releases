@@ -1,10 +1,10 @@
 ## Latest Beta
 
-**v0.5.45** — Fixes Server Settings > Roles edit/delete actions by replacing desktop-breaking native prompt/confirm calls with in-app dialogs. Downloads are available from the beta release and updater feed.
+**v0.5.46** — Adds Server Settings > Security controls for Kanuracer IP allow/block management and fixes role weighting saves in Server Settings > Roles. Downloads are available from the beta release and updater feed.
 
-- Windows: `sharkord-desktop-0.5.45-windows-amd64.exe`
-- Linux: `sharkord-desktop-0.5.45-linux-amd64.tar.gz`
-- macOS Apple Silicon: `sharkord-desktop-0.5.45-darwin-arm64.zip`
+- Windows: `sharkord-desktop-0.5.46-windows-amd64.exe`
+- Linux: `sharkord-desktop-0.5.46-linux-amd64.tar.gz`
+- macOS Apple Silicon: `sharkord-desktop-0.5.46-darwin-arm64.zip`
 
 Stable channel remains unchanged unless explicitly promoted.
 

@@ -1,3 +1,7 @@
+## Latest Beta
+
+**v0.5.43** — Server Settings admin refresh + i18n polish. Downloads are available from the beta updater feed and GitHub prerelease.
+
 # Sharkord Desktop Beta
 
 Current beta: v0.5.40

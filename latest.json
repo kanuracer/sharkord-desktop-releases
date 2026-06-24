@@ -1,27 +1,45 @@
 {
-  "version": "0.5.42",
-  "tagName": "v0.5.42",
+  "version": "0.5.43",
+  "tagName": "v0.5.43",
   "channel": "beta",
-  "publishedAt": "2026-06-24T13:21:32Z",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.42",
-  "changelog": "# Sharkord Desktop v0.5.42 Beta\n\n## Fixes\n\n- Stabilizes Server Settings > Users account badges so the Status/Created/Last Login row no longer flickers while realtime presence/voice updates arrive.\n- Uses stable account status (Active/Banned) in the admin user table instead of volatile member presence values.\n- Keeps live member sidebar presence behavior unchanged.\n\n## Artifacts\n\n- Windows and Linux artifacts are published now.\n- macOS artifact is temporarily delayed because the remote Mac build host is offline/unreachable.\n\nStable channel stays unchanged.\n",
+  "publishedAt": "2026-06-24T20:34:45Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.43",
+  "changelog": "# Sharkord Desktop v0.5.43 Beta\n\n## Fixes\n\n- Fixes Server Settings admin refresh so optional sections like Invites, Emojis, Webhooks, and Retention no longer trigger a misleading global permissions error when core admin data loads successfully.\n- Polishes German and English Server Settings labels for invite, role permission, storage override, plugin, emoji, update, and import/export copy.\n- Adds regression coverage for optional admin refresh failures and visible i18n label handling.\n\nStable channel stays unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.42-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-windows-amd64.exe",
-      "size": 11869184,
-      "sha256": "8793bdd2a677136dd2b2377d82901d7d606f28170eeefa93d11e3c87c2e81e25",
-      "version": "0.5.42",
+      "name": "sharkord-desktop-0.5.43-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-0.5.43-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-0.5.43-windows-amd64.exe",
+      "size": 11871232,
+      "sha256": "4586c919e38a2999a1b761710dcd099e21f5067bd6abec07474c22f7d2faaf48",
+      "version": "0.5.43",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.42-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.42/sharkord-desktop-0.5.42-linux-amd64.tar.gz",
-      "size": 4749294,
-      "sha256": "f97446ced8473e5b7b1958d10f8975a8294121df2f603544519375e40578b4c2",
-      "version": "0.5.42",
+      "name": "sharkord-desktop-0.5.43-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-0.5.43-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-0.5.43-linux-amd64.tar.gz",
+      "size": 4748592,
+      "sha256": "72867829f0687c6582b225703bc815c89b0cff7fab378d6058a8d3d79d2d76db",
+      "version": "0.5.43",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.43-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-0.5.43-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-0.5.43-darwin-arm64.zip",
+      "size": 4423358,
+      "sha256": "ee969b7809caf6174797bf591f3cc079af1b3d2cc674ff8c996fd8c7bdc57830",
+      "version": "0.5.43",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-v0.5.43-source.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-v0.5.43-source.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.43/sharkord-desktop-v0.5.43-source.tar.gz",
+      "size": 3357785,
+      "sha256": "6e7a298781f5f0b778f10b5d7fbda0553062a38976136c6eac0d3d8bc1cdd6c9",
+      "version": "0.5.43",
       "channel": "beta"
     }
   ]

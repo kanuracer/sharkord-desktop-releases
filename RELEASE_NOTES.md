@@ -1,14 +1,9 @@
-# Sharkord Desktop v0.5.42 Beta
+# Sharkord Desktop v0.5.43 Beta
 
 ## Fixes
 
-- Stabilizes Server Settings > Users account badges so the Status/Created/Last Login row no longer flickers while realtime presence/voice updates arrive.
-- Uses stable account status (Active/Banned) in the admin user table instead of volatile member presence values.
-- Keeps live member sidebar presence behavior unchanged.
-
-## Artifacts
-
-- Windows and Linux artifacts are published now.
-- macOS artifact is temporarily delayed because the remote Mac build host is offline/unreachable.
+- Fixes Server Settings admin refresh so optional sections like Invites, Emojis, Webhooks, and Retention no longer trigger a misleading global permissions error when core admin data loads successfully.
+- Polishes German and English Server Settings labels for invite, role permission, storage override, plugin, emoji, update, and import/export copy.
+- Adds regression coverage for optional admin refresh failures and visible i18n label handling.
 
 Stable channel stays unchanged.

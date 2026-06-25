@@ -1,0 +1,36 @@
+{
+  "version": "0.5.47",
+  "tagName": "v0.5.47",
+  "channel": "beta",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.47",
+  "changelog": "# Sharkord Desktop v0.5.47 Beta\n\n## Fixed\n\n- IP-Sicherheit in der Desktop-App funktioniert mit dem aktuellen Kanuracer Server wieder.\n- Desktop erkennt `security.getIpRules`, auch wenn Capability-Daten fehlen/alt sind.\n- Desktop nutzt die aktuelle `security.getSecurityEvents` Route.\n- IP-Regeln werden aus `{ allowed, blocked }` korrekt in die UI normalisiert.\n- `unblockIp` sendet das aktuelle `{ ip }` Payload.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.47-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-linux-amd64.tar.gz",
+      "size": 4750655,
+      "sha256": "63d84770de503cb577321f00581606a19168b2da82ae8ab99a4fa97b188ffb93",
+      "version": "0.5.47",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.47-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-windows-amd64.exe",
+      "size": 11880960,
+      "sha256": "6553196d527a67c94d0ac2eabbd236d075fc5bc6877abc199e631529263a9156",
+      "version": "0.5.47",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.47-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-darwin-arm64.zip",
+      "size": 4424791,
+      "sha256": "5f4af105058614cc445557cd890dd739496a0ed50655f7b0d214de56514e0ff5",
+      "version": "0.5.47",
+      "channel": "beta"
+    }
+  ]
+}

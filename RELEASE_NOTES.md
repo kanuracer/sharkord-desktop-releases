@@ -1,6 +1,7 @@
-# Sharkord Desktop v0.5.13 Stable
+# Sharkord Desktop v0.5.47 Stable
 
 ## Fixed
 
-- Preserves unsaved local role edits while realtime role updates arrive, so in-progress permission changes no longer get overwritten before saving.
-- Includes the 0.5.12 English locale fixes for corrupted fallback text such as `Privatee Voice Channels` and `3 Categoryn`.
+- IP-Sicherheit in der Desktop-App funktioniert mit dem aktuellen Kanuracer Server wieder.
+- Desktop erkennt die IP-Sicherheitsrouten auch bei älteren oder fehlenden Capability-Daten.
+- Security-Events und IP-Regelaktionen nutzen wieder die aktuellen Server-Routen und Payloads.

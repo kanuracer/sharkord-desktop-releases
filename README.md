@@ -54,24 +54,6 @@ Configure playback, microphone, webcam, voice filters, screen-sharing resolution
 
 Export and import desktop settings through native file dialogs, with optional user data and credential export.
 
-### Account security
-
-![Account security and two-factor authentication](docs/screenshots/07-account-security-totp-fullscreen.png)
-
-Manage TOTP setup, recovery codes, remembered desktop devices, and revocable app passwords from the native account profile.
-
-### IP security
-
-![IP security rules and events](docs/screenshots/08-ip-security-fullscreen.png)
-
-Manage Kanuracer server IP allowlists, blocklists, unblock actions, and recent security events from Desktop server settings.
-
-### Data and diagnostics
-
-![Data and diagnostics settings](docs/screenshots/09-data-diagnostics-fullscreen.png)
-
-Import/export and local redacted diagnostics are grouped under Data & Diagnostics instead of Appearance.
-
 ---
 
 ## Downloads

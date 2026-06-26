@@ -1,5 +1,6 @@
 {
   "version": "0.5.56",
+  "tagName": "v0.5.56",
   "channel": "beta",
   "minimumServerVersion": "0.0.24-kr.7",
   "notes": "Desktop code blocks now render with line numbers, a divider, and token colors for shell commands, options, variables, strings, and numbers.",
@@ -8,13 +9,21 @@
       "name": "sharkord-desktop-0.5.56-linux-amd64.tar.gz",
       "platform": "linux-amd64",
       "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.56/sharkord-desktop-0.5.56-linux-amd64.tar.gz",
-      "sha256": "42215d9caef45ed10c98f1f78ebf526cca353825abb0253d5509e20b2583045f"
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.56/sharkord-desktop-0.5.56-linux-amd64.tar.gz",
+      "size": 4752631,
+      "sha256": "42215d9caef45ed10c98f1f78ebf526cca353825abb0253d5509e20b2583045f",
+      "version": "0.5.56",
+      "channel": "beta"
     },
     {
       "name": "sharkord-desktop-0.5.56-windows-amd64.exe",
       "platform": "windows-amd64",
       "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.56/sharkord-desktop-0.5.56-windows-amd64.exe",
-      "sha256": "b2d30b62c2e66a63b2264180aadd9cae17985ec5ecc3fe86c5ae3b99e2f91600"
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.56/sharkord-desktop-0.5.56-windows-amd64.exe",
+      "size": 11892736,
+      "sha256": "b2d30b62c2e66a63b2264180aadd9cae17985ec5ecc3fe86c5ae3b99e2f91600",
+      "version": "0.5.56",
+      "channel": "beta"
     }
   ]
 }

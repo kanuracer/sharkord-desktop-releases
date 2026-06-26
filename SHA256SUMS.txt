@@ -1,3 +1,3 @@
-9c5acf94739f1530f0c2b981a6ea68887af17cfc6d282efc4f7776ef04ec0835  sharkord-desktop-0.5.51-linux-amd64.tar.gz
-c6e2bcf93cbaee1043c708fc5206b53b625b89bb26e67ec02b5aa0551fe5a2ca  sharkord-desktop-0.5.51-windows-amd64.exe
-a1cb32e86ea70a22493128e540fff2e23847d3f7e72f34be1fe14eb131ff6ca7  sharkord-desktop-v0.5.51-source.tar.gz
+45008da7b233865ef3e2ca7dd2c29be8eb03ce01e2bba4fe1ae626ad3be8cd43  sharkord-desktop-0.5.52-linux-amd64.tar.gz
+dd4c13d6c5c9e80a6a6c537b3b7f813ebb2c818d34bc0c02b09140bc30398861  sharkord-desktop-0.5.52-windows-amd64.exe
+22c0f86c5ae199b7d767478f117a6734cc4f9dbff5f98ea1592a471c5d70a16e  sharkord-desktop-v0.5.52-source.tar.gz

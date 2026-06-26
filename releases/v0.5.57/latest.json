@@ -1,0 +1,29 @@
+{
+  "version": "0.5.57",
+  "tagName": "v0.5.57",
+  "channel": "beta",
+  "minimumServerVersion": "0.0.24-kr.7",
+  "notes": "Desktop updater feed downloads now bypass stale GitHub raw cache; code blocks keep line numbers and token colors.",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.57-linux-amd64.tar.gz",
+      "platform": "linux-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.57/sharkord-desktop-0.5.57-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.57/sharkord-desktop-0.5.57-linux-amd64.tar.gz",
+      "size": 4753355,
+      "sha256": "dd512187adf774464c8fb5ab0ac4495eafdfd47c634fdfc7faa8f807ed574e01",
+      "version": "0.5.57",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.57-windows-amd64.exe",
+      "platform": "windows-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.57/sharkord-desktop-0.5.57-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.57/sharkord-desktop-0.5.57-windows-amd64.exe",
+      "size": 11893248,
+      "sha256": "45ee1cd440efb5d34c25aa547c4aa693628cc8e7ce507097ff0c788c6175f18a",
+      "version": "0.5.57",
+      "channel": "beta"
+    }
+  ]
+}

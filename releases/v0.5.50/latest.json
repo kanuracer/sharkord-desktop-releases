@@ -1,0 +1,37 @@
+{
+  "version": "0.5.50",
+  "tagName": "v0.5.50",
+  "channel": "beta",
+  "publishedAt": "2026-06-26T10:57:21Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.50",
+  "changelog": "# Sharkord Desktop v0.5.50 Beta\n\n## Added\n\n- Capability-gated GIF attachment controls for Kanuracer servers.\n- Capability-gated message reaction controls for Kanuracer servers.\n- Capability-gated security event clearing and security audit log UI.\n\n## Changed\n\n- Original/upstream servers keep these Kanuracer-only controls hidden unless the server advertises support.\n- German/English UI copy updated for the new media and security admin states.\n\n## Verification\n\n- Frontend tests: passed.\n- Frontend development and production builds: OK.\n- Go tests: OK.\n- Human QA: server connect, settings, audio, server security, chat controls smoke OK.\n- Linux and Windows release artifacts built.\n- macOS artifact skipped for this beta.\n\nStable channel stays unchanged.\n",
+  "assets": [
+    {
+      "name": "sharkord-desktop-0.5.50-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.50/sharkord-desktop-0.5.50-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.50/sharkord-desktop-0.5.50-windows-amd64.exe",
+      "size": 11884544,
+      "sha256": "bbb4a20eae67c55ac0b9ebfe3ea28358766980758643ac80e7ade5b3fbd908fc",
+      "version": "0.5.50",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-0.5.50-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.50/sharkord-desktop-0.5.50-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.50/sharkord-desktop-0.5.50-linux-amd64.tar.gz",
+      "size": 4752209,
+      "sha256": "6cca194d770d2876c4c045beeffe143c8f2ba3f772e9a99db45d3851bbbadbc8",
+      "version": "0.5.50",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-v0.5.50-source.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.50/sharkord-desktop-v0.5.50-source.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.50/sharkord-desktop-v0.5.50-source.tar.gz",
+      "size": 3363768,
+      "sha256": "3a038c7585f4eb32b728b01c582d000eec9fbae00a8242826a88806411d333f7",
+      "version": "0.5.50",
+      "channel": "beta"
+    }
+  ]
+}

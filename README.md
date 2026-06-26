@@ -6,9 +6,9 @@ Public release repository for **Sharkord Desktop**, the native desktop client fo
 
 **Latest stable release:** <https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.47>
 
-**Latest beta:** `v0.5.48`
+**Latest beta:** `v0.5.49`
 
-**Latest beta release:** <https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.48>
+**Latest beta release:** <https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.49>
 
 **Kanuracer server fork:** <https://github.com/kanuracer/sharkord-server>
 
@@ -54,6 +54,24 @@ Configure playback, microphone, webcam, voice filters, screen-sharing resolution
 
 Export and import desktop settings through native file dialogs, with optional user data and credential export.
 
+### Account security
+
+![Account security and two-factor authentication](docs/screenshots/07-account-security-totp-fullscreen.png)
+
+Manage TOTP setup, recovery codes, remembered desktop devices, and revocable app passwords from the native account profile.
+
+### IP security
+
+![IP security rules and events](docs/screenshots/08-ip-security-fullscreen.png)
+
+Manage Kanuracer server IP allowlists, blocklists, unblock actions, and recent security events from Desktop server settings.
+
+### Data and diagnostics
+
+![Data and diagnostics settings](docs/screenshots/09-data-diagnostics-fullscreen.png)
+
+Import/export and local redacted diagnostics are grouped under Data & Diagnostics instead of Appearance.
+
 ---
 
 ## Downloads
@@ -79,18 +97,16 @@ Beta builds are published on the `beta` branch and as GitHub prereleases. Stable
 
 | Platform | File | Download |
 |---|---|---|
-| Windows amd64 | `sharkord-desktop-0.5.48-windows-amd64.exe` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-windows-amd64.exe) |
-| Linux amd64 | `sharkord-desktop-0.5.48-linux-amd64.tar.gz` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-linux-amd64.tar.gz) |
-| macOS arm64 | `sharkord-desktop-0.5.48-darwin-arm64.zip` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-darwin-arm64.zip) |
-| Source archive | `sharkord-desktop-v0.5.48-source.tar.gz` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-v0.5.48-source.tar.gz) |
+| Windows amd64 | `sharkord-desktop-0.5.49-windows-amd64.exe` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.49/sharkord-desktop-0.5.49-windows-amd64.exe) |
+| Linux amd64 | `sharkord-desktop-0.5.49-linux-amd64.tar.gz` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.49/sharkord-desktop-0.5.49-linux-amd64.tar.gz) |
+| Source archive | `sharkord-desktop-v0.5.49-source.tar.gz` | [Download](https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.49/sharkord-desktop-v0.5.49-source.tar.gz) |
 
 Beta checksums:
 
 ```text
-0360d2d03f9d2c14b8d16fed1e23c2aca4569093236924384d9e82a282b35234  sharkord-desktop-0.5.48-windows-amd64.exe
-2575c498b23dad3537610ff8979ce77efa64bfd4f12984dca0a2bd467b905d5a  sharkord-desktop-0.5.48-linux-amd64.tar.gz
-3c31618fee9a73b9f4a80225dce43c9c22e93eb5d3495180aea7d661708e4f53  sharkord-desktop-0.5.48-darwin-arm64.zip
-c24772debae69c25b20838c93fd95456235668567df8a08d2df2e3e914303a41  sharkord-desktop-v0.5.48-source.tar.gz
+434dd34162652094faa643296cde2d0960740bad8193e384c1180949c60aaeb0  sharkord-desktop-0.5.49-windows-amd64.exe
+225a81d00b7cebf747976781dadeb5eb7813f1f6b6ad8c15f39f159b200ddd5d  sharkord-desktop-0.5.49-linux-amd64.tar.gz
+4aded50c36b26e96c491809edc6695d66b5612fcae5a1e21016448a73e8b975c  sharkord-desktop-v0.5.49-source.tar.gz
 ```
 
 ### Verify downloads
@@ -159,6 +175,8 @@ Some distributions may require WebKit/GTK runtime packages because Sharkord Desk
 - Add servers by URL or invite link.
 - Optional server password support.
 - Optional auto-connect with saved credentials.
+- Two-factor login dialog when the server requires TOTP/MFA.
+- App-password based remembered devices on compatible Kanuracer servers.
 - Local encrypted credential storage:
   - Windows: DPAPI-backed storage.
   - Linux/macOS: AES-GCM storage through the native app backend.
@@ -169,7 +187,7 @@ Some distributions may require WebKit/GTK runtime packages because Sharkord Desk
 - Send, edit, and delete messages.
 - Rich composer output.
 - Replies and thread view.
-- Reactions.
+- Message reactions, including custom-emoji reaction rendering where the connected server supports it.
 - Pinned messages.
 - Typing status.
 - Read/unread state.
@@ -184,6 +202,18 @@ Some distributions may require WebKit/GTK runtime packages because Sharkord Desk
 - DM unread counters.
 - **Delete DM conversations** on compatible Kanuracer servers.
 - On unsupported servers, the DM delete action stays visible and opens an in-app unsupported-feature dialog instead of calling a missing server mutation.
+
+
+### Account security
+
+On compatible Kanuracer servers, users can manage account-security features directly from the Desktop account profile:
+
+- TOTP setup with a scannable QR code.
+- TOTP enable/disable flows.
+- Recovery-code display and regeneration.
+- Remembered desktop devices backed by revocable app passwords.
+- App-password list and revoke actions.
+- Two-factor login prompt that does not store one-time codes.
 
 ### Voice, video, and screen sharing
 
@@ -215,6 +245,7 @@ Depending on server permissions and advertised capabilities, Sharkord Desktop ca
 - Channel and category management.
 - Channel permission overrides.
 - User administration and moderation.
+- IP allowlist/blocklist management, unblock actions, and recent security-event review.
 - Invites.
 - Emojis.
 - Storage settings, quotas, and own stored files.
@@ -259,6 +290,8 @@ Sharkord Desktop detects server capabilities after login. It does not guess serv
 | Owner-token actions | `ownerToken` | Shows owner-token actions only when the server advertises support. |
 | Server self-update | `serverSelfUpdate` | Shows server update controls only when the server supports them. |
 | Move voice users | `voiceUserMove` | Enables voice user move controls when supported and permitted. |
+| IP security | `securityIpRules` | Enables allowlist, blocklist, unblock, and recent security-event tools. |
+| Account security | `mfaAppPasswords` / account-security routes | Enables TOTP, recovery-code, remembered-device, and app-password management. |
 
 This keeps Sharkord Desktop compatible with original Sharkord while unlocking fork-only controls on `kanuracer/sharkord-server`.
 
@@ -310,6 +343,12 @@ https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v<versi
 - Removes the old remote live-debug sender from the Desktop app.
 - Keeps voice diagnostics local, redacted, and opt-in.
 
+`v0.5.49` beta summary:
+
+- Moves local diagnostic logging into Data & Diagnostics.
+- Keeps Appearance focused on theme, language, and accessibility options.
+- Current beta provides Windows, Linux, and source archive assets.
+
 Full notes: [`RELEASE_NOTES.md`](RELEASE_NOTES.md)
 
 ---
@@ -328,7 +367,7 @@ Those features depend on the connected server. Sharkord Desktop enables them onl
 
 ### Which version should I install?
 
-Use the newest stable GitHub Release for normal installs. Current stable: `v0.5.47`. Use beta only if you intentionally selected the beta channel.
+Use the newest stable GitHub Release for normal installs. Current stable: `v0.5.47`. Current beta: `v0.5.49`. Use beta only if you intentionally selected the beta channel.
 
 ### Can I use beta releases?
 

@@ -1,0 +1,2 @@
+a8173b84f4df886d218df28e9714671e3db350bfaaad7254ab23e9be495cea1d  sharkord-desktop-0.5.54-linux-amd64.tar.gz
+a3b815c41c4794fe8eca81f75159b8a5c6dc0ebd27b0ebb30583642d7cd8a18b  sharkord-desktop-0.5.54-windows-amd64.exe

@@ -1,23 +1,23 @@
 {
-  "version": "0.5.53",
+  "version": "0.5.54",
   "channel": "beta",
-  "minimumServerVersion": "0.0.24-kr.4",
-  "releasedAt": "2026-06-26T12:30:36.626570Z",
-  "notes": "Fixes role permission persistence, Desktop code block rendering, GIF picker stability, and requires server/webclient 0.0.24-kr.4 for web reactions/GIF fixes.",
+  "minimumServerVersion": "0.0.24-kr.5",
+  "releasedAt": "2026-06-26T12:49:46.741543Z",
+  "notes": "Fixes full-size GIF/image rendering, GIF picker layering/reload issues, and fenced code rendering in Desktop. Requires server/webclient 0.0.24-kr.5 for Webclient GIF/code fixes.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.53-linux-amd64.tar.gz",
+      "name": "sharkord-desktop-0.5.54-linux-amd64.tar.gz",
       "platform": "linux-amd64",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.53/sharkord-desktop-0.5.53-linux-amd64.tar.gz",
-      "size": 4751996,
-      "sha256": "12241dd64c6a97531af1fed07448149bfa557f7ba1f519d9d08bbb55ec2062d2"
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.54/sharkord-desktop-0.5.54-linux-amd64.tar.gz",
+      "size": 4752121,
+      "sha256": "a8173b84f4df886d218df28e9714671e3db350bfaaad7254ab23e9be495cea1d"
     },
     {
-      "name": "sharkord-desktop-0.5.53-windows-amd64.exe",
+      "name": "sharkord-desktop-0.5.54-windows-amd64.exe",
       "platform": "windows-amd64",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.53/sharkord-desktop-0.5.53-windows-amd64.exe",
-      "size": 11890176,
-      "sha256": "7100c5422b3b9254d16a000187fed6a171d589d2f13f5d8201a27ccd11cbf66f"
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.54/sharkord-desktop-0.5.54-windows-amd64.exe",
+      "size": 11892224,
+      "sha256": "a3b815c41c4794fe8eca81f75159b8a5c6dc0ebd27b0ebb30583642d7cd8a18b"
     }
   ]
 }

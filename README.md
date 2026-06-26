@@ -1,10 +1,10 @@
 ## Latest Beta
 
-**v0.5.46** — Adds Server Settings > Security controls for Kanuracer IP allow/block management and fixes role weighting saves in Server Settings > Roles. Downloads are available from the beta release and updater feed.
+**v0.5.48** — Entfernt den alten Remote-Live-Debug-Sender. Sprachdiagnose bleibt lokal, redacted und opt-in. Downloads sind über Beta-Release und Updater-Feed verfügbar.
 
-- Windows: `sharkord-desktop-0.5.46-windows-amd64.exe`
-- Linux: `sharkord-desktop-0.5.46-linux-amd64.tar.gz`
-- macOS Apple Silicon: `sharkord-desktop-0.5.46-darwin-arm64.zip`
+- Windows: `sharkord-desktop-0.5.48-windows-amd64.exe`
+- Linux: `sharkord-desktop-0.5.48-linux-amd64.tar.gz`
+- macOS Apple Silicon: `sharkord-desktop-0.5.48-darwin-arm64.zip`
 
 Stable channel remains unchanged unless explicitly promoted.
 

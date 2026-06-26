@@ -1,35 +1,45 @@
 {
-  "version": "0.5.47",
-  "tagName": "v0.5.47",
+  "version": "0.5.48",
+  "tagName": "v0.5.48",
   "channel": "beta",
-  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.47",
-  "changelog": "# Sharkord Desktop v0.5.47 Beta\n\n## Fixed\n\n- IP-Sicherheit in der Desktop-App funktioniert mit dem aktuellen Kanuracer Server wieder.\n- Desktop erkennt `security.getIpRules`, auch wenn Capability-Daten fehlen/alt sind.\n- Desktop nutzt die aktuelle `security.getSecurityEvents` Route.\n- IP-Regeln werden aus `{ allowed, blocked }` korrekt in die UI normalisiert.\n- `unblockIp` sendet das aktuelle `{ ip }` Payload.\n",
+  "publishedAt": "2026-06-26T07:16:33Z",
+  "htmlUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/tag/v0.5.48",
+  "changelog": "# Sharkord Desktop v0.5.48 Beta\n\n## Fixed\n\n- Entfernt den alten Remote-Live-Debug-Sender aus der Desktop-App.\n- Sprachdiagnose bleibt lokal, redacted und nur per Opt-in aktiv.\n- Version- und Windows-Metadaten wurden für diese Beta aktualisiert.\n\nStable channel stays unchanged.\n",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.47-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-linux-amd64.tar.gz",
-      "size": 4750655,
-      "sha256": "63d84770de503cb577321f00581606a19168b2da82ae8ab99a4fa97b188ffb93",
-      "version": "0.5.47",
+      "name": "sharkord-desktop-0.5.48-windows-amd64.exe",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-windows-amd64.exe",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-windows-amd64.exe",
+      "size": 11877888,
+      "sha256": "0360d2d03f9d2c14b8d16fed1e23c2aca4569093236924384d9e82a282b35234",
+      "version": "0.5.48",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.47-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-windows-amd64.exe",
-      "size": 11880960,
-      "sha256": "6553196d527a67c94d0ac2eabbd236d075fc5bc6877abc199e631529263a9156",
-      "version": "0.5.47",
+      "name": "sharkord-desktop-0.5.48-linux-amd64.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-linux-amd64.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-linux-amd64.tar.gz",
+      "size": 4749248,
+      "sha256": "2575c498b23dad3537610ff8979ce77efa64bfd4f12984dca0a2bd467b905d5a",
+      "version": "0.5.48",
       "channel": "beta"
     },
     {
-      "name": "sharkord-desktop-0.5.47-darwin-arm64.zip",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-darwin-arm64.zip",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.47/sharkord-desktop-0.5.47-darwin-arm64.zip",
-      "size": 4424791,
-      "sha256": "5f4af105058614cc445557cd890dd739496a0ed50655f7b0d214de56514e0ff5",
-      "version": "0.5.47",
+      "name": "sharkord-desktop-0.5.48-darwin-arm64.zip",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-darwin-arm64.zip",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-0.5.48-darwin-arm64.zip",
+      "size": 4424444,
+      "sha256": "3c31618fee9a73b9f4a80225dce43c9c22e93eb5d3495180aea7d661708e4f53",
+      "version": "0.5.48",
+      "channel": "beta"
+    },
+    {
+      "name": "sharkord-desktop-v0.5.48-source.tar.gz",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-v0.5.48-source.tar.gz",
+      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.48/sharkord-desktop-v0.5.48-source.tar.gz",
+      "size": 3360991,
+      "sha256": "c24772debae69c25b20838c93fd95456235668567df8a08d2df2e3e914303a41",
+      "version": "0.5.48",
       "channel": "beta"
     }
   ]

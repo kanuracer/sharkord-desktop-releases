@@ -1,23 +1,20 @@
 {
-  "version": "0.5.55",
+  "version": "0.5.56",
   "channel": "beta",
-  "minimumServerVersion": "0.0.24-kr.6",
-  "releasedAt": "2026-06-26T13:10:11.001375Z",
-  "notes": "Removes inline GIF/image filename/action bars, anchors GIF picker above the composer, and pairs with server 0.0.24-kr.6 for message-delete audit log entries.",
+  "minimumServerVersion": "0.0.24-kr.7",
+  "notes": "Desktop code blocks now render with line numbers, a divider, and token colors for shell commands, options, variables, strings, and numbers.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.55-linux-amd64.tar.gz",
+      "name": "sharkord-desktop-0.5.56-linux-amd64.tar.gz",
       "platform": "linux-amd64",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.55/sharkord-desktop-0.5.55-linux-amd64.tar.gz",
-      "size": 4751746,
-      "sha256": "eb75f9290bd625d79a16c53a0b1dd2828af615f624acefda4d3f49d1e5353a17"
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.56/sharkord-desktop-0.5.56-linux-amd64.tar.gz",
+      "sha256": "42215d9caef45ed10c98f1f78ebf526cca353825abb0253d5509e20b2583045f"
     },
     {
-      "name": "sharkord-desktop-0.5.55-windows-amd64.exe",
+      "name": "sharkord-desktop-0.5.56-windows-amd64.exe",
       "platform": "windows-amd64",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.55/sharkord-desktop-0.5.55-windows-amd64.exe",
-      "size": 11891200,
-      "sha256": "93a94b65457e8fe30c4ba9bff8a0a77c4af20969d95b0746c91d0cc0443e6950"
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.56/sharkord-desktop-0.5.56-windows-amd64.exe",
+      "sha256": "b2d30b62c2e66a63b2264180aadd9cae17985ec5ecc3fe86c5ae3b99e2f91600"
     }
   ]
 }

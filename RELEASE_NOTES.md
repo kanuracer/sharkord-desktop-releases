@@ -1,9 +1,16 @@
-# Sharkord Desktop v0.5.48 Beta
+# Sharkord Desktop v0.5.49 Beta
 
-## Fixed
+## Changed
 
-- Entfernt den alten Remote-Live-Debug-Sender aus der Desktop-App.
-- Sprachdiagnose bleibt lokal, redacted und nur per Opt-in aktiv.
-- Version- und Windows-Metadaten wurden für diese Beta aktualisiert.
+- Verschiebt "Lokale Diagnose-Logs schreiben" aus Darstellung in das neue Menü "Daten & Diagnose".
+- Import/Export bleibt im selben Daten-Menü gebündelt.
+- Darstellung enthält nur noch Theme, Sprache und Accessibility/Anzeigeoptionen.
+
+## Verification
+
+- Frontend tests: 356 passed.
+- Frontend production build: OK.
+- Go tests: OK.
+- Linux and Windows release artifacts built.
 
 Stable channel stays unchanged.

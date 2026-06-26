@@ -1,31 +1,23 @@
 {
-  "version": "0.5.52",
-  "tagName": "v0.5.52",
+  "version": "0.5.53",
   "channel": "beta",
-  "minimumServerVersion": "0.0.24-kr.3",
-  "feedUrl": "https://raw.githubusercontent.com/kanuracer/sharkord-desktop-releases/beta/latest.json",
-  "changelog": "Beta hotfix: audit log actor/details fixes, dedicated security permissions, code block rendering, and Tenor GIF picker. macOS artifact unavailable in this beta.",
+  "minimumServerVersion": "0.0.24-kr.4",
+  "releasedAt": "2026-06-26T12:30:36.626570Z",
+  "notes": "Fixes role permission persistence, Desktop code block rendering, GIF picker stability, and requires server/webclient 0.0.24-kr.4 for web reactions/GIF fixes.",
   "assets": [
     {
-      "name": "sharkord-desktop-0.5.52-linux-amd64.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.52/sharkord-desktop-0.5.52-linux-amd64.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.52/sharkord-desktop-0.5.52-linux-amd64.tar.gz",
-      "sha256": "45008da7b233865ef3e2ca7dd2c29be8eb03ce01e2bba4fe1ae626ad3be8cd43",
-      "size": 4752513
+      "name": "sharkord-desktop-0.5.53-linux-amd64.tar.gz",
+      "platform": "linux-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.53/sharkord-desktop-0.5.53-linux-amd64.tar.gz",
+      "size": 4751996,
+      "sha256": "12241dd64c6a97531af1fed07448149bfa557f7ba1f519d9d08bbb55ec2062d2"
     },
     {
-      "name": "sharkord-desktop-0.5.52-windows-amd64.exe",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.52/sharkord-desktop-0.5.52-windows-amd64.exe",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.52/sharkord-desktop-0.5.52-windows-amd64.exe",
-      "sha256": "dd4c13d6c5c9e80a6a6c537b3b7f813ebb2c818d34bc0c02b09140bc30398861",
-      "size": 11889664
-    },
-    {
-      "name": "sharkord-desktop-v0.5.52-source.tar.gz",
-      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.52/sharkord-desktop-v0.5.52-source.tar.gz",
-      "browserDownloadUrl": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.52/sharkord-desktop-v0.5.52-source.tar.gz",
-      "sha256": "22c0f86c5ae199b7d767478f117a6734cc4f9dbff5f98ea1592a471c5d70a16e",
-      "size": 3366086
+      "name": "sharkord-desktop-0.5.53-windows-amd64.exe",
+      "platform": "windows-amd64",
+      "url": "https://github.com/kanuracer/sharkord-desktop-releases/releases/download/v0.5.53/sharkord-desktop-0.5.53-windows-amd64.exe",
+      "size": 11890176,
+      "sha256": "7100c5422b3b9254d16a000187fed6a171d589d2f13f5d8201a27ccd11cbf66f"
     }
   ]
 }
